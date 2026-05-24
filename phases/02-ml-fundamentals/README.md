@@ -1,5 +1,5 @@
-# Phase 2: ML Fundamentals
+# 第2阶段：机器学习基础
 
-> Classical machine learning — still the backbone of most production AI.
+> 经典机器学习——仍然是大多数生产级AI的骨干。
 
-See [ROADMAP.md](../../ROADMAP.md) for the full lesson plan.
+完整课程计划请参阅 [ROADMAP.md](../../ROADMAP.md)。
