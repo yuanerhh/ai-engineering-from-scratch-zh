@@ -1,5 +1,5 @@
-# Phase 7: Transformers Deep Dive
+# Phase 7：Transformer 深度剖析
 
-> The architecture that changed everything. Understand every layer.
+> 改变一切的架构。理解每一层。
 
-See [ROADMAP.md](../../ROADMAP.md) for the full lesson plan.
+详见 [ROADMAP.md](../../ROADMAP.md) 中的完整课程计划。
