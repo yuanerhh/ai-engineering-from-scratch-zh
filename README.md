@@ -10,6 +10,16 @@
   <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="网站"></a>
 </p>
 
+---
+
+> **本仓库是 [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) 的中文翻译版本。**
+>
+> 原课程由 [Rohit Ghumare](https://github.com/rohitg00) 创作，内容涵盖 435 节课、20 个阶段，从数学基础到自主智能体全面覆盖 AI 工程实践。感谢 Rohit 构建了如此系统、完整且开源的学习资源，使更多中文学习者能够从中受益。
+>
+> 翻译内容包括：每节课的中文文档（`docs/zh.md`）、课程测验（`quiz.json`）以及所有可交付的提示词与技能文件（`outputs/*.md`）。英文原文（`docs/en.md`）保持不变。
+
+---
+
 ```
 ░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
 ```
