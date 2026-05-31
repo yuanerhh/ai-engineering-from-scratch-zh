@@ -105,7 +105,7 @@ flowchart LR
 
 三种入口，选一种。
 
-**选项 A — 直接阅读。** 在 [aiengineeringfromscratch.com](https://aiengineeringfromscratch.com) 上打开任意已完成的课程，或展开下方[目录](#contents)中的某个阶段。无需安装，无需克隆。
+**选项 A — 直接阅读。** 在 [aiengineeringfromscratch-zh.com](https://aiengineeringfromscratch-zh.com) 上打开任意已完成的课程，或展开下方[目录](#contents)中的某个阶段。无需安装，无需克隆。
 
 **选项 B — 克隆并运行。**
 
