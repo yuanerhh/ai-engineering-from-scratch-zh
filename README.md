@@ -110,8 +110,8 @@ flowchart LR
 **选项 B — 克隆并运行。**
 
 ```bash
-git clone https://github.com/rohitg00/ai-engineering-from-scratch.git
-cd ai-engineering-from-scratch
+git clone https://github.com/yuanerhh/ai-engineering-from-scratch-zh.git
+cd ai-engineering-from-scratch-zh
 python phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
 ```
 
@@ -1041,5 +1041,5 @@ MIT。随意使用——Fork、教学、售卖、部署都可以。署名欢迎�
 <sub>
   <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp;
   <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp;
-  <a href="https://github.com/rohitg00/ai-engineering-from-scratch/issues/new/choose">报告 / 建议</a>
+  <a href="https://github.com/yuanerhh/ai-engineering-from-scratch-zh/issues/new/choose">报告 / 建议</a>
 </sub>
