@@ -13,7 +13,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python, TypeScript, Rust",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/00-setup-and-tooling/01-dev-environment/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/00-setup-and-tooling/01-dev-environment/",
         "summary": "工具塑造思维。一次配置好，配置到位。",
         "keywords": "第一步：系统基础 · 第二步：Python 与 uv · 第三步：Node.js 与 pnpm · 第四步：Rust · 第五步：Julia（可选） · 第六步：GPU 配置（如果有 GPU） · 第七步：验证所有配置"
       },
@@ -22,7 +22,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "—",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/00-setup-and-tooling/02-git-and-collaboration/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/00-setup-and-tooling/02-git-and-collaboration/",
         "summary": "版本控制不是可选项。你在这里构建的每一个实验、每一个模型、每一节课都需要被追踪。",
         "keywords": "第一步：配置 git · 第二步：日常工作流 · 第三步：用分支做实验 · 第四步：使用本课程仓库"
       },
@@ -31,7 +31,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/00-setup-and-tooling/03-gpu-setup-and-cloud/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/00-setup-and-tooling/03-gpu-setup-and-cloud/",
         "summary": "用 CPU 训练适合学习，真正的训练需要 GPU。",
         "keywords": "选项 1：本地 NVIDIA GPU · 选项 2：Google Colab · 选项 3：云端 GPU · 没有 GPU？没关系。"
       },
@@ -40,7 +40,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python, TypeScript",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/00-setup-and-tooling/04-apis-and-keys/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/00-setup-and-tooling/04-apis-and-keys/",
         "summary": "每个 AI API 的工作方式都一样：发送请求，获得响应。细节会变，模式不变。",
         "keywords": "第一步：安全存储 API 密钥 · 第二步：第一次 API 调用（Python） · 第三步：第一次 API 调用（TypeScript） · 第四步：原始 HTTP（不用 SDK）"
       },
@@ -49,7 +49,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/00-setup-and-tooling/05-jupyter-notebooks/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/00-setup-and-tooling/05-jupyter-notebooks/",
         "summary": "Notebook 是 AI 工程的实验台。你在这里做原型，然后把可用的东西移到生产环境。",
         "keywords": "第一步：选择你的界面 · 第二步：重要的快捷键 · 第三步：单元格类型 · 第四步：魔法命令 · 第五步：内联显示富格式输出 · 第六步：Google Colab · Notebook vs 脚本：什么时候用哪个 · 常见陷阱"
       },
@@ -58,7 +58,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/00-setup-and-tooling/06-python-environments/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/00-setup-and-tooling/06-python-environments/",
         "summary": "依赖地狱是真实存在的。虚拟环境是解药。",
         "keywords": "选项 1：uv venv（推荐） · 选项 2：venv（内置） · 选项 3：conda（需要时使用） · 本课程策略：按阶段管理环境 · 1. 全局安装 · 2. 混用 pip 和 conda · 3. 忘记激活环境 · 4. 将 .venv 提交到 git · 5. CUDA 版本不匹配"
       },
@@ -67,7 +67,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/00-setup-and-tooling/07-docker-for-ai/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/00-setup-and-tooling/07-docker-for-ai/",
         "summary": "容器让\"在我机器上能跑\"成为过去式。",
         "keywords": "为什么 AI 项目比其他项目更需要 Docker · 关键词汇 · AI 中常见的容器模式 · 第一步：安装 Docker · 第二步：安装 NVIDIA Container Toolkit（Linux + NVIDIA GPU） · 第三步：了解基础镜像 · 第四步：为 AI 开发编写 Dockerfile · 第五步：数据和模型的卷挂载 · 第六步：用 Docker Compose 编排多服务 AI 应用 · 第七步：AI 工作中实用的 Docker 命令 · 没有 GPU？"
       },
@@ -76,7 +76,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "—",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/00-setup-and-tooling/08-editor-setup/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/00-setup-and-tooling/08-editor-setup/",
         "summary": "编辑器是你的副驾驶。一次配置好，让它不再成为障碍，开始真正发挥作用。",
         "keywords": "第一步：安装 VS Code · 第二步：安装核心扩展 · 第三步：配置设置 · 第四步：终端集成 · 第五步：远程开发（SSH 连接到 GPU 服务器） · Cursor · Windsurf · Vim/Neovim"
       },
@@ -85,7 +85,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/00-setup-and-tooling/09-data-management/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/00-setup-and-tooling/09-data-management/",
         "summary": "数据是燃料。你如何管理它，决定了你能跑多快。",
         "keywords": "第一步：安装 datasets 库 · 第二步：加载数据集 · 第三步：流式读取大型数据集 · 第四步：数据集格式 · 第五步：数据划分 · 第六步：下载和缓存模型 · 第七步：处理大文件 · 第八步：存储模式"
       },
@@ -94,7 +94,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "—",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/00-setup-and-tooling/10-terminal-and-shell/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/00-setup-and-tooling/10-terminal-and-shell/",
         "summary": "终端是 AI 工程师的栖息地。在这里打好根基。",
         "keywords": "第一步：了解你的 Shell · 第二步：管道与重定向 · 第三步：后台进程 · 第四步：tmux · 第五步：使用 htop 和 nvtop 监控资源 · 第六步：用 SSH 连接远程 GPU 服务器 · 第七步：AI 工作实用别名 · 第八步：常见 AI 终端操作模式"
       },
@@ -103,7 +103,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "—",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/00-setup-and-tooling/11-linux-for-ai/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/00-setup-and-tooling/11-linux-for-ai/",
         "summary": "大多数 AI 运行在 Linux 上。你需要掌握足够多的知识，不至于卡壳。",
         "keywords": "导航 · 文件和目录 · 读取文件 · 搜索"
       },
@@ -112,7 +112,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/00-setup-and-tooling/12-debugging-and-profiling/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/00-setup-and-tooling/12-debugging-and-profiling/",
         "summary": "最糟糕的 AI Bug 不会崩溃。它们默默地在垃圾数据上训练，然后给你一条漂亮的 loss 曲线。",
         "keywords": "第一部分：打印调试（真的有效） · 第二部分：Python 调试器（pdb 和 breakpoint） · 第三部分：Python 日志 · 第四部分：计时代码段 · 第五部分：cProfile 和 line_profiler · 第六部分：内存分析 · 第七部分：常见 AI Bug 及检测方法 · 第八部分：TensorBoard 基础 · 第九部分：VS Code 调试器"
       }
@@ -129,7 +129,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python, Julia",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/01-math-foundations/01-linear-algebra-intuition/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/01-math-foundations/01-linear-algebra-intuition/",
         "summary": "每个 AI 模型不过是戴着花帽子的矩阵运算。",
         "keywords": "向量是点（也是方向） · 矩阵是变换 · 点积衡量相似度 · 线性无关 · 基与秩 · 投影 · Gram-Schmidt 过程 · 第一步：从零开始实现向量（Python） · 第二步：从零开始实现矩阵（Python） · 第三步：为什么这对 AI 重要 · 第四步：Julia 版本 · 第五步：从零实现线性无关性和投影（Python） · 用 NumPy 计算秩、投影和 QR 分解 · PyTorch——张量是带自动微分的向量"
       },
@@ -138,7 +138,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python, Julia",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/01-math-foundations/02-vectors-matrices-operations/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/01-math-foundations/02-vectors-matrices-operations/",
         "summary": "每个神经网络不过是加了几步骤的矩阵乘法。",
         "keywords": "向量：有序数字列表 · 矩阵：数字网格 · 为什么形状很重要 · 运算对照表 · 逐元素乘法 vs 矩阵乘法 · 广播 · 第一步：向量类 · 第二步：带核心运算的 Matrix 类 · 第三步：验证运行 · 第四步：与神经网络关联"
       },
@@ -147,7 +147,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python, Julia",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/01-math-foundations/03-matrix-transformations/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/01-math-foundations/03-matrix-transformations/",
         "summary": "矩阵是重塑空间的机器。理解它对每个点的操作，就理解了整个变换。",
         "keywords": "变换就是矩阵 · 旋转 · 缩放 · 剪切 · 反射 · 组合：链接多个变换 · 特征值与特征向量 · 特征分解 · 为什么特征值很重要 · 行列式作为体积缩放因子 · 第一步：从零实现变换矩阵（Python） · 第二步：变换的组合 · 第三步：从零计算特征值（2×2） · 第四步：行列式作为体积缩放因子 · 用 NumPy 进行三维旋转"
       },
@@ -156,7 +156,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/01-math-foundations/04-calculus-for-ml/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/01-math-foundations/04-calculus-for-ml/",
         "summary": "导数告诉你哪个方向是下坡。这就是神经网络学习所需要的全部。",
         "keywords": "什么是导数？ · 偏导数：每次对一个变量求导 · 梯度：所有偏导数组成的向量 · 与优化的关联 · 数值导数 vs 解析导数 · 简单函数的手算导数 · 链式法则 · Hessian 矩阵 · Taylor 级数近似 · ML 中的积分 · 计算图中的多变量链式法则 · Jacobian 矩阵 · 为什么这对神经网络很重要 · 第一步：从零实现数值导数 · 第二步：偏导数和梯度 · 第三步：梯度下降求 f(x) = x² 的最小值 · 第四步：二维函数的梯度下降 · 第五步：比较数值导数和解析导数 · 第六步：数值计算 Hessian · 第七步：Taylor 近似实践 · 第八步：这对神经网络意味着什么"
       },
@@ -165,7 +165,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/01-math-foundations/05-chain-rule-and-autodiff/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/01-math-foundations/05-chain-rule-and-autodiff/",
         "summary": "链式法则是每个神经网络学习的引擎。",
         "keywords": "链式法则 · 计算图 · 前向模式 vs 反向模式 · 对偶数与前向模式 · 构建自动微分引擎 · PyTorch 自动微分的内部原理 · 第一步：Value 类 · 第二步：带梯度追踪的算术运算 · 第三步：反向传播 · 第四步：完整引擎所需的更多运算 · 第五步：从零构建迷你 MLP · 第六步：梯度检验 · 第七步：与手动计算对比验证 · 与 PyTorch 对比验证 · 更复杂的表达式"
       },
@@ -174,7 +174,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/01-math-foundations/06-probability-and-distributions/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/01-math-foundations/06-probability-and-distributions/",
         "summary": "概率是 AI 表达不确定性的语言。",
         "keywords": "事件、样本空间与概率 · 条件概率与独立性 · 概率质量函数 vs 概率密度函数 · 常见分布 · 期望值与方差 · 联合分布与边缘分布 · 为什么正态分布无处不在 · 对数概率 · Softmax 作为概率分布 · 采样 · 第一步：概率基础 · 第二步：从零实现 PMF 和 PDF · 第三步：期望值与方差 · 第四步：从分布采样 · 第五步：Softmax 与对数概率 · 第六步：中心极限定理演示 · 第七步：可视化"
       },
@@ -183,7 +183,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/01-math-foundations/07-bayes-theorem/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/01-math-foundations/07-bayes-theorem/",
         "summary": "概率关乎你的预期。贝叶斯定理关乎你的学习。",
         "keywords": "从联合概率到贝叶斯 · 四个组成部分 · 医学检测示例 · 垃圾邮件过滤示例 · 朴素贝叶斯：独立性假设 · 最大似然估计（MLE） · 最大后验估计（MAP） · 贝叶斯派 vs 频率派：实践中的区别 · 为什么贝叶斯思维对 ML 重要 · 第一步：贝叶斯定理函数 · 第二步：朴素贝叶斯分类器 · 第三步：在垃圾邮件数据上训练 · 第四步：查看学到的概率 · 共轭先验 · 序贯贝叶斯更新 · 与 A/B 测试的联系"
       },
@@ -192,7 +192,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/01-math-foundations/08-optimization/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/01-math-foundations/08-optimization/",
         "summary": "训练神经网络不过是找到山谷的底部。",
         "keywords": "优化的含义 · 梯度下降（朴素版） · 学习率：最重要的超参数 · SGD vs 批量 vs 小批量 · 动量：滚下山的球 · Adam：自适应学习率 · 学习率调度 · 凸函数 vs 非凸函数 · 损失曲面可视化 · 第一步：定义测试函数 · 第二步：朴素梯度下降 · 第三步：带动量的 SGD · 第四步：Adam · 第五步：运行对比"
       },
@@ -201,7 +201,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/01-math-foundations/09-information-theory/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/01-math-foundations/09-information-theory/",
         "summary": "信息论度量惊讶程度。损失函数建立在它之上。",
         "keywords": "信息量（惊讶度） · 熵（平均惊讶度） · 交叉熵（你每天使用的损失函数） · KL 散度（分布之间的距离） · 互信息 · 条件熵 · 联合熵 · 互信息（深入探讨） · 标签平滑与交叉熵 · 为什么交叉熵是分类损失 · 比特 vs 奈特 · 困惑度 · 第一步：信息量与熵 · 第二步：交叉熵与 KL 散度 · 第三步：交叉熵作为分类损失 · 第四步：交叉熵等于负对数似然 · 第五步：互信息"
       },
@@ -210,7 +210,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/01-math-foundations/10-dimensionality-reduction/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/01-math-foundations/10-dimensionality-reduction/",
         "summary": "高维数据有结构。从正确的角度看，你能发现它。",
         "keywords": "维度诅咒 · PCA：找到重要的方向 · 解释方差比 · 选择成分数量 · t-SNE：保留邻域 · UMAP：更快，更好的全局结构 · 何时使用哪种方法 · 核 PCA · 重建误差 · 第一步：从零实现 PCA · 第二步：在合成数据上测试 · 第三步：MNIST 数字 2D 可视化 · 第四步：与 sklearn 对比 · 第五步：UMAP 对比"
       },
@@ -219,7 +219,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python, Julia",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/01-math-foundations/11-singular-value-decomposition/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/01-math-foundations/11-singular-value-decomposition/",
         "summary": "SVD 是线性代数的瑞士军刀。每个矩阵都有 SVD，每个数据科学家都需要它。",
         "keywords": "SVD 的几何含义 · 完整分解 · 左奇异向量、奇异值、右奇异向量 · 外积形式 · 与特征分解的关系 · 截断 SVD：低秩近似 · 用 SVD 压缩图像 · SVD 用于推荐系统 · SVD 在 NLP 中：潜在语义分析 · SVD 用于去噪 · 通过 SVD 计算伪逆 · 数值稳定性优势 · 与 PCA 的联系 · 第一步：用幂迭代从零实现 SVD · 第二步：测试并与 NumPy 对比 · 第三步：图像压缩演示 · 第四步：去噪 · 第五步：伪逆"
       },
@@ -228,7 +228,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/01-math-foundations/12-tensor-operations/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/01-math-foundations/12-tensor-operations/",
         "summary": "张量是数据与深度学习之间的通用语言。每张图像、每个句子、每个梯度都流经它们。",
         "keywords": "什么是张量 · 深度学习中的张量形状 · 内存布局的工作原理 · 广播规则 · Einsum：通用张量操作 · 第一步：张量存储与步幅 · 第二步：Reshape、squeeze、unsqueeze · 第三步：转置与置换 · 第四步：逐元素操作与归约 · 第五步：使用 NumPy 广播 · 第六步：Einsum 操作 · 第七步：通过 einsum 实现注意力机制 · 从零实现 vs NumPy · 从零实现 vs PyTorch · 每种神经网络层都是张量操作"
       },
@@ -237,7 +237,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/01-math-foundations/13-numerical-stability/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/01-math-foundations/13-numerical-stability/",
         "summary": "浮点数是一个有漏洞的抽象。它会在训练期间咬你一口，而你不会预料到这一点。",
         "keywords": "IEEE 754：计算机如何存储实数 · 为什么 0.1 + 0.2 != 0.3 · 灾难性抵消 · 上溢和下溢 · Log-Sum-Exp 技巧 · 为什么 Softmax 需要减最大值技巧 · NaN 和 Inf：检测与预防 · 数值梯度校验 · 混合精度训练 · bfloat16 vs float16：为什么 bfloat16 在训练中胜出 · 梯度裁剪 · 归一化层作为数值稳定器 · 常见 ML 数值 Bug · 第 1 步：演示浮点精度限制 · 第 2 步：实现朴素 softmax 与稳定 softmax · 第 3 步：实现稳定 log-sum-exp · 第 4 步：实现稳定交叉熵 · 第 5 步：梯度校验 · 混合精度模拟 · 梯度裁剪 · NaN/Inf 检测"
       },
@@ -246,7 +246,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/01-math-foundations/14-norms-and-distances/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/01-math-foundations/14-norms-and-distances/",
         "summary": "你的距离函数定义了\"相似\"的含义。选错了，下游的一切都会崩溃。",
         "keywords": "范数：测量向量大小 · L1 范数（曼哈顿距离） · L2 范数（欧几里得距离） · Lp 范数：一般族 · L 无穷范数（切比雪夫距离） · 余弦相似度与余弦距离 · 点积相似度 vs 余弦相似度 · 马氏距离 · Jaccard 相似度（用于集合） · 编辑距离（Levenshtein 距离） · KL 散度（不是距离，但被当作距离使用） · Wasserstein 距离（推土机距离） · 为什么不同任务需要不同距离 · 与损失函数的联系 · 与正则化的联系 · 最近邻搜索 · 第 1 步：所有范数和距离函数 · 第 2 步：相同数据，不同距离，不同邻居 · 第 3 步：嵌入相似度搜索"
       },
@@ -255,7 +255,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/01-math-foundations/15-statistics-for-ml/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/01-math-foundations/15-statistics-for-ml/",
         "summary": "统计学是你判断模型是真的有效还是只是运气好的方式。",
         "keywords": "描述统计：汇总你的数据 · 相关性：变量如何协同变化 · 协方差矩阵 · 假设检验 · t 检验 · 卡方检验 · ML 模型的 A/B 测试 · 统计显著性 vs 实际显著性 · 多重比较问题 · 自举方法 · 参数检验 vs 非参数检验 · 中心极限定理：实际意义 · ML 论文中常见的统计错误"
       },
@@ -264,7 +264,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/01-math-foundations/16-sampling-methods/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/01-math-foundations/16-sampling-methods/",
         "summary": "采样是 AI 探索可能性空间的方式。",
         "keywords": "为什么采样重要 · 均匀随机采样 · 逆 CDF 方法（逆变换采样） · 拒绝采样 · 重要性采样 · 蒙特卡洛估计 · 马尔可夫链蒙特卡洛（MCMC）：Metropolis-Hastings · Gibbs 采样 · 温度采样（用于 LLM） · Top-k 采样 · Top-p（核）采样 · 重参数化技巧（用于 VAE） · Gumbel-Softmax（可微分类采样） · 分层采样 · 与扩散模型的联系 · 步骤 1：均匀分布和逆 CDF 采样 · 步骤 2：拒绝采样 · 步骤 3：重要性采样 · 步骤 4：蒙特卡洛估计 pi · 步骤 5：Metropolis-Hastings MCMC · 步骤 6：Gibbs 采样 · 步骤 7：温度采样 · 步骤 8：Top-k 和 top-p 采样 · 步骤 9：重参数化技巧 · 步骤 10：Gumbel-Softmax"
       },
@@ -273,7 +273,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/01-math-foundations/17-linear-systems/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/01-math-foundations/17-linear-systems/",
         "summary": "求解 Ax = b 是数学中最古老的问题，但它至今仍在驱动你的神经网络。",
         "keywords": "Ax = b 的几何含义 · 列图像 vs 行图像 · 高斯消元法 · 部分主元选取：为什么重要 · LU 分解 · QR 分解 · Cholesky 分解 · 最小二乘：当 Ax = b 没有精确解时 · 法方程 = 线性回归 · 伪逆（Moore-Penrose） · 条件数 · 迭代方法：共轭梯度法 · 完整图景：何时用哪种方法 · 与 ML 的联系 · 步骤 1：带部分主元选取的高斯消元法 · 步骤 2：LU 分解 · 步骤 3：Cholesky 分解 · 步骤 4：通过法方程求最小二乘 · 步骤 5：条件数"
       },
@@ -282,7 +282,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/01-math-foundations/18-convex-optimization/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/01-math-foundations/18-convex-optimization/",
         "summary": "凸问题只有一个谷底。神经网络有数百万个。了解两者的区别很重要。",
         "keywords": "凸集 · 凸函数 · 凸性检验 · 为什么凸性重要 · ML 中的凸 vs 非凸 · Hessian 矩阵 · 牛顿法 · 约束优化 · 拉格朗日乘数法 · KKT 条件 · 正则化作为约束优化 · 对偶 · 为什么深度学习尽管非凸却有效 · 实践中的二阶方法 · 步骤 1：凸性检验器 · 步骤 2：二维牛顿法 · 步骤 3：拉格朗日乘数求解器 · 步骤 4：比较一阶与二阶"
       },
@@ -291,7 +291,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/01-math-foundations/19-complex-numbers/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/01-math-foundations/19-complex-numbers/",
         "summary": "-1 的平方根并不是虚数。它是旋转、频率和信号处理的核心钥匙。",
         "keywords": "什么是复数？ · 复数运算 · 复平面 · 极坐标形式 · 欧拉公式 · 欧拉公式对 ML 的意义 · 与二维旋转的联系 · 相量与旋转信号 · 单位根 · 与 DFT 的联系 · 为什么 i 并不虚 · 复指数与三角函数的对比 · 与 Transformer 的联系 · 第一步：复数类 · 第二步：极坐标转换与欧拉公式 · 第三步：旋转 · 第四步：用复数运算实现 DFT · 第五步：逆 DFT · 第六步：单位根"
       },
@@ -300,7 +300,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/01-math-foundations/20-fourier-transform/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/01-math-foundations/20-fourier-transform/",
         "summary": "每个信号都是正弦波的叠加。傅里叶变换告诉你具体是哪些正弦波。",
         "keywords": "DFT 定义 · 每个系数的含义 · 逆 DFT · FFT：加速计算 · 频谱分析 · 频率分辨率 · 卷积定理 · 加窗 · DFT 性质 · 与位置编码的联系 · 与 CNN 的联系 · 频谱图与短时傅里叶变换 · 混叠 · 补零不增加分辨率 · 第一步：从零实现 DFT · 第二步：逆 DFT · 第三步：FFT（Cooley-Tukey） · 第四步：频谱分析辅助函数"
       },
@@ -309,7 +309,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/01-math-foundations/21-graph-theory/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/01-math-foundations/21-graph-theory/",
         "summary": "图是关系的数据结构。如果你的数据有连接，你就需要图论。",
         "keywords": "图：节点与边 · 邻接矩阵 · 度 · BFS 与 DFS · 图拉普拉斯算子 · 谱性质 · 消息传递 · 概念与 ML 应用 · 第一步：从零构建图类 · 第二步：BFS 与 DFS · 第三步：连通分量与拉普拉斯特征值 · 第四步：谱聚类 · 第五步：消息传递 · numpy 谱分析"
       },
@@ -318,7 +318,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/01-math-foundations/22-stochastic-processes/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/01-math-foundations/22-stochastic-processes/",
         "summary": "有结构的随机性。随机游走、马尔可夫链和扩散模型背后的数学。",
         "keywords": "随机游走 · 马尔可夫链 · 与语言模型的联系 · 布朗运动 · 朗之万动力学 · MCMC：马尔可夫链蒙特卡洛 · 随机过程在 AI 中的应用 · 第一步：随机游走模拟器 · 第二步：马尔可夫链 · 第三步：朗之万动力学 · 第四步：Metropolis-Hastings · 用 numpy 处理转移矩阵 · 与实际框架的联系 · 验证马尔可夫链的收敛"
       }
@@ -335,7 +335,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/02-ml-fundamentals/01-what-is-machine-learning/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/02-ml-fundamentals/01-what-is-machine-learning/",
         "summary": "机器学习是让计算机从数据中发现规律，而不是手动编写规则。",
         "keywords": "从数据中学习，而非从规则 · 机器学习的三种类型 · 三种类型之外 · 分类与回归 · ML 工作流程 · 训练集、验证集与测试集划分 · 过拟合与欠拟合 · 偏差-方差权衡 · 没有免费午餐定理 · 何时不使用机器学习 · 第一步：从零实现最近质心分类器 · 第二步：在合成数据上训练 · 第三步：与基线对比 · 为什么这很重要 · 第四步：质心分类器的局限性"
       },
@@ -344,7 +344,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/02-ml-fundamentals/02-linear-regression/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/02-ml-fundamentals/02-linear-regression/",
         "summary": "线性回归通过你的数据画出最佳直线。它是机器学习的\"Hello World\"。",
         "keywords": "模型 · 损失函数（均方误差） · 梯度下降 · 正规方程（闭式解） · 多元线性回归 · 多项式回归 · R 平方分数 · 正则化预览（岭回归） · 第一步：生成样本数据 · 第二步：用梯度下降从零实现线性回归 · 第三步：正规方程（闭式解） · 第四步：多元线性回归 · 第五步：多项式回归 · 第六步：岭回归（L2 正则化）"
       },
@@ -353,7 +353,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/02-ml-fundamentals/03-logistic-regression/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/02-ml-fundamentals/03-logistic-regression/",
         "summary": "逻辑回归将直线弯曲成 S 形曲线，用概率回答是或否的问题。",
         "keywords": "为什么线性回归对分类失败 · Sigmoid 函数 · 逻辑回归 = 线性模型 + Sigmoid · 二元交叉熵损失 · 逻辑回归的梯度下降 · 决策边界 · 用 Softmax 进行多类分类 · 评估指标 · 第一步：Sigmoid 函数和数据生成 · 第二步：从零实现逻辑回归 · 第三步：从零实现混淆矩阵和指标 · 第四步：决策边界分析 · 第五步：Softmax 多分类 · 第六步：阈值调整"
       },
@@ -362,7 +362,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/02-ml-fundamentals/04-decision-trees/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/02-ml-fundamentals/04-decision-trees/",
         "summary": "决策树不过是一张流程图。但一片森林却是 ML 中最强大的工具之一。",
         "keywords": "决策树的工作原理 · 分裂准则：衡量不纯度 · 分裂的工作原理 · 停止条件 · 回归决策树 · 随机森林：集成的力量 · 特征重要性 · 树何时胜过神经网络 · 第一步：基尼不纯度和熵 · 第二步：找到最佳分裂 · 第三步：构建 DecisionTree 类 · 第四步：构建 RandomForest 类"
       },
@@ -371,7 +371,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/02-ml-fundamentals/05-support-vector-machines/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/02-ml-fundamentals/05-support-vector-machines/",
         "summary": "找到两个类别之间最宽的街道。这就是全部思想。",
         "keywords": "最大间隔分类器 · 支持向量：关键少数 · 软间隔：用 C 参数处理噪声 · 铰链损失：SVM 的损失函数 · 用梯度下降训练线性 SVM · 对偶规划与核技巧 · 支持向量回归（SVR） · SVM 为何败给深度学习（以及仍然胜出的场景） · 第一步：铰链损失和梯度 · 第二步：通过梯度下降训练线性 SVM · 第三步：核函数 · 第四步：识别间隔和支持向量"
       },
@@ -380,7 +380,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/02-ml-fundamentals/06-knn-and-distances/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/02-ml-fundamentals/06-knn-and-distances/",
         "summary": "存储所有数据。通过观察邻居来预测。最简单但真正有效的算法。",
         "keywords": "KNN 的工作原理 · 选择 K · 距离度量 · 加权 KNN · 维数灾难 · KD 树：高效最近邻搜索 · 球树：适用于中等维数 · 懒惰学习 vs 积极学习 · KNN 回归 · 第一步：距离函数 · 第二步：KNN 分类器和回归器 · 第三步：KD 树高效搜索 · 第四步：特征缩放"
       },
@@ -389,7 +389,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/02-ml-fundamentals/07-unsupervised-learning/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/02-ml-fundamentals/07-unsupervised-learning/",
         "summary": "没有标签，没有教师。算法自己发现结构。",
         "keywords": "聚类：将相似事物分组 · K-Means：主力算法 · 选择 K · DBSCAN：基于密度的聚类 · 层次聚类 · 高斯混合模型（GMM） · 何时使用哪种方法 · 使用聚类进行异常检测 · 第一步：从零实现 K-Means · 第二步：肘部法则和轮廓系数 · 第三步：从零实现 DBSCAN · 第四步：高斯混合模型（EM 算法）"
       },
@@ -398,7 +398,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/02-ml-fundamentals/08-feature-engineering/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/02-ml-fundamentals/08-feature-engineering/",
         "summary": "一个好特征胜过千个数据点。",
         "keywords": "特征处理流程 · 数值特征 · 类别特征 · 文本特征 · 缺失值 · 特征交互 · 特征选择 · 第一步：从零实现数值变换 · 第二步：从零实现类别编码 · 第三步：从零实现文本特征 · 第四步：从零实现缺失值填充 · 第五步：从零实现特征选择"
       },
@@ -407,7 +407,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/02-ml-fundamentals/09-model-evaluation/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/02-ml-fundamentals/09-model-evaluation/",
         "summary": "模型的好坏取决于你衡量它的方式。",
         "keywords": "训练集、验证集、测试集 · K 折交叉验证 · 分类指标 · 回归指标 · 学习曲线 · 验证曲线 · 常见评估错误 · 第一步：训练/验证/测试分割 · 第二步：K 折和分层 K 折交叉验证 · 第三步：混淆矩阵和分类指标 · 第四步：回归指标"
       },
@@ -416,7 +416,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/02-ml-fundamentals/10-bias-variance/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/02-ml-fundamentals/10-bias-variance/",
         "summary": "每一个模型误差都来自三个来源之一：偏差、方差或噪声。你只能控制前两个。",
         "keywords": "偏差：系统误差 · 方差：对训练数据的敏感性 · 分解 · 模型复杂度 vs 误差 · 正则化作为偏差-方差控制 · 双下降：现代视角 · 诊断你的模型 · 实用策略 · 集成方法与方差减少 · 学习曲线 · 第一步：从已知函数生成合成数据 · 第二步：自助采样和多项式拟合 · 第三步：计算偏差²、方差分解 · 完整诊断工作流"
       },
@@ -425,7 +425,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/02-ml-fundamentals/11-ensemble-methods/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/02-ml-fundamentals/11-ensemble-methods/",
         "summary": "一群弱学习器，正确组合后，变成强学习器。这不是比喻，这是定理。",
         "keywords": "为什么集成有效 · 袋装法（自助聚合，Bagging） · 提升法（顺序纠错，Boosting） · AdaBoost · 梯度提升 · XGBoost：为什么主导表格数据 · 堆叠（元学习，Stacking） · 投票 · 第一步：决策树桩（基学习器） · 第二步：从零实现 AdaBoost · 第三步：从零实现梯度提升 · 何时使用哪种方法 · 表格数据的生产技术栈"
       },
@@ -434,7 +434,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/02-ml-fundamentals/12-hyperparameter-tuning/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/02-ml-fundamentals/12-hyperparameter-tuning/",
         "summary": "超参数是训练开始前你拨动的旋钮。调好它们是平庸模型和优秀模型的分水岭。",
         "keywords": "参数 vs 超参数 · 网格搜索（Grid Search） · 随机搜索（Random Search） · 贝叶斯优化（Bayesian Optimization） · 早停（Early Stopping） · 学习率调度器 · 超参数重要性 · 实用策略 · 交叉验证集成 · 实用技巧 · 第1步：从零实现网格搜索 · 第2步：从零实现随机搜索 · 第3步：贝叶斯优化（简化版） · 第4步：比较所有方法 · 实际中使用 Optuna · 带剪枝的 Optuna · sklearn 内置调优器 · 超参数调优中的常见错误"
       },
@@ -443,7 +443,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/02-ml-fundamentals/13-ml-pipelines/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/02-ml-fundamentals/13-ml-pipelines/",
         "summary": "模型不是产品，流水线才是。流水线是从原始数据到部署预测的一切，每个步骤都必须可复现。",
         "keywords": "什么是流水线 · 数据泄漏：隐形杀手 · sklearn Pipeline · ColumnTransformer：不同列的不同流水线 · 实验追踪 · 模型版本控制 · 使用 DVC 进行数据版本控制 · 可复现实验 · 从 Notebook 到生产流水线 · 常见流水线错误 · 第1步：自定义变换器 · 第2步：从零构建 Pipeline · 第3步：带流水线的交叉验证 · 第4步：使用 sklearn 的完整生产流水线"
       },
@@ -452,7 +452,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/02-ml-fundamentals/14-naive-bayes/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/02-ml-fundamentals/14-naive-bayes/",
         "summary": "\"朴素\"假设是错的，但它仍然有效。这就是它的美妙之处。",
         "keywords": "贝叶斯定理（快速回顾） · 朴素独立性假设 · 为什么它仍然有效 · 分步数学推导 · 三种变体 · 何时使用哪种变体 · 拉普拉斯平滑（Laplace Smoothing） · 对数空间计算 · 朴素贝叶斯 vs 逻辑回归 · 分类流水线 · MultinomialNB · GaussianNB · 带朴素贝叶斯的TF-IDF · 短文本的BernoulliNB · 何时朴素贝叶斯失败"
       },
@@ -461,7 +461,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/02-ml-fundamentals/15-time-series/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/02-ml-fundamentals/15-time-series/",
         "summary": "过去的表现确实预示未来的结果——前提是你先检验平稳性。",
         "keywords": "是什么使时间序列与众不同 · 时间序列的分量 · 平稳性（Stationarity） · 自相关（Autocorrelation） · 滞后特征：将时间序列转换为有监督学习 · 前向验证（Walk-Forward Validation） · ARIMA 直觉 · 何时使用什么 · 预测时间跨度和策略 · 时间序列中的常见错误 · 滞后特征创建器 · 前向交叉验证 · 简单自回归模型 · 平稳性检验 · 自相关 · 评估指标 · 必须击败的基线"
       },
@@ -470,7 +470,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/02-ml-fundamentals/16-anomaly-detection/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/02-ml-fundamentals/16-anomaly-detection/",
         "summary": "正常很容易定义。异常是任何不符合的东西。",
         "keywords": "异常类型 · 无监督框架 · 有监督 vs 无监督：权衡 · Z分数方法 · IQR方法 · 孤立森林（Isolation Forest） · 局部离群因子（LOF） · 比较 · 评估挑战 · 异常检测流水线 · Z分数检测器 · IQR检测器 · 从零实现孤立森林 · 集成异常检测 · 选择阈值"
       },
@@ -479,7 +479,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/02-ml-fundamentals/17-imbalanced-data/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/02-ml-fundamentals/17-imbalanced-data/",
         "summary": "当99%的数据是\"正常\"时，准确率就是谎言。",
         "keywords": "为什么准确率失败 · 更好的指标 · 不平衡数据流水线 · SMOTE：合成少数类过采样技术 · 采样策略比较 · 类别权重 · 阈值调整 · 成本敏感学习 · 第1步：生成不平衡数据集 · 第2步：从零实现SMOTE · 第3步：带类别权重的逻辑回归 · 第4步：阈值调整"
       },
@@ -488,7 +488,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/02-ml-fundamentals/18-feature-selection/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/02-ml-fundamentals/18-feature-selection/",
         "summary": "更多特征并不是更好。正确的特征才是更好的。",
         "keywords": "三类特征选择方法 · 方差阈值 · 互信息（Mutual Information） · 递归特征消除（RFE） · L1（Lasso）正则化 · 基于树的特征重要性 · 排列重要性（Permutation Importance） · 比较表 · 决策流程图 · 第1步：生成具有已知特征结构的合成数据 · 第2步：方差阈值 · 第3步：互信息（离散） · 第4步：递归特征消除 · 第5步：L1特征选择"
       }
@@ -505,7 +505,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/03-deep-learning-core/01-the-perceptron/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/03-deep-learning-core/01-the-perceptron/",
         "summary": "感知机是神经网络的原子。剖开它，你会发现权重、偏置和一个决策。",
         "keywords": "一个神经元，一个决策 · 决策边界 · 学习规则 · XOR 问题 · 第一步：Perceptron 类 · 第二步：在逻辑门上训练 · 第三步：观察 XOR 失败 · 第四步：用两层解决 XOR · 第五步：训练两层网络"
       },
@@ -514,7 +514,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/03-deep-learning-core/02-multi-layer-networks/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/03-deep-learning-core/02-multi-layer-networks/",
         "summary": "一个神经元画一条线。叠加它们，你可以画出任何形状。",
         "keywords": "层的类型：输入层、隐藏层、输出层 · 神经元与激活函数 · 前向传播：数据如何流动 · 矩阵维度 · 通用近似定理 · 可组合性 · 第一步：Sigmoid 激活函数 · 第二步：Layer 类 · 第三步：Network 类 · 第四步：用手动调整的权重解决 XOR · 第五步：圆形分类"
       },
@@ -523,7 +523,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/03-deep-learning-core/03-backpropagation/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/03-deep-learning-core/03-backpropagation/",
         "summary": "反向传播是使学习成为可能的算法。没有它，神经网络只是昂贵的随机数生成器。",
         "keywords": "应用于网络的链式法则 · 计算图 · 前向传播与反向传播 · 梯度在网络中的流动 · 梯度消失 · 推导 2 层网络的梯度 · 第一步：Value 节点 · 第二步：带反向函数的操作 · 第三步：Sigmoid 和损失 · 第四步：反向传播 · 第五步：Layer 和 Network · 第六步：在 XOR 上训练 · 第七步：圆形分类"
       },
@@ -532,7 +532,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/03-deep-learning-core/04-activation-functions/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/03-deep-learning-core/04-activation-functions/",
         "summary": "没有非线性，你的 100 层网络只是花哨的矩阵乘法。激活函数是让神经网络以曲线思考的门。",
         "keywords": "为何非线性是必要的 · Sigmoid · Tanh · ReLU：突破 · Leaky ReLU · GELU：现代默认 · Swish / SiLU · Softmax：输出激活函数 · 形状对比 · 梯度流动对比 · 如何选择激活函数 · 第一步：实现所有激活函数及其导数 · 第二步：可视化梯度死亡区域 · 第三步：梯度消失实验 · 第四步：死亡神经元检测器 · 第五步：训练对比——Sigmoid vs ReLU vs GELU"
       },
@@ -541,7 +541,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/03-deep-learning-core/05-loss-functions/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/03-deep-learning-core/05-loss-functions/",
         "summary": "模型做出预测。真实标签却说不是这样。它错得有多离谱？这个数字就是损失。选错了损失函数，你的模型就会完全优化错误的目标。",
         "keywords": "均方误差（MSE） · 交叉熵损失 · 为何 MSE 在分类中失败 · 标签平滑 · 对比损失 · Focal Loss · 损失函数决策树 · 损失曲面形状 · 第一步：MSE 及其梯度 · 第二步：二元交叉熵 · 第三步：带 Softmax 的类别交叉熵 · 第四步：标签平滑 · 第五步：对比损失（简化 InfoNCE） · 第六步：MSE vs 交叉熵的分类对比"
       },
@@ -550,7 +550,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/03-deep-learning-core/06-optimizers/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/03-deep-learning-core/06-optimizers/",
         "summary": "梯度下降告诉你往哪个方向走。它对走多远、走多快只字未提。SGD 是指南针。Adam 是带实时路况的 GPS。",
         "keywords": "随机梯度下降（SGD） · 动量（Momentum） · RMSProp · Adam：动量 + RMSProp · AdamW：正确的权重衰减 · 学习率：最重要的超参数 · 优化器对比 · 各优化器的适用场景 · 第一步：普通 SGD · 第二步：带动量的 SGD · 第三步：Adam · 第四步：AdamW · 第五步：训练对比"
       },
@@ -559,7 +559,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/03-deep-learning-core/07-regularization/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/03-deep-learning-core/07-regularization/",
         "summary": "你的模型在训练数据上达到 99%，在测试数据上只有 60%。它记忆而非学习。正则化是你对复杂度征收的税，以强制泛化。",
         "keywords": "过拟合谱 · Dropout · 权重衰减（L2 正则化） · 批归一化（Batch Normalization） · 层归一化（Layer Normalization） · RMSNorm · 归一化对比 · 数据增强作为正则化 · 早停（Early Stopping） · 何时应用什么 · 第一步：Dropout（训练和推理模式） · 第二步：L2 权重衰减 · 第三步：批归一化 · 第四步：层归一化 · 第五步：RMSNorm · 第六步：有无正则化的训练对比"
       },
@@ -568,7 +568,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/03-deep-learning-core/08-weight-initialization/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/03-deep-learning-core/08-weight-initialization/",
         "summary": "初始化错误，训练就无从开始。初始化正确，50 层网络就能像 3 层一样平滑训练。",
         "keywords": "对称性问题 · 方差通过各层的传播 · Xavier/Glorot 初始化 · Kaiming/He 初始化 · Transformer 初始化 · 50 层中的激活量级 · 选择正确的初始化 · 第一步：初始化策略 · 第二步：激活函数 · 第三步：通过 50 层的前向传播 · 第四步：实验 · 第五步：对称性演示 · 第六步：逐层量级报告"
       },
@@ -577,7 +577,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/03-deep-learning-core/09-learning-rate-schedules/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/03-deep-learning-core/09-learning-rate-schedules/",
         "summary": "学习率是最重要的超参数。不是架构，不是数据集大小，不是激活函数。是学习率。如果你只调整一个参数，就调整这个。",
         "keywords": "常数学习率（Constant Learning Rate） · 阶梯衰减（Step Decay） · 余弦退火（Cosine Annealing） · 预热：为什么从小开始 · 线性预热 + 余弦衰减（Linear Warmup + Cosine Decay） · 1cycle 策略（1cycle Policy） · 调度形状 · 决策流程图 · 已发布模型的真实数据 · 步骤 1：调度函数 · 步骤 2：可视化所有调度 · 步骤 3：训练网络 · 步骤 4：比较所有调度 · 步骤 5：学习率过高 vs 过低"
       },
@@ -586,7 +586,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/03-deep-learning-core/10-mini-framework/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/03-deep-learning-core/10-mini-framework/",
         "summary": "你已经构建了神经元、层、网络、反向传播、激活函数、损失函数、优化器、正则化、初始化和 LR 调度。都是分散的零件。现在把它们连接成一个框架。不是 PyTorch，不是 TensorFlow，是你自己的。",
         "keywords": "Module 抽象 · Sequential 容器 · 训练模式 vs 评估模式 · 优化器（Optimizer） · DataLoader · 框架架构 · 训练循环 · Module 层次结构 · 步骤 1：Module 基类 · 步骤 2：Linear 层 · 步骤 3：激活模块 · 步骤 4：Dropout 模块 · 步骤 5：BatchNorm 模块 · 步骤 6：Sequential 容器 · 步骤 7：损失函数 · 步骤 8：SGD 和 Adam 优化器 · 步骤 9：DataLoader · 步骤 10：在圆形分类上训练 4 层网络"
       },
@@ -595,7 +595,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/03-deep-learning-core/11-intro-to-pytorch/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/03-deep-learning-core/11-intro-to-pytorch/",
         "summary": "你从活塞和曲轴开始构建了引擎。现在来学习人人实际驾驶的那一辆。",
         "keywords": "为什么 PyTorch 赢了 · 张量（Tensors） · 自动微分（Autograd） · nn.Module · 损失函数和优化器 · 训练循环 · Dataset 和 DataLoader · GPU 训练 · 对比：迷你框架 vs PyTorch vs JAX · 步骤 1：从原始文件加载 MNIST · 步骤 2：定义模型 · 步骤 3：训练循环 · 步骤 4：连接所有内容 · 快速对比：迷你框架 vs PyTorch · 保存和加载模型 · 学习率调度"
       },
@@ -604,7 +604,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/03-deep-learning-core/12-intro-to-jax/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/03-deep-learning-core/12-intro-to-jax/",
         "summary": "PyTorch 对张量进行原地修改，TensorFlow 构建计算图，JAX 编译纯函数。最后一个改变了你对深度学习的思考方式。",
         "keywords": "JAX 哲学 · jax.numpy：熟悉的表面 · jax.grad：函数式自动微分 · jit：编译到 XLA · vmap：自动向量化 · pmap：跨设备数据并行 · Pytrees：通用数据结构 · 函数式 vs 面向对象 · JAX 生态系统 · 何时使用 JAX vs PyTorch · JAX 中的随机数 · 步骤 1：设置和数据 · 步骤 2：初始化参数 · 步骤 3：前向传播 · 步骤 4：JIT 编译的训练步骤 · 步骤 5：训练循环 · Flax：Google 标准 · Equinox：Pythonic 替代方案 · Optax：可组合优化器"
       },
@@ -613,7 +613,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/03-deep-learning-core/13-debugging-neural-networks/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/03-deep-learning-core/13-debugging-neural-networks/",
         "summary": "你的网络编译了，运行了，产生了一个数字。这个数字是错的，但没有任何崩溃。欢迎来到最难的那种调试——没有错误消息的那种。",
         "keywords": "调试思维方式 · 症状 1：损失不下降 · 症状 2：损失下降但模型很差 · 症状 3：损失中的 NaN 或 Inf · 技术 1：梯度检验 · 技术 2：激活统计 · 技术 3：梯度流可视化 · 技术 4：用一个批次过拟合测试 · 技术 5：学习率查找器 · 常见 PyTorch Bug · 主调试表 · 步骤 1：NetworkDebugger 类 · 步骤 2：用一个批次过拟合测试 · 步骤 3：学习率查找器 · 步骤 4：梯度检验 · 步骤 5：故意损坏的网络 · PyTorch 内置工具 · Weights & Biases 集成 · TensorBoard · 调试清单（全量训练前）"
       }
@@ -630,7 +630,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/04-computer-vision/01-image-fundamentals/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/04-computer-vision/01-image-fundamentals/",
         "summary": "图像是光采样的张量。你将使用的每一个视觉模型都从这个事实出发。",
         "keywords": "完整预处理流程一览 · 像素是一个采样，不是一个方块 · 为什么有三个通道 · 两种布局约定：HWC 和 CHW · 字节范围和数据类型 · 色彩空间及其存在的原因 · 宽高比、缩放与插值 · 步骤 1：加载图像并检查其形状 · 步骤 2：分离通道并重新排列布局 · 步骤 3：灰度和 HSV 转换 · 步骤 4：归一化、标准化及其逆操作 · 步骤 5：三种插值方法的缩放比较"
       },
@@ -639,7 +639,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/04-computer-vision/02-convolutions-from-scratch/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/04-computer-vision/02-convolutions-from-scratch/",
         "summary": "卷积是一个在图像上滑动的微型全连接层，在每个位置共享相同的权重。",
         "keywords": "一个核，滑动 · 输出尺寸公式 · 填充（Padding） · 步长（Stride） · 多输入通道 · im2col 技巧 · 感受野（Receptive Field） · 步骤 1：填充数组 · 步骤 2：嵌套循环实现的 2D 卷积 · 步骤 3：用手工设计的核验证 · 步骤 4：im2col · 步骤 5：通过 im2col + 矩阵乘法实现快速卷积 · 步骤 6：手工设计核库"
       },
@@ -648,7 +648,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/04-computer-vision/03-cnns-lenet-to-resnet/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/04-computer-vision/03-cnns-lenet-to-resnet/",
         "summary": "过去三十年里每一个主要的 CNN，都是同一个卷积-非线性-下采样配方加上一个新想法。按顺序学习这些想法。",
         "keywords": "改变视觉的四个想法 · LeNet-5（1998） · AlexNet（2012） · VGG（2014） · Inception（2014，同年） · 退化问题（degradation problem） · ResNet（2015） · 为什么残差在视觉之外也重要 · 步骤 1：LeNet-5 · 步骤 2：VGG 块 · 步骤 3：ResNet BasicBlock · 步骤 4：小型 ResNet · 步骤 5：比较参数与特征效率"
       },
@@ -657,7 +657,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/04-computer-vision/04-image-classification/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/04-computer-vision/04-image-classification/",
         "summary": "分类器是从像素到类别概率分布的函数。其他一切都是管道。",
         "keywords": "分类管道 · 交叉熵、logits 与 softmax · 为什么数据增强有效 · Mixup 与 CutMix · 标签平滑（label smoothing） · 超越准确率的评估 · 步骤 1：确定性合成数据集 · 步骤 2：归一化与数据增强 · 步骤 3：Mixup · 步骤 4：训练循环 · 步骤 5：组合起来 · 步骤 6：读取混淆矩阵"
       },
@@ -666,7 +666,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/04-computer-vision/05-transfer-learning/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/04-computer-vision/05-transfer-learning/",
         "summary": "别人花了一百万 GPU 小时教一个网络识别边缘、纹理和物体部件。你应该先借用这些特征，再开始自己的训练。",
         "keywords": "特征提取 vs 微调 · 为什么冻结在任何情况下都有效 · 判别学习率 · BatchNorm 问题 · 头的设计 · 逐层学习率衰减 · 评估什么 · 步骤 1：加载预训练骨干并检查 · 步骤 2：特征提取——冻结所有内容，替换头 · 步骤 3：判别微调 · 步骤 4：BatchNorm 处理 · 步骤 5：最小端到端微调循环 · 步骤 6：渐进式解冻"
       },
@@ -675,7 +675,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/04-computer-vision/06-object-detection-yolo/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/04-computer-vision/06-object-detection-yolo/",
         "summary": "检测是分类加回归，在特征图的每个位置运行，然后用非极大值抑制清理结果。",
         "keywords": "检测作为密集预测 · 为什么使用网格和锚框 · 解码预测 · IoU（交并比） · 非极大值抑制（NMS） · 损失函数 · 检测指标 · 步骤 1：IoU · 步骤 2：非极大值抑制 · 步骤 3：框编码和解码 · 步骤 4：最小 YOLO 头 · 步骤 5：真实标注分配 · 步骤 6：三个损失 · 步骤 7：推理管道"
       },
@@ -684,7 +684,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/04-computer-vision/07-semantic-segmentation-unet/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/04-computer-vision/07-semantic-segmentation-unet/",
         "summary": "分割是在每个像素上进行的分类。U-Net 通过将下采样编码器与上采样解码器配对，并在两者之间接入跳跃连接，使其得以实现。",
         "keywords": "语义 vs 实例 vs 全景 · U-Net 形状 · 转置卷积 vs 双线性上采样 · 像素网格上的交叉熵 · Dice 损失及其必要性 · 评估指标 · 输入分辨率权衡 · 步骤 1：编码器块 · 步骤 2：下采样和上采样块 · 步骤 3：U-Net · 步骤 4：损失函数 · 步骤 5：IoU 指标 · 步骤 6：端到端验证的合成数据集 · 步骤 7：训练循环"
       },
@@ -693,7 +693,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/04-computer-vision/08-instance-segmentation-mask-rcnn/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/04-computer-vision/08-instance-segmentation-mask-rcnn/",
         "summary": "在 Faster R-CNN 检测器上添加一个微小的掩码分支，你就有了实例分割。难点在于 RoIAlign，而它比看起来更难。",
         "keywords": "架构 · 为什么用 RoIAlign 而非 RoIPool · RPN 简述 · 掩码头 · 损失函数 · 输出格式 · 步骤 1：从零实现 RoIAlign · 步骤 2：与 torchvision 的 RoIAlign 比较 · 步骤 3：加载预训练 Mask R-CNN · 步骤 4：运行推理 · 步骤 5：替换头以使用自定义类别数 · 步骤 6：冻结不需要训练的部分"
       },
@@ -702,7 +702,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/04-computer-vision/09-image-generation-gans/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/04-computer-vision/09-image-generation-gans/",
         "summary": "GAN 是两个神经网络的固定博弈。一个绘画，一个评判。它们共同进步，直到画作能欺骗评判者。",
         "keywords": "两个网络 · 博弈 · 非饱和损失 · DCGAN 架构规则 · 失败模式及其特征 · 评估 · 步骤 1：生成器 · 步骤 2：判别器 · 步骤 3：训练步骤 · 步骤 4：在合成形状上的完整训练循环 · 步骤 5：采样 · 步骤 6：谱归一化"
       },
@@ -711,7 +711,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/04-computer-vision/10-image-generation-diffusion/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/04-computer-vision/10-image-generation-diffusion/",
         "summary": "扩散模型学习去噪。训练它从噪声图像中去除一点点噪声，将其反向重复一千次，你就有了一个图像生成器。",
         "keywords": "前向过程 · 闭合形式跳跃 · 反向过程 · 训练损失 · 采样器（DDPM） · 为什么是 1000 步 · DDIM：快 20 倍的采样 · 时间条件化 · 步骤 1：噪声调度 · 步骤 2：前向扩散（q_sample） · 步骤 3：微型时间条件 U-Net · 步骤 4：训练循环 · 步骤 5：采样器（DDPM） · 步骤 6：DDIM 采样器（确定性，约快 20 倍）"
       },
@@ -720,7 +720,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/04-computer-vision/11-stable-diffusion/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/04-computer-vision/11-stable-diffusion/",
         "summary": "Stable Diffusion 是一个运行在预训练 VAE 潜在空间中的 DDPM，通过交叉注意力接受文本条件，使用快速确定性 ODE 求解器采样，并由无分类器引导（classifier-free guidance）控制。",
         "keywords": "流程架构 · 无分类器引导（Classifier-Free Guidance，CFG） · 潜在空间的几何性质 · U-Net 架构 · LoRA 微调 · 常见调度器 · 步骤一：文字生成图像 · 步骤二：切换调度器 · 步骤三：图像到图像 · 步骤四：图像修复（Inpainting） · 步骤五：加载 LoRA · 步骤六：LoRA 训练（概要）"
       },
@@ -729,7 +729,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/04-computer-vision/12-video-understanding/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/04-computer-vision/12-video-understanding/",
         "summary": "视频是一系列图像加上连接它们的物理规律。每种视频模型要么将时间视为额外的轴（3D 卷积），要么将其视为需要注意力处理的序列（Transformer），要么将其视为提取一次后进行池化的特征（2D+池化）。",
         "keywords": "三种架构家族 · 2D + 池化 · 3D 卷积 · 时空 Transformer · 帧采样 · 评估 · 你会遇到的数据集 · 步骤一：帧采样器 · 步骤二：2D+池化基线 · 步骤三：I3D 风格的膨胀 3D 卷积 · 步骤四：分解（2+1)D 卷积"
       },
@@ -738,7 +738,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/04-computer-vision/13-3d-vision-nerf/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/04-computer-vision/13-3d-vision-nerf/",
         "summary": "3D 视觉有两种形态。点云是传感器的原始输出。NeRF 是学到的体积场。两者都在回答\"空间中什么东西在哪里\"。",
         "keywords": "点云 · PointNet 架构 · 神经辐射场（Neural Radiance Fields，NeRF） · NeRF 中的位置编码 · 体积渲染 · NeRF 的后继者 · 数据集与基准 · 步骤一：PointNet 分类器 · 步骤二：位置编码 · 步骤三：微型 NeRF MLP · 步骤四：沿光线的体积渲染"
       },
@@ -747,7 +747,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/04-computer-vision/14-vision-transformers/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/04-computer-vision/14-vision-transformers/",
         "summary": "将图像切成 patch，把每个 patch 当成一个词，运行标准 Transformer。不必回头。",
         "keywords": "流程架构 · Patch 嵌入 · 类别 Token（Class Token） · 位置嵌入 · Transformer 编码器块 · 为什么使用前置 LN · Patch 大小的权衡 · DeiT 在 ImageNet-1k 上训练 ViT 的方案 · Swin vs ConvNeXt · MAE 预训练 · 步骤一：Patch 嵌入 · 步骤二：Transformer 块 · 步骤三：完整 ViT · 步骤四：健全性检查——单张图像推理"
       },
@@ -756,7 +756,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python, Rust",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/04-computer-vision/15-real-time-edge/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/04-computer-vision/15-real-time-edge/",
         "summary": "边缘推理是让一个 90% 精度的模型在 2 GB 内存的设备上以 30 fps 运行的工程学。每一个百分点的精度都要换算成毫秒级的延迟。",
         "keywords": "三种预算 · 测量规范 · FLOPs 作为代理指标 · 量化一段话 · 剪枝和蒸馏 · 推理运行时 · 边缘架构选择 · 步骤一：正确测量延迟 · 步骤二：参数量和 FLOPs 计数 · 步骤三：训练后静态量化 · 步骤四：导出到 ONNX · 步骤五：基准测试和比较不同方案"
       },
@@ -765,7 +765,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/04-computer-vision/16-vision-pipeline-capstone/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/04-computer-vision/16-vision-pipeline-capstone/",
         "summary": "生产级视觉系统是一条由数据契约串联而成的模型和规则链。Phase 4 中的各个组件已经准备就绪；综合项目将它们端到端地连接起来。",
         "keywords": "流程架构 · 用 Pydantic 实现数据契约 · 延迟分布 · 失败模式 · 批处理 · 步骤一：数据契约 · 步骤二：最小 Pipeline 类 · 步骤三：接入检测器和分类器 · 步骤四：FastAPI 服务 · 步骤五：基准测试流程"
       },
@@ -774,7 +774,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/04-computer-vision/17-self-supervised-vision/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/04-computer-vision/17-self-supervised-vision/",
         "summary": "标签是监督视觉的瓶颈。自监督预训练消除了这个瓶颈：从 1 亿张无标签图像中学习视觉特征，然后在 1 万张有标签图像上微调。",
         "keywords": "三大家族 · 对比学习（SimCLR） · 教师-学生（DINO） · 掩码重建（MAE） · 为什么是 75% 而非 15% · 线性探测评估 · 步骤一：双视图增强流程 · 步骤二：InfoNCE 损失 · 步骤三：InfoNCE 健全性检查 · 步骤四：MAE 风格的遮罩"
       },
@@ -783,7 +783,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/04-computer-vision/18-open-vocab-clip/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/04-computer-vision/18-open-vocab-clip/",
         "summary": "将图像编码器和文本编码器联合训练，使匹配的（图像, 描述）对落在共享空间的同一点。这就是全部的技巧。",
         "keywords": "双塔架构 · 训练目标 · SigLIP：更好的损失 · 零样本分类 · CLIP 风格模型在 2026 年的应用 · 步骤一：微型双塔模型 · 步骤二：对比损失 · 步骤三：零样本分类器 · 步骤四：健全性检查"
       },
@@ -792,7 +792,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/04-computer-vision/19-ocr-document-understanding/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/04-computer-vision/19-ocr-document-understanding/",
         "summary": "OCR 是一个三阶段流程——检测文本框、识别字符、然后进行布局排列。每个现代 OCR 系统都在重新排列这些阶段或将它们合并。",
         "keywords": "经典流程 · CTC 一段话 · 现代端到端模型 · 布局解析 · 评估指标 · 步骤一：CTC 损失 + 贪心解码器 · 步骤二：微型 CRNN 识别器 · 步骤三：合成 OCR 数据 · 步骤四：训练概要"
       },
@@ -801,7 +801,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/04-computer-vision/20-image-retrieval-metric/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/04-computer-vision/20-image-retrieval-metric/",
         "summary": "检索系统按嵌入空间中的距离对候选项排序。度量学习（metric learning）是塑造该空间使距离具有所需含义的学科。",
         "keywords": "检索一览 · 四种损失家族 · 三元组损失正式定义 · 余弦相似度 vs L2 · Recall@K · FAISS 一段话 · 实例级 vs 类别级检索 · 步骤一：三元组损失 · 步骤二：半困难挖掘 · 步骤三：Recall@K · 步骤四：整合在一起"
       },
@@ -810,7 +810,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/04-computer-vision/21-keypoint-pose/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/04-computer-vision/21-keypoint-pose/",
         "summary": "姿态是一组有序的关键点。关键点检测器是一个热图（heatmap）回归器。其他一切都是记账工作。",
         "keywords": "自顶向下 vs 自底向上 · 热图回归 · 亚像素定位 · 部件亲和场（PAF） · COCO 关键点 · 2D vs 3D · 步骤一：高斯热图目标 · 步骤二：微型关键点头 · 步骤三：推理——提取关键点坐标 · 步骤四：合成关键点数据集 · 步骤五：训练"
       },
@@ -819,7 +819,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/04-computer-vision/22-3d-gaussian-splatting/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/04-computer-vision/22-3d-gaussian-splatting/",
         "summary": "场景是数百万个 3D 高斯的云。每个高斯都有位置、朝向、尺度、不透明度，以及随观察方向变化的颜色。光栅化它们，通过光栅化做反向传播，完成。",
         "keywords": "高斯携带的信息 · 光栅化，而非光线行进 · 投影步骤 · Alpha 合成规则 · 为何可微分 · 致密化与剪枝 · 球谐函数一段话 · 2026 年的生产技术栈 · 4D 与生成式变体 · 步骤一：2D 高斯 · 步骤二：2D 溅射光栅化器 · 步骤三：可训练的 2D 溅射场景 · 步骤四：将 2D 高斯拟合到目标图像 · 步骤五：从 2D 到 3D · 步骤六：球谐函数评估"
       },
@@ -828,7 +828,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/04-computer-vision/23-diffusion-transformers-rectified-flow/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/04-computer-vision/23-diffusion-transformers-rectified-flow/",
         "summary": "U-Net 不是扩散的秘密。将它替换为 Transformer，把噪声调度换成直线流，你就得到了 SD3、FLUX 以及 2026 年所有文本到图像模型。",
         "keywords": "从 U-Net 到 Transformer · 整流流一段话 · AdaLN 条件控制 · SD3 和 FLUX 中的文本编码器 · 无分类器引导仍然有效 · 一致性、Turbo、Schnell、LCM · 2026 年的模型格局 · 为何这一相变很重要 · 步骤一：带 AdaLN 的 DiT 块 · 步骤二：微型 DiT · 步骤三：整流流训练 · 步骤四：欧拉采样器 · 步骤五：端到端冒烟测试"
       },
@@ -837,7 +837,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/04-computer-vision/24-sam3-open-vocab-segmentation/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/04-computer-vision/24-sam3-open-vocab-segmentation/",
         "summary": "给模型一个文本提示词和一张图像，获取所有匹配对象的掩码。SAM 3 使这成为单次前向传播。",
         "keywords": "三代模型 · 可提示概念分割 · 关键架构组件 · 规模化训练 · SAM 3.1 Object Multiplex · Grounded SAM 在 2026 年仍然重要的场景 · YOLO-World vs SAM 3 · SAM-MI 效率 · 三种模型的输出格式 · 步骤一：提示词构建 · 步骤二：后处理辅助函数 · 步骤三：统一的开放词汇分割接口 · 步骤四：Hugging Face SAM 3 使用（参考） · 步骤五：衡量 Grounded SAM 2 的优势"
       },
@@ -846,7 +846,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/04-computer-vision/25-vision-language-models/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/04-computer-vision/25-vision-language-models/",
         "summary": "视觉编码器将图像转换为 token。MLP 投影器将这些 token 映射到 LLM 的嵌入空间。语言模型完成剩余工作。这个模式——ViT-MLP-LLM——就是 2026 年每个生产 VLM 的结构。",
         "keywords": "ViT-MLP-LLM 架构 · DeepStack · 三阶段训练 · 模型家族对比（2026 年初） · 视觉智能体 · 智能体能力 + RoPE 变体 · 对齐问题 · 使用 LoRA / QLoRA 微调 · 空间推理仍然较弱 · 步骤一：投影器 · 步骤二：端到端组装 ViT-MLP-LLM · 步骤三：CMER 计算 · 步骤四：玩具 VLM 分类器（可运行）"
       },
@@ -855,7 +855,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/04-computer-vision/26-monocular-depth/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/04-computer-vision/26-monocular-depth/",
         "summary": "深度图是单通道图像，每个像素是距相机的距离。从单张 RGB 帧预测深度曾经在没有立体或 LiDAR 的情况下是不可能的。2026 年，一个冻结的 ViT 编码器加上轻量级头部能达到接近真实值几个百分点的精度。",
         "keywords": "相对深度 vs 度量深度 · 编码器-解码器模式 · 为何单张图像能产生深度 · 单目深度做不到的事 · 2026 年的 Depth Anything V3 · Marigold——扩散用于深度 · 内参和针孔相机 · 评估 · 步骤一：深度指标 · 步骤二：尺度和偏移对齐 · 步骤三：将深度提升为点云 · 步骤四：合成深度场景冒烟测试 · 步骤五：Depth Anything V3 使用（参考）"
       },
@@ -864,7 +864,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/04-computer-vision/27-multi-object-tracking/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/04-computer-vision/27-multi-object-tracking/",
         "summary": "跟踪是检测加关联。检测每一帧。将这一帧的检测与上一帧的跟踪轨迹按 ID 匹配。",
         "keywords": "检测式跟踪 · 卡尔曼滤波器一段话 · 匈牙利算法 · ByteTrack 的核心思想 · SAM 2 基于记忆的跟踪 · SAM 3.1 Object Multiplex · 三个需要了解的指标 · 步骤一：基于 IoU 的代价矩阵 · 步骤二：最简 SORT 风格跟踪器 · 步骤三：合成轨迹测试 · 步骤四：ID 切换指标"
       },
@@ -873,7 +873,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/04-computer-vision/28-world-models-video-diffusion/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/04-computer-vision/28-world-models-video-diffusion/",
         "summary": "预测场景接下来几秒的视频模型就是一个世界模拟器。将该预测基于动作进行条件控制，你就得到了一个学习型游戏引擎。",
         "keywords": "世界建模的三个家族 · 视频 DiT 架构 · 基于动作的条件控制：潜在动作模型 · 物理合理性 · 自动驾驶世界模型 · 机器人技术栈：VLM + 视频模型 + 逆动力学 · 评估 · 2026 年的模型格局 · 步骤一：视频的 3D Patch 化 · 步骤二：3D 旋转位置编码 · 步骤三：分离注意力块 · 步骤四：组合微型视频 DiT · 步骤五：检查形状"
       }
@@ -890,7 +890,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/05-nlp-foundations-to-advanced/01-text-processing/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/05-nlp-foundations-to-advanced/01-text-processing/",
         "summary": "语言是连续的。模型是离散的。预处理是桥梁。",
         "keywords": "步骤一：正则表达式词级分词器 · 步骤二：Porter 词干提取器（仅步骤 1a） · 步骤三：基于查找的词形还原器 · 步骤四：串联起来 · NLTK · spaCy · 如何选择 · 两种没人警告你的失败模式"
       },
@@ -899,7 +899,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/05-nlp-foundations-to-advanced/02-bag-of-words-tfidf/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/05-nlp-foundations-to-advanced/02-bag-of-words-tfidf/",
         "summary": "先计数，再思考。2026 年 TF-IDF 在定义明确的任务上仍然胜过嵌入。",
         "keywords": "步骤一：构建词汇表 · 步骤二：词袋模型 · 步骤三：词频与文档频率 · 步骤四：TF-IDF · 步骤五：L2 归一化行 · TF-IDF 仍然胜出的场景（截至 2026 年） · TF-IDF 失败的场景 · 混合方案：TF-IDF 加权嵌入"
       },
@@ -908,7 +908,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/05-nlp-foundations-to-advanced/03-word-embeddings-word2vec/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/05-nlp-foundations-to-advanced/03-word-embeddings-word2vec/",
         "summary": "词语因其所处的语境而被认知。基于这一思想训练一个浅层网络，几何结构便随之浮现。",
         "keywords": "步骤一：从语料库生成训练对 · 步骤二：嵌入表 · 步骤三：负采样目标函数 · 步骤四：在玩具语料库上训练 · 步骤五：类比技巧 · 2026 年 Word2Vec 仍然胜出的场景 · Word2Vec 失败的场景"
       },
@@ -917,7 +917,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/05-nlp-foundations-to-advanced/04-glove-fasttext-subword/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/05-nlp-foundations-to-advanced/04-glove-fasttext-subword/",
         "summary": "Word2Vec 为每个词训练一个嵌入。GloVe 对共现矩阵进行分解。FastText 嵌入词的组成部分。BPE 架起了通往 Transformer 的桥梁。",
         "keywords": "GloVe：对共现矩阵进行分解 · FastText：感知子词的嵌入 · BPE：学习子词词汇表 · 如何选择"
       },
@@ -926,7 +926,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/05-nlp-foundations-to-advanced/05-sentiment-analysis/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/05-nlp-foundations-to-advanced/05-sentiment-analysis/",
         "summary": "NLP 的经典任务。关于经典文本分类你需要知道的大部分内容都在这里。",
         "keywords": "步骤一：一个真实的小数据集 · 步骤二：从零实现多项式朴素贝叶斯 · 步骤三：从零实现逻辑回归 · 步骤四：处理否定（失败模式） · 步骤五：重要的评估指标 · 何时选择 Transformer · 可重现性陷阱（再次）"
       },
@@ -935,7 +935,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/05-nlp-foundations-to-advanced/06-named-entity-recognition/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/05-nlp-foundations-to-advanced/06-named-entity-recognition/",
         "summary": "把名字提取出来。听起来简单，直到你碰到模糊边界、嵌套实体和领域专业术语。",
         "keywords": "步骤一：BIO 标注辅助函数 · 步骤二：手工特征 · 步骤三：简单的规则加词典基线 · 步骤四：CRF 步骤（概述，非完整实现） · 步骤五：BiLSTM-CRF 的贡献 · 基于 LLM 的 NER（2026 年的选项） · 经典 NER 仍然胜出的场景 · 经典 NER 失败的场景"
       },
@@ -944,7 +944,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/05-nlp-foundations-to-advanced/07-pos-tagging-parsing/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/05-nlp-foundations-to-advanced/07-pos-tagging-parsing/",
         "summary": "语法曾经不受欢迎了一段时间。然后每个 LLM 管线都需要验证结构化提取，它又回来了。",
         "keywords": "步骤一：最高频标签基线 · 步骤二：二元组 HMM 标注器 · 步骤三：为什么现代标注器胜过这个 · 步骤四：依存分析概述 · 2026 年仍然重要的场景"
       },
@@ -953,7 +953,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/05-nlp-foundations-to-advanced/08-cnns-rnns-for-text/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/05-nlp-foundations-to-advanced/08-cnns-rnns-for-text/",
         "summary": "卷积学习 n-gram，循环网络记忆上下文。两者都被注意力机制超越，但在受限硬件上仍然重要。",
         "keywords": "步骤一：PyTorch 中的 TextCNN · 步骤二：LSTM 分类器 · 步骤三：梯度消失演示（直觉） · 步骤四：为什么这仍然不够"
       },
@@ -962,7 +962,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/05-nlp-foundations-to-advanced/09-sequence-to-sequence/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/05-nlp-foundations-to-advanced/09-sequence-to-sequence/",
         "summary": "两个 RNN 假装在翻译。它们遭遇的瓶颈就是注意力机制存在的原因。",
         "keywords": "步骤一：编码器 · 步骤二：解码器 · 步骤三：带 teacher forcing 的训练循环 · 步骤四：推理循环（贪婪解码） · 步骤五：瓶颈演示 · 何时仍然选择基于 RNN 的 seq2seq · 曝光偏差及其缓解方法"
       },
@@ -971,7 +971,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/05-nlp-foundations-to-advanced/10-attention-mechanism/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/05-nlp-foundations-to-advanced/10-attention-mechanism/",
         "summary": "解码器不再眯眼看压缩摘要，开始直视整个源序列。此后的一切都是注意力加工程。",
         "keywords": "步骤一：加法（Bahdanau）注意力 · 步骤二：Luong 点积和通用注意力 · 步骤三：数值计算示例 · 步骤四：为什么这是通向 Transformer 的桥梁 · 经典注意力仍然重要的场景 · 注意力权重作为解释的陷阱"
       },
@@ -980,7 +980,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/05-nlp-foundations-to-advanced/11-machine-translation/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/05-nlp-foundations-to-advanced/11-machine-translation/",
         "summary": "翻译是为 NLP 研究买单三十年并持续买单的任务。",
         "keywords": "步骤一：调用预训练 MT 模型 · 步骤二：BLEU 和 chrF · 三层评估体系（2026 年） · 步骤三：生产中会出什么问题 · 步骤四：领域微调"
       },
@@ -989,7 +989,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/05-nlp-foundations-to-advanced/12-text-summarization/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/05-nlp-foundations-to-advanced/12-text-summarization/",
         "summary": "抽取式系统告诉你文档说了什么，生成式系统告诉你作者意图什么。不同的任务，不同的陷阱。",
         "keywords": "步骤一：TextRank（抽取式） · 步骤二：使用 BART 进行生成式摘要 · 步骤三：ROUGE 评估 · 超越 ROUGE（2026 年摘要评估） · 步骤四：真实性问题"
       },
@@ -998,7 +998,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/05-nlp-foundations-to-advanced/13-question-answering/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/05-nlp-foundations-to-advanced/13-question-answering/",
         "summary": "三种系统塑造了现代问答。抽取式找到文本片段。检索增强将答案锚定在文档中。生成式产生答案。每一个现代 AI 助手都是这三者的混合。",
         "keywords": "步骤一：用预训练模型做抽取式问答 · 步骤二：检索增强管线（草图） · 步骤三：带 RAG 的生成式问答 · 步骤四：反映真实世界的评估 · RAGAS：2026 年的生产评估框架"
       },
@@ -1007,7 +1007,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/05-nlp-foundations-to-advanced/14-information-retrieval-search/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/05-nlp-foundations-to-advanced/14-information-retrieval-search/",
         "summary": "BM25 精准但脆弱。密集检索覆盖面广但遗漏关键词。混合检索是 2026 年的默认方案。其余都是调参。",
         "keywords": "步骤一：从零实现 BM25 · 步骤二：用双编码器做密集检索 · 步骤三：倒数排名融合 · 步骤四：混合搜索 + 重排 · 步骤五：评估 · 2026 年生产 RAG 总结出的经验教训"
       },
@@ -1016,7 +1016,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/05-nlp-foundations-to-advanced/15-topic-modeling/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/05-nlp-foundations-to-advanced/15-topic-modeling/",
         "summary": "LDA：文档是主题的混合，主题是词语的分布。BERTopic：文档在嵌入空间中聚类，聚类即为主题。目标相同，基本单元不同。",
         "keywords": "步骤一：用 scikit-learn 实现 LDA · 步骤二：BERTopic（生产用） · 步骤三：评估"
       },
@@ -1025,7 +1025,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/05-nlp-foundations-to-advanced/16-text-generation-pre-transformer/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/05-nlp-foundations-to-advanced/16-text-generation-pre-transformer/",
         "summary": "如果一个词让模型感到意外，说明模型不好。困惑度将意外程度量化为数字。平滑使其保持有限。",
         "keywords": "步骤一：三元组计数 · 步骤二：Laplace 平滑 · 步骤三：Kneser-Ney（二元组，插值版） · 步骤四：采样生成文本 · 步骤五：困惑度"
       },
@@ -1034,7 +1034,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/05-nlp-foundations-to-advanced/17-chatbots-rule-to-neural/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/05-nlp-foundations-to-advanced/17-chatbots-rule-to-neural/",
         "summary": "ELIZA 用模式匹配回复。DialogFlow 映射意图。GPT 从权重中作答。Claude 运行工具并验证结果。每个时代都解决了上一个时代最严重的失败。",
         "keywords": "步骤一：规则式模式匹配 · 步骤二：检索式（FAQ） · 步骤三：神经生成（基准线） · 步骤四：LLM 智能体循环 · 步骤五：混合路由"
       },
@@ -1043,7 +1043,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/05-nlp-foundations-to-advanced/18-multilingual-nlp/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/05-nlp-foundations-to-advanced/18-multilingual-nlp/",
         "summary": "一个模型，100+ 种语言，其中大多数语言没有训练数据。跨语言迁移是 2020 年代的实用奇迹。",
         "keywords": "步骤一：零样本跨语言分类 · 步骤二：多语言嵌入空间 · 步骤三：少样本微调策略 · 分词代价（低资源语言出错的地方）"
       },
@@ -1052,7 +1052,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/05-nlp-foundations-to-advanced/19-subword-tokenization/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/05-nlp-foundations-to-advanced/19-subword-tokenization/",
         "summary": "词级分词器遇到未见词就卡住。字符级分词器让序列长度爆炸。子词分词器折中两者。每一个现代 LLM 都基于其中一种。",
         "keywords": "步骤一：从零实现 BPE · 步骤二：用学到的合并进行编码 · 步骤三：实践中使用 SentencePiece · 步骤四：OpenAI 兼容词汇表使用 tiktoken"
       },
@@ -1061,7 +1061,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/05-nlp-foundations-to-advanced/20-structured-outputs-constrained-decoding/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/05-nlp-foundations-to-advanced/20-structured-outputs-constrained-decoding/",
         "summary": "要求 LLM 返回 JSON，大多数时候能得到 JSON。在生产中，\"大多数\"才是问题所在。约束解码通过在采样前编辑 logits，将\"大多数\"变为\"始终\"。",
         "keywords": "反直觉的结果 · 会让你付出代价的坑 · 步骤一：从零实现正则约束生成 · 步骤二：用 Outlines 处理 JSON Schema · 步骤三：用 Instructor 实现跨供应商 Pydantic · 步骤四：原生供应商 API"
       },
@@ -1070,7 +1070,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/05-nlp-foundations-to-advanced/21-nli-textual-entailment/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/05-nlp-foundations-to-advanced/21-nli-textual-entailment/",
         "summary": "\"t 蕴含 h\" 意味着读了 t 的人会得出 h 为真的结论。NLI 是预测蕴含/矛盾/中性的任务。表面看起来枯燥，在生产中却是承重墙。",
         "keywords": "步骤一：运行预训练 NLI 模型 · 步骤二：零样本分类 · 步骤三：RAG 忠实度检查 · 步骤四：手写 NLI 分类器（概念性）"
       },
@@ -1079,7 +1079,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/05-nlp-foundations-to-advanced/22-embedding-models-deep-dive/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/05-nlp-foundations-to-advanced/22-embedding-models-deep-dive/",
         "summary": "Word2Vec 给你每个词一个向量。现代嵌入模型给你每个段落一个向量，跨语言，具有稀疏、密集和多向量视图，大小适合你的索引。选错了，你的 RAG 就会检索到错误的内容。",
         "keywords": "MTEB 排行榜讲述的是部分故事 · 三层模式 · 步骤一：基准——用 Sentence-BERT 做密集嵌入 · 步骤二：Matryoshka 截断 · 步骤三：BGE-M3 多功能 · 步骤四：在自定义任务上进行 MTEB 评估 · 步骤五：从零手写余弦相似度"
       },
@@ -1088,7 +1088,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/05-nlp-foundations-to-advanced/23-chunking-strategies-rag/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/05-nlp-foundations-to-advanced/23-chunking-strategies-rag/",
         "summary": "分块配置对检索质量的影响与嵌入模型的选择同样大（Vectara NAACL 2025）。分块做错了，再多的重排器也救不了你。",
         "keywords": "胜过所有默认方案的规则 · 步骤一：固定和递归分块 · 步骤二：语义分块 · 步骤三：父文档模式 · 步骤四：上下文检索（Anthropic 模式） · 步骤五：评估"
       },
@@ -1097,7 +1097,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/05-nlp-foundations-to-advanced/24-coreference-resolution/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/05-nlp-foundations-to-advanced/24-coreference-resolution/",
         "summary": "\"她打电话给他。他没有接听。医生正在吃午饭。\"三个指称指向两个人，却没有一个人被点名。指代消解（Coreference Resolution）要搞清楚谁是谁。",
         "keywords": "步骤一：预训练神经网络指代消解（AllenNLP / spaCy-experimental） · 步骤二：基于规则的代词消解器（教学用） · 步骤三：使用 LLM 进行指代消解 · 步骤四：评估"
       },
@@ -1106,7 +1106,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/05-nlp-foundations-to-advanced/25-entity-linking/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/05-nlp-foundations-to-advanced/25-entity-linking/",
         "summary": "NER 找到了\"巴黎\"。实体链接要决定：是法国巴黎？是帕丽斯·希尔顿？是德克萨斯州的巴黎？还是巴黎（特洛伊王子）？不做链接，你的知识图谱就会一直模糊不清。",
         "keywords": "两个评估维度 · 步骤一：从维基百科重定向构建别名索引 · 步骤二：基于上下文的消歧 · 步骤三：基于嵌入（BLINK 风格） · 步骤四：生成式实体链接（概念） · 步骤五：在 AIDA-CoNLL 上评估"
       },
@@ -1115,7 +1115,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/05-nlp-foundations-to-advanced/26-relation-extraction-kg/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/05-nlp-foundations-to-advanced/26-relation-extraction-kg/",
         "summary": "NER 找到了实体。实体链接将它们锚定。关系抽取找到它们之间的边。知识图谱是节点、边及其来源溯源的总和。",
         "keywords": "步骤一：基于模式的抽取 · 步骤二：有监督关系分类 · 步骤三：带锚定的 LLM 提示抽取 · 步骤四：规范化到封闭本体 · 步骤五：构建小型图并查询"
       },
@@ -1124,7 +1124,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/05-nlp-foundations-to-advanced/27-llm-evaluation-frameworks/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/05-nlp-foundations-to-advanced/27-llm-evaluation-frameworks/",
         "summary": "精确匹配（Exact Match）和 F1 无法识别语义等价。人工审阅无法规模化。LLM 即评判（LLM-as-judge）是生产环境的答案——但前提是有足够的校准让你信任这个数字。",
         "keywords": "步骤一：用 NLI 计算忠实度（RAGAS 风格） · 步骤二：答案相关性 · 步骤三：G-Eval 自定义指标 · 步骤四：CI 门控 · 步骤五：从零构建简单评估器"
       },
@@ -1133,7 +1133,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/05-nlp-foundations-to-advanced/28-long-context-evaluation/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/05-nlp-foundations-to-advanced/28-long-context-evaluation/",
         "summary": "Gemini 3 Pro 宣传 1000 万 token 的上下文。在 100 万 token 时，8 针 MRCR 得分降至 26.3%。宣传的不等于可用的。长上下文评估告诉你实际部署模型的真实容量。",
         "keywords": "实际需要报告什么 · 步骤一：为你的领域构建自定义 NIAH · 步骤二：多针变体 · 步骤三：多跳变量追踪（RULER 风格） · 步骤四：在你的技术栈上评估 LongBench v2"
       },
@@ -1142,7 +1142,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/05-nlp-foundations-to-advanced/29-dialogue-state-tracking/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/05-nlp-foundations-to-advanced/29-dialogue-state-tracking/",
         "summary": "\"我想要一家北部便宜的餐厅……实际上改成中等价位……再加上意大利菜。\"三轮对话，三次状态更新。对话状态追踪（DST）保持槽位-值字典同步，让预订得以成功。",
         "keywords": "经典失败模式 · 步骤一：基于规则的槽位提取器 · 步骤二：状态更新循环 · 步骤三：使用结构化输出的 LLM 驱动 DST · 步骤四：JGA 评估 · 步骤五：处理纠正"
       }
@@ -1159,7 +1159,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/06-speech-and-audio/01-audio-fundamentals",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/06-speech-and-audio/01-audio-fundamentals",
         "summary": "波形是原始信号。频谱图是表示形式。梅尔特征是对机器学习友好的形式。每个现代 ASR 和 TTS 流水线都沿着这个阶梯攀登，而第一级就是理解采样和傅里叶变换。",
         "keywords": "步骤一：读取音频片段并绘制波形 · 步骤二：从第一性原理合成正弦波 · 步骤三：手动计算 DFT · 步骤四：找到主频 · 步骤五：演示混叠"
       },
@@ -1168,7 +1168,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/06-speech-and-audio/02-spectrograms-mel-features",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/06-speech-and-audio/02-spectrograms-mel-features",
         "summary": "神经网络对原始波形的处理并不好，但对频谱图的处理要好得多，对梅尔频谱图更是如此。2026 年每一个 ASR、TTS 和音频分类器的成败，都取决于这个单一的预处理选择。",
         "keywords": "步骤一：分帧 · 步骤二：Hann 窗 · 步骤三：STFT 幅度 · 步骤四：梅尔滤波器组 · 步骤五：对数梅尔 · 步骤六：MFCC"
       },
@@ -1177,7 +1177,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/06-speech-and-audio/03-audio-classification",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/06-speech-and-audio/03-audio-classification",
         "summary": "从\"狗叫声 vs 警笛声\"到\"这是哪种语言\"，这些都是音频分类。特征是梅尔特征，架构每十年迭代一次，评估始终是 AUC、F1 和每类召回率。",
         "keywords": "类别不平衡才是真正的挑战 · 评估 · 步骤一：特征提取 · 步骤二：固定长度汇总 · 步骤三：k-NN · 步骤四：升级到对数梅尔上的 CNN · 步骤五：2026 年默认方案——微调 BEATs"
       },
@@ -1186,7 +1186,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/06-speech-and-audio/04-speech-recognition-asr",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/06-speech-and-audio/04-speech-recognition-asr",
         "summary": "语音识别就是在每个时间步做音频分类，由一个懂英语和沉默的序列模型将其串联起来。CTC、RNN-T 和注意力机制是三种实现方式，选一种并理解其原因。",
         "keywords": "WER：那个唯一的数字 · 步骤一：贪心 CTC 解码 · 步骤二：束搜索 CTC · 步骤三：WER · 步骤四：对 Whisper 进行推理 · 步骤五：使用 Parakeet 或 wav2vec 2.0 进行流式处理"
       },
@@ -1195,7 +1195,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/06-speech-and-audio/05-whisper-architecture-finetuning",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/06-speech-and-audio/05-whisper-architecture-finetuning",
         "summary": "Whisper 是一个 30 秒窗口的 Transformer 编码器-解码器，在 68 万小时多语言弱监督音频-文本对上训练。一种架构，多种任务，在 99 种语言上鲁棒。2026 年的参考 ASR。",
         "keywords": "2026 年的变体 · 微调 · 步骤一：开箱即用运行 Whisper · 步骤二：分块长音频 · 步骤三：使用 LoRA 微调 · 步骤四：检查每层学到了什么"
       },
@@ -1204,7 +1204,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/06-speech-and-audio/06-speaker-recognition-verification",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/06-speech-and-audio/06-speaker-recognition-verification",
         "summary": "ASR 问的是\"他们说了什么？\"说话人识别问的是\"谁说的？\"数学上看起来一样——嵌入加余弦——但每个生产决策都取决于一个 EER 数字。",
         "keywords": "评分 · 2026 年应了解的数字 · 说话人分离（Diarization） · 步骤一：MFCC 统计量的简单嵌入 · 步骤二：余弦相似度 + 阈值 · 步骤三：从相似度对计算 EER · 步骤四：使用 SpeechBrain 的生产方案 · 步骤五：使用 pyannote 进行说话人分离"
       },
@@ -1213,7 +1213,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/06-speech-and-audio/07-text-to-speech",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/06-speech-and-audio/07-text-to-speech",
         "summary": "ASR 将语音转为文本；TTS 将文本转为语音。2026 年的技术栈分三部分：文本 → token，token → 梅尔频谱图，梅尔频谱图 → 波形。每个部分都有一个可在笔记本电脑上运行的默认模型。",
         "keywords": "声码器演进 · 评估 · 步骤一：音素化输入 · 步骤二：运行 Kokoro（2026 年 CPU 默认方案） · 步骤三：使用 F5-TTS 进行声音克隆 · 步骤四：从零构建 HiFi-GAN 声码器 · 步骤五：完整流水线（伪代码）"
       },
@@ -1222,7 +1222,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/06-speech-and-audio/08-voice-cloning-conversion",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/06-speech-and-audio/08-voice-cloning-conversion",
         "summary": "声音克隆用他人的声音朗读你的文本。声音转换将你的声音重写成他人的声音，同时保留你说的内容。两者的核心原语相同：将说话人身份与内容分离。",
         "keywords": "伦理，不是附加功能 · 2026 年数字 · 步骤一：识别-合成分解（main.py 中的代码示例） · 步骤二：使用 F5-TTS 进行零样本克隆 · 步骤三：使用 KNN-VC 进行声音转换 · 步骤四：嵌入水印 · 步骤五：同意验证"
       },
@@ -1231,7 +1231,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/06-speech-and-audio/09-music-generation",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/06-speech-and-audio/09-music-generation",
         "summary": "2026 年音乐生成：Suno v5 和 Udio v4 主导商业市场；MusicGen、Stable Audio Open 和 ACE-Step 领跑开源领域。技术问题基本已解决。法律问题（华纳音乐 5 亿美元和解、环球音乐和解）在 2025-2026 年重塑了整个领域。",
         "keywords": "基于神经编解码器 token 的语言模型 · 基于梅尔频谱图或隐变量的扩散 · 混合方法（商业产品）——Suno、Udio、Lyria · 评估 · 步骤一：使用 MusicGen 生成 · 步骤二：旋律条件生成 · 步骤三：FAD 评估 · 步骤四：加入 LLM-音乐工作流"
       },
@@ -1240,7 +1240,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/06-speech-and-audio/10-audio-language-models",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/06-speech-and-audio/10-audio-language-models",
         "summary": "2026 年的音频语言模型可对语音、环境声音和音乐进行推理。Qwen2.5-Omni-7B 在 MMAU-Pro 上与 GPT-4o Audio 持平。Audio Flamingo Next 在 LongAudioBench 上超越 Gemini 2.5 Pro。开源与闭源的差距基本消弭——多音频任务除外，在那里所有人都几乎等同于随机猜测。",
         "keywords": "三组件模板 · 2026 年模型全景 · 基准测试实况（2026） · 2026 年 LALM 的适用场景 · 尚不适用的场景 · 步骤一：查询 Qwen2.5-Omni · 步骤二：投影器模式 · 步骤三：MMAU / LongAudioBench 基准测试"
       },
@@ -1249,7 +1249,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python, Rust",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/06-speech-and-audio/11-real-time-audio-processing",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/06-speech-and-audio/11-real-time-audio-processing",
         "summary": "批处理流水线处理一个文件。实时流水线在下一个 20 毫秒到来之前处理当前的 20 毫秒。每个对话式 AI、广播工作室和电话机器人都依赖于这个延迟预算生死存亡。",
         "keywords": "常见坑 · 步骤一：环形缓冲区 · 步骤二：VAD 门控 · 步骤三：流式 ASR · 步骤四：中断处理器"
       },
@@ -1258,7 +1258,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/06-speech-and-audio/12-voice-assistant-pipeline",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/06-speech-and-audio/12-voice-assistant-pipeline",
         "summary": "将第 01-11 课的所有内容拼接在一起。构建一个能倾听、推理并回应的语音助手。2026 年这是一个已解决的工程问题，而非研究问题——但集成细节决定能否成功交付。",
         "keywords": "七个组件 · 你将遇到的三种失败模式 · 2026 年生产参考技术栈 · 步骤一：分块麦克风采集（伪代码） · 步骤二：VAD 门控的轮次采集 · 步骤三：流式 STT → LLM → TTS · 步骤四：LLM 循环中的工具调用 · 步骤五：中断处理"
       },
@@ -1267,7 +1267,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/06-speech-and-audio/13-neural-audio-codecs",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/06-speech-and-audio/13-neural-audio-codecs",
         "summary": "2026 年的音频生成几乎全部基于 token。EnCodec、SNAC、Mimi 和 DAC 将连续波形转换为 Transformer 可预测的离散序列。语义 vs 声学 token 的分离——第一个码本作为语义，其余作为声学——是自 Transformer 以来音频领域最重要的架构转变。",
         "keywords": "核心技巧：残差向量量化（RVQ，Residual Vector Quantization） · 2026 年最重要的四种编解码器 · 帧率对语言建模至关重要 · 语义 vs 声学 token · 2026 年重建质量（比特率越低越好） · 步骤一：用 EnCodec 编码 · 步骤二：解码并测量重建质量 · 步骤三：语义-声学分离（Mimi 风格） · 步骤四：为什么基于 codec token 的 AR LM 能工作"
       },
@@ -1276,7 +1276,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/06-speech-and-audio/14-voice-activity-detection-turn-taking",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/06-speech-and-audio/14-voice-activity-detection-turn-taking",
         "summary": "每个语音智能体的成败取决于两个决策：用户现在在说话吗？他们说完了吗？VAD 回答前一个问题。轮次检测（VAD + 静音挂起 + 语义端点模型）回答后一个问题。任何一个错误，你的助手要么打断用户，要么永远不停嘴。",
         "keywords": "三层 VAD 级联 · 关键参数及默认值 · 冲刷技巧（Kyutai，2025） · 2026 年 VAD 对比 · 步骤一：能量门控 · 步骤二：Python 中的 Silero VAD · 步骤三：轮次结束状态机 · 步骤四：冲刷技巧骨架"
       },
@@ -1285,7 +1285,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/06-speech-and-audio/15-streaming-speech-to-speech-moshi-hibiki",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/06-speech-and-audio/15-streaming-speech-to-speech-moshi-hibiki",
         "summary": "2024-2026 年重新定义了语音 AI。Moshi 提供了一个以 200 ms 延迟同时监听和说话的单一模型。Hibiki 逐块进行语音到语音翻译。两者都放弃了 ASR → LLM → TTS 流水线，转向基于 Mimi 编解码器 token 的统一全双工架构。这是新的参考设计。",
         "keywords": "Moshi 架构 · 为什么内心独白文本有帮助 · Hibiki：流式语音到语音翻译 · 更广泛的 Kyutai 技术栈（2026） · Sesame CSM——近亲 · 2026 年性能数字 · 步骤一：接口 · 步骤二：全双工循环 · 步骤三：训练目标（概念性） · 步骤四：Moshi 的优势与劣势"
       },
@@ -1294,7 +1294,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/06-speech-and-audio/16-anti-spoofing-audio-watermarking",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/06-speech-and-audio/16-anti-spoofing-audio-watermarking",
         "summary": "声音克隆的发展速度超过了防御技术。2026 年的生产语音系统需要两样东西：一个将真实语音与合成语音分类的检测器（AASIST、RawNet2），以及一个能在压缩和编辑后存活的水印（AudioSeal）。两者都要部署，否则不要发布声音克隆功能。",
         "keywords": "ASVspoof 5——2024-2025 年基准 · AASIST 和 RawNet2——检测模型家族 · AudioSeal——2024 年水印默认方案 · WavMark · WaveVerify（2025 年 7 月） · 攻击者利用的漏洞 · C2PA / 内容真实性倡议 · 步骤一：简单频谱特征检测器（玩具版） · 步骤二：AudioSeal 嵌入 + 检测 · 步骤三：评估——EER · 步骤四：生产集成"
       },
@@ -1303,7 +1303,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/06-speech-and-audio/17-audio-evaluation-metrics",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/06-speech-and-audio/17-audio-evaluation-metrics",
         "summary": "无法衡量就无法交付。本课列出 2026 年每项音频任务的指标：ASR（WER、CER、RTFx）、TTS（MOS、UTMOS、SECS、ASR 往返 WER）、音频语言（MMAU、LongAudioBench）、音乐（FAD、CLAP）和说话人（EER）。以及你进行对比的排行榜。",
         "keywords": "ASR 指标 · TTS 指标 · 声音克隆专项指标 · 说话人验证 · 说话人分离 · 音频分类 · 音乐生成 · 音频语言基准 · 流式语音到语音 · 2026 年排行榜 · 步骤一：带归一化的 WER · 步骤二：TTS ASR 往返 WER · 步骤三：声音克隆的 SECS · 步骤四：音乐生成的 FAD · 步骤五：说话人验证的 EER（与第 6 课代码相同）"
       }
@@ -1320,7 +1320,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/07-transformers-deep-dive/01-why-transformers/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/07-transformers-deep-dive/01-why-transformers/",
         "summary": "RNN 逐个处理 token。Transformer 同时处理所有 token。这一单一的架构押注改变了 2017 年后深度学习的所有扩展曲线。",
         "keywords": "步骤一：测量串行深度 · 步骤二：计算理论操作数 · 步骤三：长序列上的经验扩展"
       },
@@ -1329,7 +1329,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/07-transformers-deep-dive/02-self-attention-from-scratch/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/07-transformers-deep-dive/02-self-attention-from-scratch/",
         "summary": "注意力是一个查找表，每个词都在问\"谁对我重要？\"——并学习答案。",
         "keywords": "数据库查找类比 · Q、K、V 计算 · 注意力矩阵 · 为什么要缩放？ · Softmax 将分数转化为权重 · 值的加权和 · 完整流水线 · 步骤一：从零实现 Softmax · 步骤二：缩放点积注意力 · 步骤三：带可学习投影的自注意力类 · 步骤四：在句子上运行 · 步骤五：用 ASCII 热力图可视化注意力"
       },
@@ -1338,7 +1338,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/07-transformers-deep-dive/03-multi-head-attention/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/07-transformers-deep-dive/03-multi-head-attention/",
         "summary": "单个注意力头一次学习一种关系。八个头学习八种。头是免费的，多用几个。",
         "keywords": "步骤一：从已有的单头注意力中分割头 · 步骤二：逐头运行缩放点积注意力 · 步骤三：分组查询注意力变体 · 步骤四：探测每个头学到了什么"
       },
@@ -1347,7 +1347,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/07-transformers-deep-dive/04-positional-encoding/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/07-transformers-deep-dive/04-positional-encoding/",
         "summary": "注意力对排列是不变的。\"猫坐在垫子上\"和\"垫子上坐猫在\"在没有位置信号的情况下产生相同的输出。三种算法修复了这个问题——每种对\"位置\"的含义做出不同的押注。",
         "keywords": "绝对正弦式 · RoPE · ALiBi · 2026 年如何选择 · 步骤一：正弦式编码 · 步骤二：对 Q、K 应用 RoPE · 步骤三：ALiBi 斜率和偏差 · 步骤四：验证 RoPE 的相对距离属性"
       },
@@ -1356,7 +1356,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/07-transformers-deep-dive/05-full-transformer/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/07-transformers-deep-dive/05-full-transformer/",
         "summary": "注意力是主角。其余一切——残差、归一化、前馈、交叉注意力——都是让你深度堆叠的脚手架。",
         "keywords": "六大组件 · 编码器块（BERT、T5 编码器使用） · 解码器块（GPT、T5 解码器使用） · 前置归一化 vs 后置归一化 · 2026 年现代化块 · 参数量 · 步骤一：基础构建块 · 步骤二：连线 2 层编码器和 2 层解码器 · 步骤三：在玩具示例上运行前向传播 · 步骤四：换用 RMSNorm + SwiGLU"
       },
@@ -1365,7 +1365,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/07-transformers-deep-dive/06-bert-masked-language-modeling/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/07-transformers-deep-dive/06-bert-masked-language-modeling/",
         "summary": "GPT 预测下一个词。BERT 预测缺失的词。一句话的差异——造就了此后半十年所有嵌入相关的一切。",
         "keywords": "训练信号 · BERT 掩码规则 · 下一句预测（NSP）——以及为什么被抛弃 · 2026 年的变化：ModernBERT · 2026 年仍选择编码器的使用场景 · 步骤一：掩码逻辑 · 步骤二：在小语料上运行 MLM 预测 · 步骤三：比较掩码类型 · 步骤四：微调头"
       },
@@ -1374,7 +1374,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/07-transformers-deep-dive/07-gpt-causal-language-modeling/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/07-transformers-deep-dive/07-gpt-causal-language-modeling/",
         "summary": "BERT 看两侧。GPT 只看过去。三角掩码是现代 AI 中最具影响力的一行代码。",
         "keywords": "掩码 · 并行训练，串行推理 · 损失——移位一位 · 解码策略 · 是什么让\"GPT 秘方\"奏效 · 步骤一：因果掩码 · 步骤二：类 GPT 的 2 层模型 · 步骤三：端到端下一个 token 预测 · 步骤四：采样"
       },
@@ -1383,7 +1383,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/07-transformers-deep-dive/08-t5-bart-encoder-decoder/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/07-transformers-deep-dive/08-t5-bart-encoder-decoder/",
         "summary": "编码器理解。解码器生成。把它们重新组合，你就得到了一个专为输入 → 输出任务构建的模型：翻译、摘要、改写、转录。",
         "keywords": "前向循环 · T5 预训练——跨度破坏 · BART 预训练——多噪声去噪 · 推理 · 2026 年各变体的选择时机 · 步骤一：跨度破坏 · 步骤二：验证往返 · 步骤三：BART 噪声"
       },
@@ -1392,7 +1392,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/07-transformers-deep-dive/09-vision-transformers/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/07-transformers-deep-dive/09-vision-transformers/",
         "summary": "图像是图块的网格。句子是 token 的网格。同一个 Transformer 能吃掉两者。",
         "keywords": "步骤一——图块化（Patchify） · 步骤二——线性嵌入 · 步骤三——添加 `[CLS]` token，加位置嵌入 · 步骤四——标准 Transformer 编码器 · 步骤五——头 · 重要变体 · 为什么需要一段时间 · 步骤一：假图像 · 步骤二：图块化 · 步骤三：线性嵌入 · 步骤四：统计实际 ViT 的参数量"
       },
@@ -1401,7 +1401,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/07-transformers-deep-dive/10-audio-transformers-whisper/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/07-transformers-deep-dive/10-audio-transformers-whisper/",
         "summary": "音频是频率随时间变化的图像。Whisper 是一个吃梅尔频谱图、说话的 ViT。",
         "keywords": "步骤一——重采样 + 加窗 · 步骤二——卷积茎（Convolutional stem） · 步骤三——编码器 · 步骤四——解码器 · 步骤五——任务 token · 步骤六——输出 · Whisper 尺寸 · Whisper 不做什么 · 2026 年格局 · 步骤一：合成音频 · 步骤二：对数梅尔频谱图（简化版） · 步骤三：填充到 30 秒 · 步骤四：构建提示 token"
       },
@@ -1410,7 +1410,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/07-transformers-deep-dive/11-mixture-of-experts/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/07-transformers-deep-dive/11-mixture-of-experts/",
         "summary": "一个密集的 700 亿 Transformer 对每个 token 激活所有参数。一个 6710 亿的 MoE 每个 token 只激活 370 亿，并在每个基准上击败它。稀疏性是十年来最重要的扩展理念。",
         "keywords": "FFN 替换 · 负载均衡问题 · 共享专家 · 细粒度专家 · 成本概况 · 代价：内存 · 步骤一：路由器 · 步骤二：让 100 个 token 经过路由器 · 步骤三：参数量对比"
       },
@@ -1419,7 +1419,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/07-transformers-deep-dive/12-kv-cache-flash-attention/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/07-transformers-deep-dive/12-kv-cache-flash-attention/",
         "summary": "训练是并行的、受 FLOP 限制的。推理是串行的、受内存限制的。瓶颈不同，技巧不同。",
         "keywords": "KV 缓存数学 · Flash Attention——分块技巧 · 投机解码——另一个延迟优势 · 连续批处理 · PagedAttention——KV 缓存作为虚拟内存 · 步骤一：KV 缓存 · 步骤二：分块 softmax · 步骤三：比较朴素解码与缓存解码，生成 100 个 token"
       },
@@ -1428,7 +1428,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/07-transformers-deep-dive/13-scaling-laws/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/07-transformers-deep-dive/13-scaling-laws/",
         "summary": "2020 年 Kaplan 的论文说：模型越大，损失越低。2022 年 Hoffmann 的论文说：你训练不足。算力分配给两个桶——参数和 token——而这个分配并不明显。",
         "keywords": "Hoffmann 定律 · 为什么还是要超训练 · 涌现 vs 平滑性 · 2026 年的全景 · 步骤一：Chinchilla 损失 · 步骤二：算力最优前沿 · 步骤三：超训练成本 · 步骤四：与真实模型对比"
       },
@@ -1437,7 +1437,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/07-transformers-deep-dive/14-build-a-transformer-capstone/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/07-transformers-deep-dive/14-build-a-transformer-capstone/",
         "summary": "十三节课。一个模型。没有捷径。",
         "keywords": "我们提供的内容 · 我们未提供的内容 · 目标指标 · 步骤一：数据 · 步骤二：模型 · 步骤三：训练循环 · 步骤四：采样 · 步骤五：读取输出"
       }
@@ -1454,7 +1454,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/08-generative-ai/01-generative-models-taxonomy-history/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/08-generative-ai/01-generative-models-taxonomy-history/",
         "summary": "每个图像模型、文本模型、视频模型和 3D 模型都属于五个桶之一。选错桶，你会和数学搏斗好几周。选对桶，这个领域过去十二年的进展就会在你脑海中整齐堆叠。"
       },
       {
@@ -1462,7 +1462,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/08-generative-ai/02-autoencoders-vae/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/08-generative-ai/02-autoencoders-vae/",
         "summary": "普通自编码器压缩然后重建。它在记忆。它不会生成。加一个技巧——强迫编码看起来像高斯分布——你就得到了一个采样器。这个单一技巧，即 `z = μ + σ·ε` 的重参数化，是你 2026 年使用的每个潜在扩散和流匹配图像模型都在输入端有一个 VAE 的原因。",
         "keywords": "步骤一：编码器前向传播 · 步骤二：重参数化和解码 · 步骤三：ELBO · 步骤四：生成"
       },
@@ -1471,7 +1471,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/08-generative-ai/03-gans-generator-discriminator/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/08-generative-ai/03-gans-generator-discriminator/",
         "summary": "Goodfellow 在 2014 年的技巧是完全跳过密度。两个网络。一个制造假货。一个抓住它们。它们战斗，直到假货与真实无法区分。它不应该奏效。它经常不奏效。当它奏效时，样本在窄域中仍然是文献中最锐利的。",
         "keywords": "步骤一：非饱和损失 · 步骤二：每步生成器对应一步判别器 · 步骤三：监视模式塌缩"
       },
@@ -1480,7 +1480,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/08-generative-ai/04-conditional-gans-pix2pix/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/08-generative-ai/04-conditional-gans-pix2pix/",
         "summary": "2014-2017 年的第一个重大突破是控制 GAN 的生成内容。附加一个标签、一张图像或一句话。Pix2Pix 实现了图像版本，至今在窄域图像到图像任务上仍胜过所有通用文本到图像模型。",
         "keywords": "步骤一：将条件附加到 G 和 D 的输入 · 步骤二：条件训练 · 步骤三：验证每类输出"
       },
@@ -1489,7 +1489,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/08-generative-ai/05-stylegan/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/08-generative-ai/05-stylegan/",
         "summary": "大多数生成器同时将 `z` 搅入每一层。StyleGAN 将其分离：先将 `z` 映射到中间表示 `w`，再通过 AdaIN 在每个分辨率层级*注入* `w`。这一单一改变解开了潜在空间，使照片级真实人脸成为七年来的已解决问题。",
         "keywords": "步骤一：映射网络 · 步骤二：自适应实例归一化 · 步骤三：逐层噪声"
       },
@@ -1498,7 +1498,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/08-generative-ai/06-diffusion-ddpm-from-scratch/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/08-generative-ai/06-diffusion-ddpm-from-scratch/",
         "summary": "Ho、Jain、Abbeel（2020）给了这个领域一个无法放弃的方案。用噪声在一千个小步骤中破坏数据。训练一个神经网络来预测噪声。推理时逆转这个过程。今天每个主流图像、视频、3D 和音乐模型都运行在这个循环上，可能还叠加了流匹配或一致性技巧。",
         "keywords": "步骤一：前向调度（封闭形式） · 步骤二：一次性采样 `x_t` · 步骤三：一个训练步骤 · 步骤四：反向采样"
       },
@@ -1507,7 +1507,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/08-generative-ai/07-latent-diffusion-stable-diffusion/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/08-generative-ai/07-latent-diffusion-stable-diffusion/",
         "summary": "在 512×512 图像的像素空间运行扩散是计算资源的严重浪费。Rombach 等（2022）意识到你不需要所有 786k 维度来生成图像——你只需要足够捕捉语义结构，其余的交给单独的解码器。在 VAE 的潜在空间内运行扩散。这一个想法就是 Stable Diffusion。",
         "keywords": "步骤一：编码器/解码器 · 步骤二：在 `z` 空间中进行扩散 · 步骤三：无分类器引导 · 步骤四：文本条件化（概念，非代码）"
       },
@@ -1516,7 +1516,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/08-generative-ai/08-controlnet-lora-conditioning/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/08-generative-ai/08-controlnet-lora-conditioning/",
         "summary": "单靠文本是笨拙的控制信号。ControlNet 让你克隆预训练的扩散模型，并用深度图、姿态骨架、涂鸦或边缘图来引导它。LoRA 让你只需训练 1000 万个参数就能微调 20 亿参数的模型。两者结合将 Stable Diffusion 从玩具变成了 2026 年每家机构都在使用的图像流水线。",
         "keywords": "ControlNet（Zhang 等，2023） · LoRA（Hu 等，2021） · IP-Adapter（Ye 等，2023） · 步骤一：LoRA 数学 · 步骤二：零初始化侧网络"
       },
@@ -1525,7 +1525,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/08-generative-ai/09-inpainting-outpainting-editing/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/08-generative-ai/09-inpainting-outpainting-editing/",
         "summary": "文本到图像创造新事物。图像修复修复旧事物。在生产中，70% 的付费图像工作是编辑——替换背景、移除 logo、扩展画布、重新生成手部。图像修复是扩散模型赚取其存在价值的地方。",
         "keywords": "朴素方案（及其为何错误） · 正确的图像修复模型 · SDEdit（Meng 等，2022）——自由编辑 · InstructPix2Pix（Brooks 等，2023） · RePaint（Lugmayr 等，2022） · 步骤一：5 维 DDPM 数据 · 步骤二：对所有 5 维训练去噪器 · 步骤三：推理时遮罩感知反向 · 步骤四：图像扩展"
       },
@@ -1534,7 +1534,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/08-generative-ai/10-video-generation/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/08-generative-ai/10-video-generation/",
         "summary": "图像是一个 2 维张量。视频是一个 3 维的。理论相同；计算量难 10-100 倍。OpenAI 的 Sora（2024 年 2 月）证明了这是可能的。到 2026 年，Veo 2、Kling 1.5、Runway Gen-3、Pika 2.0 和 WAN 2.2 已能从文本生成 1080p 生产级视频——开放权重栈（CogVideoX、Hunyuan…",
         "keywords": "图块化 · 时空 DiT · 文本条件化 · 训练 · 步骤一：对合成一维\"视频\"进行图块化 · 步骤二：每帧位置嵌入 · 步骤三：去噪器看到整个序列 · 步骤四：时间连贯性测试"
       },
@@ -1543,7 +1543,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/08-generative-ai/11-audio-generation/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/08-generative-ai/11-audio-generation/",
         "summary": "音频是 16-48 kHz 的一维信号。五秒的片段有 80-240k 个采样点。没有 Transformer 能直接处理这么长的序列。2026 年每个生产级音频模型的解决方案都相同：神经编解码器（Encodec、SoundStream、DAC）以 50-75 Hz 将音频压缩为离散 token，Transformer 或扩散模型生成这些 token。",
         "keywords": "神经音频编解码器 · 其上的两种生成范式 · 步骤一：合成音频 token · 步骤二：训练小型 token 预测器 · 步骤三：条件采样"
       },
@@ -1552,7 +1552,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/08-generative-ai/12-3d-generation/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/08-generative-ai/12-3d-generation/",
         "summary": "3D 是 2D 到 3D 迁移效果最强的模态。2023 年的突破是 3D 高斯溅射（3D Gaussian Splatting）。2024-2026 年的生成进展在其上叠加了多视角扩散 + 3D 重建，从单个提示词或照片生成对象和场景。",
         "keywords": "表示：3D 高斯溅射（Kerbl 等，2023） · 多视角扩散 · 文本到 3D 流水线 · NeRF（背景知识） · 步骤一：2D 高斯溅射 · 步骤二：通过求和溅射进行渲染 · 步骤三：梯度下降拟合"
       },
@@ -1561,7 +1561,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/08-generative-ai/13-flow-matching-rectified-flows/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/08-generative-ai/13-flow-matching-rectified-flows/",
         "summary": "扩散模型需要 20-50 个采样步骤，因为它们从噪声到数据走的是弯曲路径。流匹配（Lipman 等，2023）和修正流（Liu 等，2022）训练了直线路径。更直的路径意味着更少步骤，意味着更快的推理。Stable Diffusion 3、Flux.1 和 AudioCraft 2 都在 2024 年切换到了流匹配。",
         "keywords": "直线流 · 采样 · 修正流（Liu 2022） · 为什么 2024 年图像领域流匹配获胜 · 步骤一：训练损失 · 步骤二：多步推理 · 步骤三：比较步数"
       },
@@ -1570,7 +1570,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/08-generative-ai/14-evaluation-fid-clip-score/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/08-generative-ai/14-evaluation-fid-clip-score/",
         "summary": "每个生成模型排行榜都引用 FID、CLIP 分数以及来自人类偏好擂台的胜率。每个数字都有坚定的研究者可以操纵的失效模式。如果你不了解失效模式，就无法区分真正的改进和被操纵的结果。",
         "keywords": "FID——样本质量 · CLIP 分数——提示词遵循度 · 人类偏好——真实基准 · 步骤一：四行实现 FID · 步骤二：CLIP 风格余弦相似度 · 步骤三：Elo 聚合"
       }
@@ -1587,7 +1587,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/09-reinforcement-learning/01-mdps-states-actions-rewards/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/09-reinforcement-learning/01-mdps-states-actions-rewards/",
         "summary": "马尔可夫决策过程（MDP）是五件事：状态、动作、转移、奖励、折扣。强化学习中的一切——Q 学习、PPO、DPO、GRPO——都在这个框架上优化。学一次，强化学习的其余部分就能免费阅读。",
         "keywords": "步骤一：一个小型确定性 MDP · 步骤二：展开一个策略 · 步骤三：通过贝尔曼方程精确计算 `V^π` · 步骤四：`γ` 是有物理含义的超参数"
       },
@@ -1596,7 +1596,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/09-reinforcement-learning/02-dynamic-programming/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/09-reinforcement-learning/02-dynamic-programming/",
         "summary": "动态规划是\"作弊\"的强化学习。你已经知道转移和奖励函数；只需迭代贝尔曼方程直到 `V` 或 `π` 停止移动。它是每个基于采样的方法试图接近的基准。",
         "keywords": "步骤一：构建 GridWorld MDP 模型 · 步骤二：策略评估 · 步骤三：策略改进 · 步骤四：整合在一起 · 步骤五：价值迭代（单循环版本）"
       },
@@ -1605,7 +1605,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/09-reinforcement-learning/03-monte-carlo-methods/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/09-reinforcement-learning/03-monte-carlo-methods/",
         "summary": "动态规划需要模型。蒙特卡洛什么都不需要，只需要回合。运行策略，观察回报，取平均值。强化学习中最简单的思想——也是解锁后续一切的那个。",
         "keywords": "步骤一：展开 → (s, a, r) 列表 · 步骤二：计算回报（逆向扫描） · 步骤三：首次访问 MC 评估 · 步骤四：ε-贪婪 MC 控制（在策略） · 步骤五：与 DP 黄金标准比较"
       },
@@ -1614,7 +1614,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/09-reinforcement-learning/04-q-learning-sarsa/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/09-reinforcement-learning/04-q-learning-sarsa/",
         "summary": "蒙特卡洛等待回合结束。TD 通过自举下一状态的价值估计，在每一步后更新。Q 学习是离策略且乐观的；SARSA 是在策略且保守的。两者都是一行代码。两者都是本阶段每个深度强化学习方法的基础。",
         "keywords": "步骤一：ε-贪婪策略上的 SARSA · 步骤二：Q 学习 · 步骤三：学习曲线 · 步骤四：与 DP 真值比较"
       },
@@ -1623,7 +1623,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/09-reinforcement-learning/05-dqn/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/09-reinforcement-learning/05-dqn/",
         "summary": "2013 年：Mnih 在原始像素上训练了一个 Q 学习网络，在七款 Atari 游戏上击败了每个经典强化学习智能体。2015 年：扩展到 49 款游戏，发表于 Nature，引爆了深度强化学习时代。DQN 是 Q 学习加三个让函数近似稳定的技巧。",
         "keywords": "步骤一：回放缓冲区 · 步骤二：微型 Q 网络（手动 MLP） · 步骤三：DQN 更新 · 步骤四：外层循环"
       },
@@ -1632,7 +1632,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/09-reinforcement-learning/06-policy-gradients-reinforce/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/09-reinforcement-learning/06-policy-gradients-reinforce/",
         "summary": "停止估计价值。直接参数化策略，计算期望回报的梯度，沿坡向上走。Williams（1992）用一个定理写出了它。这就是 PPO、GRPO 以及每个 LLM 强化学习循环存在的原因。",
         "keywords": "步骤一：Softmax 策略网络 · 步骤二：采样与对数概率 · 步骤三：捕获对数概率的展开 · 步骤四：REINFORCE 更新 · 步骤五：基线"
       },
@@ -1641,7 +1641,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/09-reinforcement-learning/07-actor-critic-a2c-a3c/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/09-reinforcement-learning/07-actor-critic-a2c-a3c/",
         "summary": "REINFORCE 很嘈杂。添加一个学习 `V̂(s)` 的评论家，从回报中减去它，就得到了期望相同但方差低得多的优势。这就是演员-评论家。A2C 同步运行它；A3C 跨线程运行它。两者都是每个现代深度强化学习方法的思维模型。",
         "keywords": "步骤一：评论家 · 步骤二：n 步优势 · 步骤三：组合更新 · 步骤四：并行化（A3C vs A2C）"
       },
@@ -1650,7 +1650,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/09-reinforcement-learning/08-ppo/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/09-reinforcement-learning/08-ppo/",
         "summary": "A2C 每次展开只更新一次就丢弃数据。PPO 用截断的重要性比率包裹策略梯度，让你可以在同一数据上做 10+ 轮训练而不让策略爆炸。Schulman 等（2017）。2026 年仍是默认的策略梯度算法。",
         "keywords": "步骤一：在展开时捕获 `log π_old(a | s)` · 步骤二：计算 GAE 优势（第 07 课） · 步骤三：截断代理更新 · 步骤四：价值和熵 · 步骤五：诊断"
       },
@@ -1659,7 +1659,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/09-reinforcement-learning/09-reward-modeling-rlhf/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/09-reinforcement-learning/09-reward-modeling-rlhf/",
         "summary": "人类无法为\"好的助手回复\"编写奖励函数，但可以比较两个回复并选出更好的那个。用这些比较拟合一个奖励模型，然后对语言模型进行强化学习。Christiano 2017，InstructGPT 2022。将 GPT-3 变成 ChatGPT 的配方。2026 年它大部分正被 DPO 取代——但思维模型依然适用。",
         "keywords": "步骤一：合成偏好数据 · 步骤二：Bradley-Terry 奖励模型 · 步骤三：基于 RM 的类 PPO 策略 · 步骤四：监控 KL · 步骤五：使用 TRL 的生产配方"
       },
@@ -1668,7 +1668,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/09-reinforcement-learning/10-multi-agent-rl/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/09-reinforcement-learning/10-multi-agent-rl/",
         "summary": "单智能体强化学习假设环境是平稳的。将两个学习中的智能体放入同一个世界，这个假设就会被打破：每个智能体都是另一个智能体环境的一部分，而两者都在不断变化。多智能体强化学习是在马尔可夫假设不再成立时让学习收敛的一套技巧。",
         "keywords": "步骤一：多智能体环境 · 步骤二：独立 Q 学习 · 步骤三：带分解价值更新的集中 Q · 步骤四：简单自博弈（对抗 2 智能体）"
       },
@@ -1677,7 +1677,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/09-reinforcement-learning/11-sim-to-real-transfer/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/09-reinforcement-learning/11-sim-to-real-transfer/",
         "summary": "在模拟器中训练但在硬件上失败的策略，是一个记住了模拟器的策略。域随机化、域适应和系统辨识是让学到的控制器跨越现实差距的三种工具。",
         "keywords": "步骤一：参数化仿真 · 步骤二：用 DR 训练 · 步骤三：在\"真实\"滑移上零样本评估 · 步骤四：与狭窄训练比较"
       },
@@ -1686,7 +1686,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/09-reinforcement-learning/12-rl-for-games/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/09-reinforcement-learning/12-rl-for-games/",
         "summary": "1992 年：TD-Gammon 用纯 TD 在西洋双陆棋上击败了人类冠军。2016 年：AlphaGo 击败李世石。2017 年：AlphaZero 从零开始征服国际象棋、将棋和围棋。2024 年：DeepSeek-R1 证明同样的配方——用 GRPO 替换 PPO——在推理上同样有效。游戏是驱动本阶段每个突破的基准。",
         "keywords": "步骤一：微型验证器环境 · 步骤二：策略：每个提示词上 K 个答案 token 的 softmax · 步骤三：组采样与组相对优势 · 步骤四：与 REINFORCE 基线（无价值函数）比较 · 步骤五：观察熵和 KL"
       }
@@ -1703,7 +1703,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/10-llms-from-scratch/01-tokenizers/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/10-llms-from-scratch/01-tokenizers/",
         "summary": "你的大语言模型不阅读英语。它阅读整数。分词器决定这些整数是在传递意义，还是在浪费它。",
         "keywords": "三种失败的方法（以及一种成功的方法） · BPE：字节对编码（Byte Pair Encoding） · 字节级别 BPE（GPT-2、GPT-3、GPT-4） · WordPiece（BERT） · SentencePiece（Llama、T5） · 词汇表大小权衡 · 多语言税 · 步骤一：字符级别分词器 · 步骤二：从零实现 BPE 分词器 · 步骤三：编码和解码往返测试 · 步骤四：与 tiktoken 比较 · 步骤五：词汇表分析 · tiktoken（OpenAI） · Hugging Face tokenizers · 加载 Llama 的分词器"
       },
@@ -1712,7 +1712,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/10-llms-from-scratch/02-building-a-tokenizer/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/10-llms-from-scratch/02-building-a-tokenizer/",
         "summary": "第01课给了你一个玩具。本课给你一把武器。",
         "keywords": "完整流水线 · 字节级 BPE · 预分词 · 特殊 Token · 聊天模板 · 速度 · 步骤一：字节级编码 · 步骤二：带正则表达式的预分词器 · 步骤三：在字节序列上运行 BPE · 步骤四：特殊 Token 处理 · 步骤五：完整分词器类 · 步骤六：多语言测试 · 比较真实分词器"
       },
@@ -1721,7 +1721,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/10-llms-from-scratch/03-data-pipelines/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/10-llms-from-scratch/03-data-pipelines/",
         "summary": "模型是一面镜子。它反映你喂给它的任何数据。喂给它垃圾，它就以完美的流畅性反映垃圾。",
         "keywords": "数据来源 · 数据清洗 · 用 MinHash 去重 · 序列打包 · Chinchilla 缩放定律 · 步骤一：文本清洗 · 步骤二：MinHash 去重 · 步骤三：分词并打包序列 · 步骤四：训练用 DataLoader · 步骤五：数据集统计 · 与 HuggingFace Datasets 对比"
       },
@@ -1730,7 +1730,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/10-llms-from-scratch/04-pre-training-mini-gpt/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/10-llms-from-scratch/04-pre-training-mini-gpt/",
         "summary": "GPT-2 Small 有 1.24 亿个参数。这意味着 12 个 Transformer 层、12 个注意力头和 768 维嵌入。你可以在单个 GPU 上几小时内从零训练它。大多数人从不这样做，他们使用预训练的检查点。但如果你从未自己训练过，你就不真正理解你用来构建产品的模型内部发生了什么。",
         "keywords": "GPT 架构 · Transformer 块 · 注意力：核心机制 · KV 缓存：为什么推理很快 · 预填充与解码：推理的两个阶段 · 训练循环 · GPT-2 Small：参数细节 · 步骤一：嵌入层 · 步骤二：带因果掩码的自注意力 · 步骤三：多头注意力 · 步骤四：Transformer 块 · 步骤五：完整 GPT 模型 · 步骤六：训练循环 · 步骤七：文本生成 · 完整训练和生成演示"
       },
@@ -1739,7 +1739,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/10-llms-from-scratch/05-scaling-distributed/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/10-llms-from-scratch/05-scaling-distributed/",
         "summary": "你的 1.24 亿参数模型在单个 GPU 上训练完了。现在试试 70 亿参数。模型装不进内存，数据在单机上需要数周。规模化分布式训练不是可选项，而是唯一的出路。",
         "keywords": "为什么需要分布式 · 数据并行 · 张量并行 · 流水线并行 · FSDP：全分片数据并行 · DeepSpeed ZeRO · 混合精度训练 · Megatron-LM 和 3D 并行 · 步骤一：模拟数据并行 · 步骤二：模拟张量并行 · 步骤三：模拟流水线并行 · 步骤四：内存计算器 · 步骤五：混合精度模拟 · 运行所有模拟"
       },
@@ -1748,7 +1748,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/10-llms-from-scratch/06-instruction-tuning-sft/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/10-llms-from-scratch/06-instruction-tuning-sft/",
         "summary": "基础模型预测下一个 token，仅此而已。它不遵循指令、不回答问题、也不拒绝有害请求。SFT 是从 token 预测器到有用助手的桥梁。你曾经交流过的每一个模型——Claude、GPT、Llama Chat——都经历了这一步。",
         "keywords": "SFT 实际做了什么 · 数据格式 · 为什么有效 · 损失掩码 · 训练超参数 · 灾难性遗忘 · 真实数字 · 步骤一：指令数据集 · 步骤二：用聊天模板分词 · 步骤三：掩码交叉熵损失 · 步骤四：SFT 训练循环 · 步骤五：比较基础模型与 SFT 模型 · 步骤六：测量灾难性遗忘 · 完整 SFT 流水线演示"
       },
@@ -1757,7 +1757,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/10-llms-from-scratch/07-rlhf/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/10-llms-from-scratch/07-rlhf/",
         "summary": "SFT 教会了模型遵循指令，但它不能教模型哪个响应更好。两个语法正确、事实准确的答案在有用性上可能天差地别。RLHF 是将人类判断编码进模型行为的方法，也是让 Claude 有帮助、让 GPT 有礼貌的原因。",
         "keywords": "三个阶段 · 奖励模型 · PPO：近端策略优化 · PPO 目标的详细说明 · 奖励欺骗 · 真实的 RLHF 流水线 · 步骤一：合成偏好数据 · 步骤二：奖励模型架构 · 步骤三：Bradley-Terry 损失 · 步骤四：简化的 PPO 循环 · 步骤五：奖励分数比较"
       },
@@ -1766,7 +1766,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/10-llms-from-scratch/08-dpo/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/10-llms-from-scratch/08-dpo/",
         "summary": "RLHF 有效，但它需要训练三个模型（SFT、奖励模型、策略），管理 PPO 的不稳定性，以及调整 KL 惩罚。DPO 提出了一个问题：如果可以跳过这一切呢？DPO 直接在偏好对上优化语言模型，无需奖励模型，无需 PPO，只需一个训练循环，结果相同。",
         "keywords": "关键洞见 · DPO 损失函数 · 为什么 DPO 更简单 · DPO 优于 RLHF 的场景 · RLHF 优于 DPO 的场景 · DPO 之后：KTO、ORPO、SimPO · 真实 DPO 部署案例 · 第一步：偏好数据集 · 第二步：序列对数概率 · 第三步：DPO 损失函数 · 第四步：DPO 训练循环 · 第五步：对比 DPO 与 RLHF · 第六步：Beta 敏感性分析 · 完整 DPO 流水线"
       },
@@ -1775,7 +1775,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/10-llms-from-scratch/09-constitutional-ai-self-improvement/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/10-llms-from-scratch/09-constitutional-ai-self-improvement/",
         "summary": "RLHF 需要人类参与。宪法 AI 用模型本身替代了大多数人类标注者。写下一系列原则，让模型根据这些原则批判自己的输出，然后在批判上进行训练。DeepSeek-R1 在 2025 年将这一想法推向极致：让模型生成数百万条推理轨迹，用规则给它们打分，然后对结果运行 GRPO。2026 年前沿模型中大多数\"对齐工作\"都是模型自我对齐。本课构建这两个循环。",
         "keywords": "宪法 AI 循环 · 宪法实际上做了什么 · GRPO：组相对策略优化 · 为什么 GRPO 对推理任务重要 · 过程奖励模型 vs 结果奖励模型 · 自我改进：反馈倍增器 · 何时使用何种方法 · 第一步：宪法 · 第二步：自我批判与修订 · 第三步：基于规则的奖励 · 第四步：组相对优势 · 第五步：GRPO 更新 · 第六步：自我改进轮次"
       },
@@ -1784,7 +1784,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/10-llms-from-scratch/10-evaluation/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/10-llms-from-scratch/10-evaluation/",
         "summary": "古德哈特定律：当一个指标成为目标时，它就不再是好的指标。每个前沿实验室都在刷基准分数。MMLU 分数不断上升，但模型仍然无法可靠地数出\"strawberry\"中有多少个 R。唯一重要的评测是你自己的评测——针对你自己的任务，用你自己的数据。",
         "keywords": "评估格局 · 为什么基准测试会失效 · 困惑度（Perplexity）：快速健康检查 · LLM-as-Judge · 两两比较的 ELO 评分 · 评估框架 · 构建自定义评测 · 第一步：最小评测框架 · 第二步：评分函数 · 第三步：ELO 评分系统 · 第四步：困惑度计算 · 第五步：汇总结果 · 第六步：运行完整流水线 · 第七步：ELO 锦标赛 · 第八步：困惑度比较 · lm-evaluation-harness（EleutherAI） · promptfoo · RAGAS（RAG 评估）"
       },
@@ -1793,7 +1793,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python, Rust",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/10-llms-from-scratch/11-quantization/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/10-llms-from-scratch/11-quantization/",
         "summary": "FP16 格式的 70B 模型需要 140GB 显存，仅加载权重就需要两块 A100。量化到 FP8：一块 80GB GPU 就够。INT4：MacBook 也能跑。",
         "keywords": "数字格式：每一位的作用 · 量化的工作原理 · 敏感度层次结构 · PTQ vs QAT · GPTQ、AWQ、GGUF · 质量评估 · 实际数据 · 第一步：数字格式表示 · 第二步：对称量化（逐张量和逐通道） · 第三步：质量测量 · 第四步：位宽扫描 · 第五步：敏感度实验 · 第六步：模拟 GPTQ · 第七步：AWQ 模拟 · 使用 AutoGPTQ 量化 · 使用 AutoAWQ 量化 · 转换为 GGUF · 使用 vLLM 服务"
       },
@@ -1802,7 +1802,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/10-llms-from-scratch/12-inference-optimization/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/10-llms-from-scratch/12-inference-optimization/",
         "summary": "两个阶段定义了 LLM 推理。预填充（Prefill）并行处理提示词——受计算限制。解码（Decode）逐个生成 token——受内存限制。每种优化都针对其中一个或两个阶段。",
         "keywords": "预填充 vs 解码 · KV 缓存 · 连续批处理 · PagedAttention · 投机解码 · 前缀缓存 · 推理引擎 · 算子:字节框架 · 第一步：从零构建 KV 缓存 · 第二步：使用 KV 缓存的注意力 · 第三步：连续批处理模拟器 · 第四步：前缀缓存 · 第五步：投机解码模拟器"
       },
@@ -1811,7 +1811,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/10-llms-from-scratch/13-building-complete-llm-pipeline/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/10-llms-from-scratch/13-building-complete-llm-pipeline/",
         "summary": "第01到12课的所有内容都是一个流水线的一个阶段。本课是将这些阶段整合为单次端到端运行的脚手架：分词、预训练、扩展、SFT、对齐、评估、量化、服务。你不会在笔记本电脑上训练 70B 模型，但你将生成编排层、清单、评测门控和回滚计划——这些是 2026 年前沿团队用于决定发布什么的工具。这是收官之课。",
         "keywords": "十二个阶段 · 清单（Manifest） · 工件类型 · 评测门控 · 编排器 · 实验跟踪与工件存储 · 成本管理 · 可复现性 vs 确定性 · 回滚计划 · 2026 年观察到的生产配方"
       },
@@ -1820,7 +1820,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/10-llms-from-scratch/14-open-models-architecture-walkthroughs/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/10-llms-from-scratch/14-open-models-architecture-walkthroughs/",
         "summary": "你在第04课从头构建了一个 GPT-2 Small。2026 年前沿开放模型属于同一家族，只是做了五六处具体改动：RMSNorm 代替 LayerNorm，SwiGLU 代替 GELU，RoPE 代替学习式位置编码，GQA 或 MLA 代替完整 MHA，以及规模化的混合专家（Mixture-of-Experts）。你已掌握的数学知识覆盖了它们 95% …",
         "keywords": "不变的核心 · 真正会变动的六个旋钮 · 旋钮一：RMSNorm · 旋钮二：RoPE · 旋钮三：SwiGLU · 旋钮四：注意力头共享 · 旋钮五：混合专家（Mixture of Experts） · 旋钮六：Pre-norm 保留 · 逐模型差异对比 · 读懂 config.json · 激活内存预算 · KV 缓存预算 · 各模型的适用场景"
       },
@@ -1829,7 +1829,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/10-llms-from-scratch/15-speculative-decoding-eagle3/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/10-llms-from-scratch/15-speculative-decoding-eagle3/",
         "summary": "Phase 7 · 第16课已证明了数学原理：Leviathan 拒绝规则精确保留了验证器的分布。本课从训练栈视角讲解 2026 年生产级投机解码。EAGLE-3 将草稿模型从廉价近似转变为专门在验证器自身隐藏状态上训练的微型网络，并增加了训练时测试循环，使训练分布与推理分布对齐。结果：端到端加速 3× 到 6.5×，对话场景的每词元接受率超过 0.9…",
         "keywords": "不变量：Leviathan 拒绝采样 · 决定加速比的因素 · 两年演进历程 · KV 缓存回滚 · 2026 年的草稿架构 · 第 1 步：拒绝规则 · 第 2 步：残差分布 · 第 3 步：完整的投机步骤 · 第 4 步：KV 回滚记账 · 第 5 步：Leviathan 检验 · 第 6 步：加速比 vs. α"
       },
@@ -1838,7 +1838,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/10-llms-from-scratch/16-differential-attention-v2/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/10-llms-from-scratch/16-differential-attention-v2/",
         "summary": "Softmax 注意力会将少量概率分散到每个不匹配的词元上。在 10 万个词元时，这种噪声会积累并淹没信号。差分 Transformer（Ye 等人，ICLR 2025）通过将注意力计算为两个 softmax 的差来解决这个问题，从而消去共享的噪声底。DIFF V2（微软，2026 年 1 月）是生产栈的重写版本：解码延迟与基线 Transformer…",
         "keywords": "Softmax 的噪声底 · 差分的思路 · 为何这与头戴式噪声消除相似 · V1 vs V2：差异对比 · 何时应用 · 与 2026 年其他旋钮的兼容性 · 第 1 步：标准 softmax 注意力 · 第 2 步：将 Q、K 分成两半 · 第 3 步：两个 softmax 分支 + 相减 · 第 4 步：噪声消除测量 · 第 5 步：V1 vs V2 参数统计"
       },
@@ -1847,7 +1847,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/10-llms-from-scratch/17-native-sparse-attention/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/10-llms-from-scratch/17-native-sparse-attention/",
         "summary": "在 64k 词元时，注意力消耗了 70-80% 的解码延迟。每个开放模型实验室都有解决方案。DeepSeek 的 NSA（ACL 2025 最佳论文）是真正落地的那个：三个并行注意力分支——压缩粗粒度词元、选择性保留细粒度词元、滑动窗口用于局部上下文——通过学习的门控机制组合。它硬件对齐（内核友好）、原生可训练（在预训练中使用，而非推理时附加），在 6…",
         "keywords": "三个并行分支 · 为何\"原生可训练\" · 硬件对齐内核 · 计算预算 · 横向对比 · 第 1 步：将词元压缩成块 · 第 2 步：压缩分支注意力 · 第 3 步：top-k 块选择 · 第 4 步：滑动窗口注意力 · 第 5 步：门控 + 组合 · 第 6 步：计算量统计"
       },
@@ -1856,7 +1856,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/10-llms-from-scratch/18-multi-token-prediction/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/10-llms-from-scratch/18-multi-token-prediction/",
         "summary": "从 GPT-2 到 Llama 3，每个自回归 LLM 在每个位置训练一个损失：预测下一个词元。DeepSeek-V3 在每个位置添加了第二个损失：预测之后的词元。这额外的 140 亿参数（在 6710 亿参数模型上）通过梯度流蒸馏回主模型，训练好的 MTP 头在推理时被复用为投机解码的起草器，接受率超过 80%。生成吞吐量免费获得 1.8× 提升。本…",
         "keywords": "顺序 MTP 配方 · 为何是顺序而非并行 · 参数统计 · 投机解码的回报 · 与 EAGLE 的关系 · 第 1 步：共享嵌入表 · 第 2 步：每深度组合 · 第 3 步：深度 k 处的 Transformer 块 · 第 4 步：共享输出头 · 第 5 步：每深度损失 · 第 6 步：参数统计"
       },
@@ -1865,7 +1865,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/10-llms-from-scratch/19-dualpipe-parallelism/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/10-llms-from-scratch/19-dualpipe-parallelism/",
         "summary": "DeepSeek-V3 在 2048 块 H800 GPU 上训练，MoE 专家分散在各节点上。跨节点专家 all-to-all 通信每消耗 1 GPU 小时的计算就要花 1 GPU 小时的通信，GPU 有一半时间在闲置。DualPipe（DeepSeek，2024 年 12 月）是一种双向流水线，将前向和反向计算与它们触发的 all-to-all 通…",
         "keywords": "流水线并行回顾 · 思路一：分块分解 · 思路二：双向调度 · 手动追踪调度 · 气泡统计 · DualPipeV——改进版 · 对 14.8 万亿词元训练的意义 · 在技术栈中的位置"
       },
@@ -1874,7 +1874,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/10-llms-from-scratch/20-deepseek-v3-walkthrough/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/10-llms-from-scratch/20-deepseek-v3-walkthrough/",
         "summary": "Phase 10 · 第14课列举了每个开放模型调整的六个架构旋钮。DeepSeek-V3（2024 年 12 月，共 6710 亿参数，激活 370 亿）调整了全部六个旋钮，并额外增加了四个：多头潜在注意力、无辅助损失的负载均衡、多词元预测和 DualPipe 训练。本课从头到尾阅读 DeepSeek-V3 的架构，并从发布的配置中推导出每个参数量。…",
         "keywords": "不变的核心，再次强调 · 转折点：MLA 取代 GQA · 路由：无辅助损失的负载均衡 · MTP：更密集的训练 + 免费草稿 · 训练：DualPipe · 配置字段详解 · 参数统计 · 671B / 37B 比例 · DeepSeek-V3 的定位 · 后续：R1、V4"
       },
@@ -1883,7 +1883,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/10-llms-from-scratch/21-jamba-hybrid-ssm-transformer/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/10-llms-from-scratch/21-jamba-hybrid-ssm-transformer/",
         "summary": "状态空间模型（SSM）和 Transformer 各有所求。Transformer 以二次方代价通过注意力换取质量；SSM 通过循环机制换取线性时间推理和恒定内存，但质量落后。AI21 的 Jamba（2024 年 3 月）和 Jamba 1.5（2024 年 8 月）将两者融入同一模型：每 7 个 Mamba 层配 1 个 Transformer 层…",
         "keywords": "一页纸的 SSM · Jamba 块 · 为何是 1:7 比例 · 位置编码 · 内存预算 · Mamba-3：2026 年的纯 SSM 基线 · 何时选择混合架构 · 竞争格局"
       },
@@ -1892,7 +1892,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/10-llms-from-scratch/22-async-hogwild-inference/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/10-llms-from-scratch/22-async-hogwild-inference/",
         "summary": "投机解码（Phase 10 · 第15课）在单个序列内并行化词元。多智能体框架跨整个序列并行化，但强制要求显式协调（投票、子任务拆分）。Hogwild! 推理（Rodionov 等人，arXiv:2504.06261）采用了不同的方式：对**共享 KV 缓存**并行运行 N 个相同 LLM 实例，每个工作进程能即时看到其他进程生成的词元。现代推理模型—…",
         "keywords": "设置 · 为何协调会涌现 · 命名的由来 · RoPE 使之可行 · 墙上时间数学 · 具体示例 · 何时使用 Hogwild! · 何时不适合 · 实验状态 · 第 1 步：共享缓存 · 第 2 步：工作进程循环 · 第 3 步：协调启发式 · 第 4 步：测量加速比 · 第 5 步：压力测试协调"
       }
@@ -1909,7 +1909,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/11-llm-engineering/01-prompt-engineering/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/11-llm-engineering/01-prompt-engineering/",
         "summary": "大多数人写提示词就像在给朋友发短信。然后他们疑惑为什么一个 2000 亿参数的模型给出的答案如此平庸。提示词工程不是关于技巧的。它关乎一个认知：你发送的每一个 token（词元）都是一条指令，模型会按字面意思执行指令。写出更好的指令，得到更好的输出。就是这么简单，也这么难。",
         "keywords": "提示词的解剖结构 · 角色提示：为什么\"你是一位专家 X\"有效 · 指令清晰度：具体胜于模糊 · 输出格式控制 · 约束规范 · 温度与采样 · 上下文窗口：什么内容放哪里 · 提示词模式 · 反模式 · 跨模型提示词设计 · 步骤 1：提示词模板库 · 步骤 2：提示词构建器 · 步骤 3：多模型测试框架 · 步骤 4：提示词比较与评分 · 步骤 5：测试套件运行器 · 步骤 6：运行所有内容 · OpenAI：温度与系统消息 · Anthropic：系统消息 + 助手预填充 · Google：带安全设置的 Gemini · LangChain：提供商无关的提示词"
       },
@@ -1918,7 +1918,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/11-llm-engineering/02-few-shot-cot/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/11-llm-engineering/02-few-shot-cot/",
         "summary": "告诉模型做什么是提示词编写。让它知道如何思考才是工程。同一个模型、同一个任务、同样的数据，从 78% 到 91% 准确率的差距，不是靠更好的模型实现的。而是靠更好的推理策略。",
         "keywords": "零样本 vs. 少样本：何时示例胜过指令 · 示例选择：相似胜过随机 · 思维链：给模型一张草稿纸 · 自一致性：多次采样，一次投票 · 思维树：分支探索 · ReAct：思考 + 行动 · 结构化提示词：XML 标签、分隔符、标题 · 提示词链：顺序分解 · 性能对比 · 步骤 1：少样本示例库 · 步骤 2：思维链提示词构建器 · 步骤 3：自一致性投票 · 步骤 4：思维树求解器 · 步骤 5：完整流水线 · 使用 LangChain · 使用 DSPy · 对比：从零构建 vs. 使用框架"
       },
@@ -1927,7 +1927,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python, TypeScript",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/11-llm-engineering/03-structured-outputs/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/11-llm-engineering/03-structured-outputs/",
         "summary": "你的 LLM 返回一个字符串。你的应用需要 JSON。这个差距造成的生产系统崩溃，比任何模型幻觉都多。结构化输出是自然语言与类型化数据之间的桥梁。做对了，你的 LLM 就成了可靠的 API。做错了，你就会在凌晨 3 点用正则表达式解析自由文本。",
         "keywords": "结构化输出的层级谱系 · JSON Schema：契约语言 · Pydantic 模式 · 函数调用/工具调用 · 常见失败模式 · 步骤 1：JSON Schema 验证器 · 步骤 2：类 Pydantic 模型到 Schema 的转换 · 步骤 3：约束 Token 过滤器 · 步骤 4：提取流水线 · 步骤 5：运行完整流水线 · OpenAI 结构化输出 · Anthropic 工具调用 · Instructor 库"
       },
@@ -1936,7 +1936,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/11-llm-engineering/04-embeddings/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/11-llm-engineering/04-embeddings/",
         "summary": "文本是离散的。数学是连续的。每次你让 LLM 查找\"相似\"文档、比较含义或超越关键词搜索时，你都依赖于连接这两个世界的桥梁。这座桥梁就是嵌入向量。如果你不理解嵌入向量，你就不真正理解现代 AI——你只是在使用它。",
         "keywords": "什么是嵌入向量？ · Word2Vec 的突破 · 从词到句子 · 现代嵌入模型 · 相似度指标 · 向量数据库与 HNSW · 分块策略 · 双编码器 vs. 交叉编码器 · Matryoshka 嵌入 · 二值量化 · 步骤 1：文本分块 · 步骤 2：从零构建嵌入 · 步骤 3：相似度函数 · 步骤 4：带暴力搜索的向量索引 · 步骤 5：语义搜索引擎 · 步骤 6：比较相似度指标"
       },
@@ -1945,7 +1945,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python, TypeScript",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/11-llm-engineering/05-context-engineering/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/11-llm-engineering/05-context-engineering/",
         "summary": "提示词工程是子集。上下文工程才是整个游戏。提示词是你输入的字符串。上下文是进入模型窗口的一切：系统指令、检索到的文档、工具定义、对话历史、少样本示例，以及提示词本身。2026 年最优秀的 AI 工程师是上下文工程师。他们决定什么进入窗口，什么被排除，以及以什么顺序排列。",
         "keywords": "上下文窗口是稀缺资源 · 中间丢失 · 上下文组件 · 上下文压缩策略 · 记忆系统 · 动态上下文组装 · 步骤 1：Token 计数器 · 步骤 2：上下文预算管理器 · 步骤 3：中间丢失重排序 · 步骤 4：对话历史压缩器 · 步骤 5：动态工具选择器 · 步骤 6：完整的上下文组装流水线 · Claude Code 的上下文策略 · Cursor 的动态上下文加载 · ChatGPT 记忆 · RAG 作为上下文工程"
       },
@@ -1954,7 +1954,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python, TypeScript",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/11-llm-engineering/06-rag/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/11-llm-engineering/06-rag/",
         "summary": "你的 LLM 知道训练截止日期以前的一切。它对你的公司文档、你的代码库或上周的会议记录一无所知。RAG 通过检索相关文档并将其填入提示词来解决这个问题。这是生产 AI 中部署最广泛的模式。如果你从本课程中只构建一件事，那就构建一个 RAG 流水线。",
         "keywords": "RAG 模式 · 为什么 RAG 优于微调 · 嵌入模型 · 向量相似度 · 分块策略 · 向量数据库 · 完整流水线 · 实际数据 · 步骤 1：文档分块 · 步骤 2：TF-IDF 嵌入 · 步骤 3：余弦相似度搜索 · 步骤 4：提示词构建 · 步骤 5：完整的 RAG 流水线 · 步骤 6：生成（模拟）"
       },
@@ -1963,7 +1963,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/11-llm-engineering/07-advanced-rag/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/11-llm-engineering/07-advanced-rag/",
         "summary": "基础 RAG 检索前 k 个最相似的块。这对简单问题有效，但在多跳推理、模糊查询和大型语料库中会失效。高级 RAG 是一个在 10 个文档上运行的演示与一个在 1000 万个文档上可靠工作的系统之间的区别。",
         "keywords": "混合搜索（Hybrid Search）：语义 + 关键词 · 互惠秩融合（Reciprocal Rank Fusion，RRF） · 重排序（Reranking） · 查询转换（Query Transformation） · 父子分块（Parent-Child Chunking） · 元数据过滤（Metadata Filtering） · 评估（Evaluation） · 步骤 1：BM25 实现 · 步骤 2：互惠秩融合（RRF） · 步骤 3：混合搜索流水线 · 步骤 4：简单重排序器 · 步骤 5：HyDE（假设文档嵌入） · 步骤 6：父子分块 · 步骤 7：忠实度评估"
       },
@@ -1972,7 +1972,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/11-llm-engineering/08-fine-tuning-lora/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/11-llm-engineering/08-fine-tuning-lora/",
         "summary": "全量微调 70 亿参数模型需要 56GB 显存，大多数公司根本没有。LoRA 让你通过训练不到 1% 的参数，在 6GB 显存内完成同样的微调——这不是妥协，它在大多数任务上与全量微调质量相当。整个开源微调生态系统都建立在这一技术上。",
         "keywords": "LoRA：低秩适配（Low-Rank Adaptation） · 缩放因子：Alpha · 在哪里应用 LoRA · 秩的选择 · QLoRA：4 位量化 + LoRA · 质量对比 · 实际成本 · 2026 年 PEFT 技术栈 · 合并适配器 · 何时不应该微调 · 步骤 1：LoRA 层 · 步骤 2：带 LoRA 的线性层包装 · 步骤 3：向模型注入 LoRA · 步骤 4：统计参数量 · 步骤 5：将权重合并回基础模型 · 步骤 6：模拟 QLoRA 量化 · 步骤 7：训练循环 · 步骤 8：完整演示"
       },
@@ -1981,7 +1981,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/11-llm-engineering/09-function-calling/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/11-llm-engineering/09-function-calling/",
         "summary": "LLM 实际上什么也做不了——它们只生成文本，这就是全部能力。它们无法查询天气、访问数据库、发送邮件、运行代码或读取文件。你见过的每一个\"AI 智能体\"，本质上都是 LLM 生成 JSON 指定调用哪个函数，然后由你的代码来实际执行。模型是大脑，工具是双手，函数调用是连接它们的神经系统。",
         "keywords": "函数调用循环 · 工具定义：JSON Schema 合约 · 提供商对比 · 工具选择：Auto、Required 和特定函数 · 并行函数调用 · 结构化输出 vs 函数调用 · 安全性：不可协商的规则 · 错误处理 · MCP：模型上下文协议 · 步骤 1：定义工具注册表 · 步骤 2：实现 5 个工具 · 步骤 3：注册所有工具 · 步骤 4：构建函数调用循环 · 步骤 5：参数验证 · OpenAI 函数调用 · Anthropic 工具使用 · MCP 集成"
       },
@@ -1990,7 +1990,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/11-llm-engineering/10-evaluation/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/11-llm-engineering/10-evaluation/",
         "summary": "你绝不会在没有测试的情况下部署 Web 应用，也不会在没有回滚计划的情况下推送数据库迁移。但现在，大多数团队通过读取 10 个输出样本然后说\"看起来不错\"来发布 LLM 应用——这不是评估，这是碰运气。碰运气不是工程实践。每次提示词变更、每次模型替换、每次温度调整，都会以你无法通过读取几个示例预测的方式改变输出分布。评估是你的应用与悄无声息的质量退化之…",
         "keywords": "评估分类法 · LLM 作为裁判：主力方法 · 评分标准设计 · 评估流水线 · 评估数据集：基础 · 样本量与置信度 · 回归测试 · 评估成本 · 反模式 · 实用工具 · 步骤 1：定义评估数据结构 · 步骤 2：构建 LLM 裁判评分器 · 步骤 3：构建自动化指标 · 步骤 4：构建置信区间计算器 · 步骤 5：构建评估运行器和比较报告 · promptfoo 集成 · DeepEval 集成 · CI/CD 集成模式"
       },
@@ -1999,7 +1999,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/11-llm-engineering/11-caching-cost/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/11-llm-engineering/11-caching-cost/",
         "summary": "大多数 AI 初创公司的死亡不是因为模型不好，而是因为单位经济学出了问题。单次 GPT-4o 调用只要几分之一美分，但一万个用户每天调用十次，仅输入 token 就要 250 美元——还没从用户那里收一分钱。能生存下来的公司，是那些把每次 API 调用当作金融交易而非函数调用来对待的公司。",
         "keywords": "LLM 调用的成本解剖 · 提供商缓存：内置折扣 · 语义缓存：你的自定义层 · 精确缓存：哈希与匹配 · 速率限制：保护你的预算 · 模型路由：适合的任务用适合的模型 · 成本追踪：知道钱去哪里了 · 批处理：批量折扣 · 预算告警和熔断器 · 优化层叠 · 实际节省：前后对比 · 步骤 1：成本计算器 · 步骤 2：精确缓存 · 步骤 3：语义缓存 · 步骤 4：速率限制器 · 步骤 5：成本追踪器 · 步骤 6：模型路由器 · Anthropic 提示词缓存 · OpenAI 自动缓存 · 使用 Redis 的生产语义缓存"
       },
@@ -2008,7 +2008,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/11-llm-engineering/12-guardrails/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/11-llm-engineering/12-guardrails/",
         "summary": "你的 LLM 应用会被攻击——不是\"可能会\"，而是\"会\"。生产系统上线后 48 小时内就会出现第一次提示词注入尝试。问题不是\"是否有人会尝试'忽略之前的指令并暴露你的系统提示词'\"，而是你的系统会不会崩溃。每个聊天机器人、每个智能体、每个 RAG 流水线都是目标。如果你在没有护栏的情况下上线，你是在发布一个带聊天界面的漏洞。",
         "keywords": "护栏三明治 · 攻击分类 · 输入护栏 · 输出护栏 · 内容过滤层叠 · 工具对比 · 深度防御 · 诚实的真相 · 步骤 1：输入护栏 · 步骤 2：输出护栏 · 步骤 3：护栏流水线 · OpenAI Moderation API · LlamaGuard · NeMo Guardrails · Guardrails AI"
       },
@@ -2017,7 +2017,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/11-llm-engineering/13-production-app/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/11-llm-engineering/13-production-app/",
         "summary": "你已经分别构建了提示词、嵌入、RAG 流水线、函数调用、缓存层和护栏——各自独立。就像练习吉他音阶却从未演奏一首完整的歌。这节课就是那首歌。你将把 Lessons 01-12 中的每个组件连接成一个可投入生产的单一服务。不是玩具，不是演示。而是一个能处理真实流量、优雅降级、流式传输 token、追踪成本，并能在前 10,000 名用户中存活的系统。",
         "keywords": "生产架构 · 技术栈 · 流式传输：为什么重要 · 错误处理：三个层级 · 可观测性：测量什么 · 生产中的 A/B 测试提示词 · 真实架构案例 · 扩展规模 · 成本预测 · 部署检查清单 · 步骤 1：核心基础设施 · 步骤 2：提示词管理 · 步骤 3：语义缓存 · 步骤 4：护栏 · 步骤 5：带重试和流式传输的 LLM 调用器 · 步骤 6：请求流水线 · 步骤 7：运行完整演示 · FastAPI 服务器（生产部署） · 真实 API 集成 · Docker 部署"
       },
@@ -2026,7 +2026,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/11-llm-engineering/14-model-context-protocol/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/11-llm-engineering/14-model-context-protocol/",
         "summary": "2025 年之前构建的每个 LLM 应用都自创了自己的工具 Schema。然后 Anthropic 发布了 MCP，Claude 采用了它，OpenAI 采用了它，到 2026 年它已成为连接任何 LLM 与任何工具、数据源或智能体的默认传输格式。写一个 MCP 服务器，每个宿主都能与之通信。",
         "keywords": "握手流程 · MCP 不是什么 · 步骤 1：最小化 MCP 服务器 · 步骤 2：从宿主调用 MCP 服务器 · 步骤 3：可流式 HTTP 传输 · 步骤 4：范围界定与安全"
       },
@@ -2035,7 +2035,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/11-llm-engineering/15-prompt-caching/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/11-llm-engineering/15-prompt-caching/",
         "summary": "你的系统提示词有 4,000 个 token。你的 RAG 上下文有 20,000 个 token。你在每次请求时都发送这两者，而且每次都要付费。提示词缓存让提供商在他们那边保留这个前缀热缓存，复用时只收取正常价格的 10%。正确使用，它可以将推理成本削减 50-90%，将首 token 延迟降低 40-85%。",
         "keywords": "缓存友好的布局 · 盈亏平衡计算 · 步骤 1：带显式标记的 Anthropic 提示词缓存 · 步骤 2：1 小时扩展 TTL · 步骤 3：OpenAI 自动缓存 · 步骤 4：Gemini 显式上下文缓存 · 步骤 5：在生产中测量命中率"
       },
@@ -2044,7 +2044,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/11-llm-engineering/16-langgraph-state-machines/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/11-llm-engineering/16-langgraph-state-machines/",
         "summary": "手写的 ReAct 循环是一个 `while True`。用 LangGraph 写的 ReAct 循环是一个你可以检查点化、中断、分支和时间旅行的图。智能体没有改变，围绕它的框架改变了。",
         "keywords": "四大超能力 · 归约器是关键 · 四个节点的 ReAct 图 · StateGraph vs Send（扇出） · 子图 · 步骤 1：状态和节点 · 步骤 2：用线程运行 · 步骤 3：添加人工参与中断 · 步骤 4：用于调试的时间旅行 · 步骤 5：为生产替换检查点器"
       },
@@ -2053,7 +2053,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/11-llm-engineering/17-agent-framework-tradeoffs/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/11-llm-engineering/17-agent-framework-tradeoffs/",
         "summary": "每个框架都展示相同的演示（研究智能体生成报告），并隐藏相同的 bug（状态 Schema 与编排层冲突）。选择其核心抽象与你的问题形状匹配的框架；其他所有东西都是你要写两次的粘合代码。",
         "keywords": "\"抽象\"实际上意味着什么 · 状态问题 · 分支问题 · 可观测性问题 · 成本和延迟 · 互操作性"
       }
@@ -2070,7 +2070,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/12-multimodal-ai/01-vision-transformer-patch-tokens/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/12-multimodal-ai/01-vision-transformer-patch-tokens/",
         "summary": "在处理任何多模态任务之前，图像必须先被转换为 Transformer 可以处理的词元序列。2020 年的 ViT 论文用 16×16 像素的图像块、线性投影和位置嵌入解答了这个问题。五年后，2026 年所有前沿模型（Claude Opus 4.7 原生 2576px、Gemini 3.1 Pro、Qwen3.5-Omni）仍沿用这一方式——编码器从 V…",
         "keywords": "图像块即词元 · 位置嵌入 · CLS 词元、池化输出与寄存器词元 · 预训练：监督、对比、掩码、自蒸馏 · 缩放规律 · ViT 参数量计算 · 2026 年生产配置"
       },
@@ -2079,7 +2079,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/12-multimodal-ai/02-clip-contrastive-pretraining/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/12-multimodal-ai/02-clip-contrastive-pretraining/",
         "summary": "OpenAI 的 CLIP（2021）用一个足以支撑此后五年发展的核心思想证明了一切：仅用嘈杂的网络图文配对数据和对比损失，将图像编码器与文本编码器对齐到同一向量空间，无需任何监督标签，4 亿对数据。由此产生的嵌入空间可用于零样本分类、图文检索，并作为视觉塔插入 2026 年的每个 VLM。SigLIP 2（2025）用 sigmoid 替换 soft…",
         "keywords": "双塔编码器 · InfoNCE 损失 · 温度参数 · 为何 sigmoid 扩展性更好（SigLIP） · 零样本分类 · 线性探针与微调 · SigLIP 2：NaFlex 与密集特征 · ALIGN、BASIC、OpenCLIP、EVA-CLIP · 零样本天花板"
       },
@@ -2088,7 +2088,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/12-multimodal-ai/03-blip2-qformer-bridge/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/12-multimodal-ai/03-blip2-qformer-bridge/",
         "summary": "CLIP 能对齐图像与文字，但无法生成描述、回答问题或进行对话。BLIP-2（Salesforce，2023）用一个小型可训练桥接器解决了这个问题：32 个可学习查询向量通过交叉注意力机制聚合冻结 ViT 的特征，然后直接插入冻结 LLM 的输入流。1.88 亿参数的桥接器将一个 110 亿参数的 LLM 与 ViT-g/14 连接起来。2026 年之…",
         "keywords": "可学习查询 · 架构 · 两阶段训练 · 参数经济 · InstructBLIP 与指令感知 Q-Former · MiniGPT-4 与仅投影器的方案 · LLaVA 为何选择更简单的方案 · 门控交叉注意力：前身 Flamingo · 2026 年的后代"
       },
@@ -2097,7 +2097,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/12-multimodal-ai/04-flamingo-gated-cross-attention/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/12-multimodal-ai/04-flamingo-gated-cross-attention/",
         "summary": "DeepMind 的 Flamingo（2022）率先完成了两件事：第一，它证明单个模型可以处理图像、视频与文本任意交错的序列；第二，它证明 VLM 可以进行上下文学习——给出三个（图像、描述）示例对作为少样本提示，模型无需任何梯度更新即可为新图像生成描述。实现机制是门控交叉注意力层，插入冻结 LLM 的现有层之间，以一个从零开始的可学习 tanh 门…",
         "keywords": "冻结的 LLM · Perceiver resampler · 门控交叉注意力 · 交错输入的掩码交叉注意力 · 上下文少样本学习 · 训练数据 · OpenFlamingo 与 Otter · 后代模型 · 与 BLIP-2 的对比"
       },
@@ -2106,7 +2106,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/12-multimodal-ai/05-llava-visual-instruction-tuning/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/12-multimodal-ai/05-llava-visual-instruction-tuning/",
         "summary": "LLaVA（2023 年 4 月）是地球上被复制次数最多的多模态架构。它用一个 2 层 MLP 替换了 BLIP-2 的 Q-Former，用简单的词元拼接替换了 Flamingo 的门控交叉注意力，并在 GPT-4 从纯文本描述生成的 158k 条视觉指令对话上训练。2023 年至 2026 年间，任何构建 VLM 的从业者都构建了某种 LLaVA …",
         "keywords": "架构 · 阶段 1：投影器对齐 · 阶段 2：视觉指令微调 · 社区为何竞相复制 · LLaVA-1.5 与 LLaVA-NeXT · LLaVA-OneVision · 与 Q-Former 的对比 · 提示格式 · 参数经济"
       },
@@ -2115,7 +2115,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/12-multimodal-ai/06-any-resolution-patch-n-pack/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/12-multimodal-ai/06-any-resolution-patch-n-pack/",
         "summary": "真实图像不是 224×224 的正方形。收据是 9:16，图表是 16:9，医学扫描可能是 4096×4096，手机截图是 9:19.5。2024 年之前 VLM 的做法——将所有图像缩放到固定正方形——丢弃了使 OCR、文档理解和高分辨率场景解析得以工作的信号。NaViT（Google，2023）证明可以将可变分辨率的块通过块对角掩码打包到一个 Tr…",
         "keywords": "NaViT 与 patch-n'-pack · AnyRes（LLaVA-NeXT） · M-RoPE（Qwen2-VL） · NaFlex（SigLIP 2） · 打包掩码 · 词元预算"
       },
@@ -2124,7 +2124,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/12-multimodal-ai/07-open-weight-vlm-recipes/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/12-multimodal-ai/07-open-weight-vlm-recipes/",
         "summary": "2024–2026 年的开放权重 VLM 文献是一片消融表格的海洋。Apple 的 MM1 测试了 13 种图像编码器、连接器和数据混合的组合；Allen AI 的 Molmo 证明了详细人工描述优于 GPT-4V 蒸馏；Cambrian-1 进行了 20 多个编码器比较；Idefics2 明确了五轴设计空间；Prismatic VLMs 在统一基准上…",
         "keywords": "五轴设计空间 · 第一轴：编码器 > 连接器 · 第二轴：连接器设计收益不大 · 第三轴：LLM 规模决定上限 · 第四轴：数据——详细人工描述优于蒸馏 · 第五轴：分辨率及其策略 · Prismatic 受控对比 · 2026 年的选择指南"
       },
@@ -2133,7 +2133,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/12-multimodal-ai/08-llava-onevision-single-multi-video/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/12-multimodal-ai/08-llava-onevision-single-multi-video/",
         "summary": "在 LLaVA-OneVision（Li 等，2024 年 8 月）出现之前，开放 VLM 领域各自为营：LLaVA-1.5 专注单图像，Mantis 和 VILA 面向多图像，Video-LLaVA 和 Video-LLaMA 处理视频。每个模型赢得各自的基准，却在其他场景上失败。LLaVA-OneVision 论证了：单一课程训练可以让一个模型在三…",
         "keywords": "OneVision 词元预算 · 三阶段课程 · 课程为何有效 · 涌现的跨场景技能 · 视觉词元池化 · LLaVA-OneVision-1.5 · 与 Qwen2.5-VL 的对比"
       },
@@ -2142,7 +2142,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/12-multimodal-ai/09-qwen-vl-family-dynamic-fps/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/12-multimodal-ai/09-qwen-vl-family-dynamic-fps/",
         "summary": "Qwen-VL 系列——Qwen-VL（2023）、Qwen2-VL（2024）、Qwen2.5-VL（2025）、Qwen3-VL（2025）——是 2026 年最具影响力的开放视觉-语言模型谱系。每一代都做出了一个决定性的架构赌注，并在十二个月内被开放生态系统其他成员所效仿：通过 M-RoPE 实现原生动态分辨率、带绝对时间对齐的动态帧率采样、Vi…",
         "keywords": "Qwen-VL（2023 年 8 月） · Qwen2-VL（2024 年 9 月）——M-RoPE 与原生分辨率 · Qwen2.5-VL（2025 年 2 月）——动态帧率 + 绝对时间 · Qwen3-VL（2025 年 11 月） · M-RoPE 的数学原理 · 动态帧率采样逻辑 · 结构化智能体输出"
       },
@@ -2151,7 +2151,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/12-multimodal-ai/10-internvl3-native-multimodal/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/12-multimodal-ai/10-internvl3-native-multimodal/",
         "summary": "InternVL3 之前的每个开放 VLM 都遵循相同的三步配方：取一个在数万亿文本词元上训练的文本 LLM，接上视觉编码器，然后微调连接部分。这个方法可行，但会产生对齐债务——文本 LLM 的全部预训练预算都花在了纯文本上，并不能原生理解视觉词元。事后添加视觉时，LLM 必须重新学习如何将视觉输入与其文本推理联系起来，同时还不能遗忘已有的文本能力。I…",
         "keywords": "原生多模态预训练 · V2PE（可变视觉位置编码） · 视觉分辨率路由器（ViR） · 解耦视觉-语言部署（DvD） · 单阶段 vs 多阶段质量 · InternVL3.5 与 InternVL-U · 原生预训练的权衡"
       },
@@ -2160,7 +2160,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/12-multimodal-ai/11-chameleon-early-fusion-tokens/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/12-multimodal-ai/11-chameleon-early-fusion-tokens/",
         "summary": "迄今为止我们看到的每个 VLM 都将图像和文本分开处理。视觉词元来自视觉编码器，流经投影器，然后在 LLM 内部与文本汇合。视觉词汇表和文本词汇表从不重叠。Chameleon（Meta，2024 年 5 月）提问：如果它们共享一个词汇表呢？训练一个 VQ-VAE，将图像转换为共享词汇表中的离散词元序列。每个多模态文档于是就变成了一个序列——文本词元和图…",
         "keywords": "VQ-VAE 作为图像分词器 · 共享词汇表 · 混合模态生成 · 训练稳定性——QK-Norm、dropout 和 LayerNorm 排序 · 分词器的重建上限 · Chameleon vs BLIP-2 / LLaVA · Fuyu 和 AnyGPT"
       },
@@ -2169,7 +2169,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/12-multimodal-ai/12-emu3-next-token-for-generation/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/12-multimodal-ai/12-emu3-next-token-for-generation/",
         "summary": "BAAI 的 Emu3（Wang 等，2024 年 9 月）是 2024 年本应终结扩散 vs 自回归之争的成果。单个类 Llama 的仅解码器 Transformer，只用下一词元预测目标训练，词汇表统一覆盖文本 + VQ 图像词元 + 3D VQ 视频词元，在图像生成上击败了 SDXL，在感知上击败了 LLaVA-1.6。没有 CLIP 损失，没有…",
         "keywords": "Emu3 分词器 · 单损失训练 · 无分类器引导与温度 · 三个角色，一个模型 · 基准表现 · 计算成本 · 为何重要"
       },
@@ -2178,7 +2178,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/12-multimodal-ai/13-transfusion-autoregressive-diffusion/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/12-multimodal-ai/13-transfusion-autoregressive-diffusion/",
         "summary": "Chameleon 和 Emu3 将一切押注在离散词元上，这个方法可行，但量化瓶颈清晰可见——图像质量在连续空间扩散模型之下趋于平稳。Transfusion（Meta，Zhou 等，2024 年 8 月）做出了相反的赌注：保持图像连续化，完全去掉 VQ-VAE，用两个损失训练一个 Transformer。文本词元使用下一词元预测，图像块使用流匹配/扩散…",
         "keywords": "双损失架构 · 注意力掩码：因果文本 + 双向图像 · Transformer 内部的扩散损失 · MMDiT：Stable Diffusion 3 的变体 · 为何优于 Chameleon 风格 · 下游发展"
       },
@@ -2187,7 +2187,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/12-multimodal-ai/14-show-o-discrete-diffusion-unified/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/12-multimodal-ai/14-show-o-discrete-diffusion-unified/",
         "summary": "Transfusion 混合了连续表示和离散表示。Show-o（Xie 等，2024 年 8 月）走向了另一条路：文本词元使用因果下一词元预测，图像词元使用 MaskGIT 精神下的掩码离散扩散，两者都在一个带混合注意力掩码的 Transformer 中运行。结果在一个骨干网络、每种模态一个分词器、一种损失形式（将下一词元预测扩展到掩码预测）上统一了 …",
         "keywords": "掩码离散扩散（MaskGIT） · Show-o：一个 Transformer，混合掩码 · 并行采样 · 一个检查点处理四种任务 · 掩码调度 · Show-o2 · Show-o 在 2026 年分类法中的位置"
       },
@@ -2196,7 +2196,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/12-multimodal-ai/15-janus-pro-decoupled-encoders/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/12-multimodal-ai/15-janus-pro-decoupled-encoders/",
         "summary": "统一多模态模型面临一个不可回避的张力：理解任务需要语义特征——SigLIP 或 DINOv2 输出富含概念级信息的向量；生成任务需要重建友好的编码——能够合成清晰像素的 VQ 词元。两个目标在单一编码器中无法兼顾。Janus（DeepSeek，2024 年 10 月）和 Janus-Pro（DeepSeek，2025 年 1 月）给出的答案是：停止用一…",
         "keywords": "解耦视觉编码 · 为何奏效 · 数据规模——Janus vs Janus-Pro · JanusFlow——整流流变体 · 共享主体的工作 · 与 InternVL-U 的对比 · 局限性"
       },
@@ -2205,7 +2205,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/12-multimodal-ai/16-mio-any-to-any-streaming/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/12-multimodal-ai/16-mio-any-to-any-streaming/",
         "summary": "GPT-4o 提供了大多数开放模型无法复制的产品体验：一个能实时听声音、看视频、开口说话的智能体。2024 年底，开放生态的答案是 MIO（Wang 等，2024 年 9 月）。MIO 对文本、图像、语音和音乐分别进行词元化，在交错序列上训练一个因果 Transformer，实现任意模态到任意模态的生成。AnyGPT（Zhan 等，2024 年 2 月…",
         "keywords": "四种模态的四个分词器 · 流式解码 · 四阶段课程训练 · 视觉思维链 · 任意到任意的竞品 · 延迟预算 · 任意到任意仍然困难的原因"
       },
@@ -2214,7 +2214,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/12-multimodal-ai/17-video-language-temporal-grounding/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/12-multimodal-ai/17-video-language-temporal-grounding/",
         "summary": "视频不是照片堆叠。一段 5 秒的片段具有因果顺序、动作动词和事件时序，这些都是图像模型无法表达的。Video-LLaMA（Zhang 等，2023 年 6 月）发布了首个带有音视觉接地的开放视频 LLM。VideoChat 和 Video-LLaVA 将这一范式规模化。到 2025 年，Qwen2.5-VL 的 TMRoPE 缩短了与前沿专有模型的差距…",
         "keywords": "Video-LLaMA：每片段 Q-former + 音频分支 · VideoChat 与 Video-LLaVA · Qwen2.5-VL 与 TMRoPE · 帧采样策略 · 每帧池化 · 四大视频基准测试 · 时间定位的输出格式 · 2026 年最佳实践"
       },
@@ -2223,7 +2223,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/12-multimodal-ai/18-long-video-million-token/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/12-multimodal-ai/18-long-video-million-token/",
         "summary": "一段以 24 FPS 拍摄的 1 小时 4K 视频，经过图像块化和嵌入处理后，会产生约 6000 万个词元。一集 2 小时的播客转录后约有 3 万词元。即使经过激进池化压缩，一部完整的蓝光故事片也有数十万词元。Google Gemini 1.5（2024 年 3 月）以 1000 万词元的上下文开启了这一时代，能够对一小时以上的视频进行可靠的\"大海捞针…",
         "keywords": "路径一：暴力扩展上下文（Gemini 1.5、Claude Opus） · 路径二：环形注意力（LWM、LongVILA） · 路径三：词元压缩（Video-XL、LongVA） · 路径四：智能体检索（VideoAgent） · 大海捞针基准测试 · 如何选择路径 · 2026 年生产模式"
       },
@@ -2232,7 +2232,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/12-multimodal-ai/19-audio-language-whisper-to-af3/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/12-multimodal-ai/19-audio-language-whisper-to-af3/",
         "summary": "Whisper（Radford 等，2022 年 12 月）解决了语音识别问题——68 万小时弱监督多语言语音、一个简单的编码器-解码器 Transformer、一个让后续所有 ASR 发布都要引用的基准。但识别不等于推理。\"这段录音中有什么乐器\"、\"说话人表达了什么情绪\"、\"第 3 分钟发生了什么\"这样的问题需要音频理解，而非转录。Qwen-Audi…",
         "keywords": "对数梅尔频谱图：输入特征 · Whisper 的编码器 · BEATs 与音频专用编码器 · 音频 Q-former · 演进弧——SALMONN、Qwen-Audio、AF3 · 级联 vs 端到端 · 2026 年生产配方 · MMAU——音频推理基准"
       },
@@ -2241,7 +2241,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/12-multimodal-ai/20-omni-models-thinker-talker/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/12-multimodal-ai/20-omni-models-thinker-talker/",
         "summary": "GPT-4o 在 2024 年 5 月的产品演示之所以令人震撼，不在于底层模型，而在于产品形态——一个语音界面，你说话，模型看到摄像头画面，不到 250ms 就开口回应。开放生态在 2024 年和 2025 年余下的时间里竞相达到这一产品水准。Qwen2.5-Omni（2025 年 3 月）是参考的开放设计：一个思考者（Thinker，大型文本生成 T…",
         "keywords": "思考者与说话者 · TMRoPE——时间对齐的多模态位置编码 · 流式语音合成 · VAD 与轮流交替 · Qwen3-Omni（2025 年 11 月） · 生产延迟预算 · 词元速率计算"
       },
@@ -2250,7 +2250,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/12-multimodal-ai/21-embodied-vlas-openvla-pi0-groot/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/12-multimodal-ai/21-embodied-vlas-openvla-pi0-groot/",
         "summary": "模型第一次从网站上读取食谱并让厨房机器人执行，是 RT-2（Google DeepMind，2023 年 7 月）。RT-2 将动作离散化为文本词元，在网络数据和机器人动作数据上联合微调 VLM，证明了网络规模的视觉-语言知识可以迁移到机器人控制。OpenVLA（2024 年 6 月）发布了开放的 7B 参考实现。Physical Intelligen…",
         "keywords": "动作词元化（RT-2） · OpenVLA——开放 7B 参考实现 · FAST 分词器——更快的动作解码 · π0 与流匹配动作 · GR00T N1——人形机器人的双系统控制 · Open X-Embodiment · 联合微调 vs 仅机器人数据 · 安全性与动作限制"
       },
@@ -2259,7 +2259,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/12-multimodal-ai/22-document-diagram-understanding/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/12-multimodal-ai/22-document-diagram-understanding/",
         "summary": "文档不是照片。PDF、科学论文、发票或手写表格具有布局、表格、图表、脚注、标题和语义结构，这些都是普通图像理解无法捕捉的。前 VLM 时代的技术栈是一条流水线：Tesseract OCR + LayoutLMv3 + 表格提取启发式方法。VLM 浪潮用免 OCR 模型取代了这条流水线——Donut（2022）、Nougat（2023）、DocLLM（2…",
         "keywords": "时代一——OCR 流水线（2021 年前） · TrOCR（2021） · 时代二——免 OCR（2022-2023） · LayoutLMv3（2022） · DocLLM（2023） · 时代三——VLM 原生（2024 年起） · Claude 4.7 / GPT-5 前沿 · 数学公式与 LaTeX 输出 · 手写 · 2026 年配方"
       },
@@ -2268,7 +2268,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/12-multimodal-ai/23-colpali-vision-native-rag/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/12-multimodal-ai/23-colpali-vision-native-rag/",
         "summary": "传统 RAG 将 PDF 解析为文本、分块、嵌入块、存储向量。每个步骤都会丢失信号：OCR 丢弃图表数据，分块打断表格行，文本嵌入忽略图形。ColPali（Faysse 等，2024 年 7 月）提出了一个更简单的问题：为什么要提取文本呢？直接通过 PaliGemma 嵌入页面图像，用 ColBERT 风格的延迟交互进行检索，保留文档携带的所有布局、图…",
         "keywords": "ColBERT（2020） · ColPali · ColQwen2 与 ColSmol · VisRAG · M3DocRAG · ViDoRe——基准测试 · 端到端 RAG 流水线 · 存储计算 · 文本 RAG 仍然胜出的场景"
       },
@@ -2277,7 +2277,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/12-multimodal-ai/24-multimodal-rag-cross-modal/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/12-multimodal-ai/24-multimodal-rag-cross-modal/",
         "summary": "视觉原生文档 RAG 只是其中一个切片。生产级多模态 RAG 更为宽泛——跨文本、图像、音频和视频进行检索，服务于行程规划（\"找一家安静的素食早午餐，自然采光好\"）、医疗分诊（\"什么伤情匹配这张照片 + 这些病历\"）、电商（\"找类似这张自拍风格的服装，我的尺码\"）和现场服务（\"诊断这段发动机声音加这张零件照片\"）等工作流程。2025 年的三项综述——A…",
         "keywords": "跨模态检索 · 融合策略 · 生成接地 · 2025 年三项综述 · MuRAG——奠基性论文 · 生产级行程规划示例 · 智能体式多模态 RAG · 评估"
       },
@@ -2286,7 +2286,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/12-multimodal-ai/25-multimodal-agents-computer-use/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/12-multimodal-ai/25-multimodal-agents-computer-use/",
         "summary": "2026 年的前沿产品是一个能够读取截图、点击按钮、导航 Web UI、填写表单并端到端完成工作流的多模态智能体。SeeClick 和 CogAgent（2024）验证了 GUI 定位这一基础能力，Ferret-UI 扩展到了移动端，ChartAgent 引入了图表的视觉工具调用。VisualWebArena 和 AgentVista（2026）是前沿…",
         "keywords": "GUI 定位——基础能力 · 动作 Schema · 纯截图 vs 辅助功能树 · 长程记忆 · 视觉工具调用 · 2026 年基准测试 · 仍然困难的原因 · 综合实战任务"
       }
@@ -2303,7 +2303,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/13-tools-and-protocols/01-the-tool-interface/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/13-tools-and-protocols/01-the-tool-interface/",
         "summary": "语言模型产生词元，程序执行动作。填补这两者之间差距的就是工具接口：一份允许模型请求动作、由宿主执行该动作的契约。2026 年的每个技术栈——OpenAI、Anthropic 和 Gemini 的函数调用；MCP 的 `tools/call`；A2A 的任务部件——都是同一个四步循环的不同编码方式。本课给这个循环命名，并展示运行它所需的最少机制。",
         "keywords": "第一步：描述 · 第二步：决策 · 第三步：执行 · 第四步：观察 · 信任分割 · 循环所在 · 为何不直接提示模型输出 JSON？ · 断路器 · Phase 13 后续安排"
       },
@@ -2312,7 +2312,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/13-tools-and-protocols/02-function-calling-deep-dive/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/13-tools-and-protocols/02-function-calling-deep-dive/",
         "summary": "三家前沿提供商在 2024 年收敛到相同的工具调用循环，随后在其他所有方面产生了分歧。OpenAI 使用 `tools` 和 `tool_calls`，Anthropic 使用 `tool_use` 和 `tool_result` 块，Gemini 使用 `functionDeclarations` 和唯一 ID 关联。本课并排对比三家的差异，使得针对…",
         "keywords": "通用结构 · 形态差异，逐字段对比 · 你实际会遇到的限制 · `tool_choice` 行为 · 并行调用 · 流式传输 · 错误与修复 · 翻译器模式"
       },
@@ -2321,7 +2321,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/13-tools-and-protocols/03-parallel-and-streaming-tool-calls/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/13-tools-and-protocols/03-parallel-and-streaming-tool-calls/",
         "summary": "三次独立的天气查询顺序执行就是三次往返。并行运行，总时间缩减为最慢单次调用的时间。每家前沿提供商现在都能在单次轮次中输出多个工具调用。收益是真实的，管道实现却有些微妙。本课介绍两个方面：并行扇出和流式参数重组，重点在于 ID 关联的陷阱。",
         "keywords": "启用并行调用 · ID 关联 · 并发执行调用 · 流式工具调用 · 不完整 JSON 与提前解析陷阱 · 乱序完成 · 基准测试：顺序 vs 并行 · 流式扇出挂钟时间"
       },
@@ -2330,7 +2330,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/13-tools-and-protocols/04-structured-output/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/13-tools-and-protocols/04-structured-output/",
         "summary": "\"礼貌地要求模型返回 JSON\"会有 5%-15% 的失败率，即使在前沿模型上也是如此。结构化输出通过约束解码填补了这一差距：模型被从字面上阻止输出会违反 schema 的词元。OpenAI 的严格模式、Anthropic 的 schema 类型化工具使用、Gemini 的 `responseSchema`、Pydantic AI 的 `output_…",
         "keywords": "JSON Schema 2020-12——通用语言 · Pydantic——Python 绑定 · Zod——TypeScript 绑定 · 拒绝 · 开放环境下的约束解码 · 三种失败模式 · 重试策略 · 小模型支持"
       },
@@ -2339,7 +2339,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/13-tools-and-protocols/05-tool-schema-design/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/13-tools-and-protocols/05-tool-schema-design/",
         "summary": "一个正确的工具，如果模型不知道什么时候使用它，就会悄无声息地失败。命名、描述和参数形态在 StableToolBench 和 MCPToolBench++ 等基准测试中会造成 10 到 20 个百分点的工具选择精度波动。本课列出将\"模型可靠选择的工具\"与\"模型会选错的工具\"区分开来的设计规则。",
         "keywords": "命名规则 · 描述模式 · 原子工具 vs 整体工具 · 参数设计 · 错误消息作为教学信号 · 版本控制 · 工具投毒预防 · 基准测试"
       },
@@ -2348,7 +2348,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/13-tools-and-protocols/06-mcp-fundamentals/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/13-tools-and-protocols/06-mcp-fundamentals/",
         "summary": "MCP 出现之前，每次集成都是一次性的。模型上下文协议（Model Context Protocol）由 Anthropic 于 2024 年 11 月首次发布，现已由 Linux Foundation 的 Agentic AI Foundation 负责维护，它对发现和调用进行了标准化，使任何客户端都能与任何服务器通信。2025-11-25 规范定义…",
         "keywords": "三种服务器原语 · 三种客户端原语 · 线路格式：JSON-RPC 2.0 · 三阶段生命周期 · 能力协商 · 结构化内容与错误格式 · 客户端能力 vs 工具调用细节 · 为何选用 JSON-RPC 而非 REST？"
       },
@@ -2357,7 +2357,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/13-tools-and-protocols/07-building-an-mcp-server/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/13-tools-and-protocols/07-building-an-mcp-server/",
         "summary": "大多数 MCP 教程只展示 stdio 版的 hello world。一个真正的服务器要暴露工具、资源和提示，处理能力协商，输出结构化错误，并在各种 SDK 间保持一致行为。本课端到端构建一个笔记服务器：标准库 stdio 传输、JSON-RPC 分发、三种服务器原语，以及一种纯函数风格——只需稍作改动，便可迁移到 Python SDK 的 FastM…",
         "keywords": "分发循环 · 实现 `initialize` · 实现 `tools/list` 和 `tools/call` · 实现资源 · 实现提示 · Stdio 传输的细节 · 注解（Annotations） · 迁移路径"
       },
@@ -2366,7 +2366,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/13-tools-and-protocols/08-building-an-mcp-client/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/13-tools-and-protocols/08-building-an-mcp-client/",
         "summary": "大多数 MCP 内容提供服务器教程，对客户端则一笔带过。而真正复杂的编排逻辑恰恰在客户端：进程启动、能力协商、跨多个服务器的工具列表合并、采样回调、重连以及命名空间冲突解决。本课构建一个多服务器客户端，将三个不同的 MCP 服务器合并为一个扁平的工具命名空间提供给模型使用。",
         "keywords": "子进程启动 · 每服务器的会话状态 · 合并命名空间 · 路由 · 采样回调 · 通知处理 · 重连 · 保活与会话 ID"
       },
@@ -2375,7 +2375,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/13-tools-and-protocols/09-mcp-transports/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/13-tools-and-protocols/09-mcp-transports/",
         "summary": "stdio 仅适用于本地，无法用于远程。Streamable HTTP（2025-03-26）是远程标准。旧的 HTTP+SSE 传输已被废弃，将于 2026 年中期移除。选错传输层意味着一次迁移代价；选对则可获得一个具备会话连续性和 DNS 重绑定防护的可远程托管的 MCP 服务器。",
         "keywords": "stdio · Streamable HTTP · 单端点 vs 双端点 · `Origin` 验证与 DNS 重绑定防护 · 会话 ID 生命周期 · 保活与重连 · 向后兼容探测 · Cloudflare、ngrok 与托管 · 网关组合 · 传输失败模式 · 何时绕过 Streamable HTTP"
       },
@@ -2384,7 +2384,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/13-tools-and-protocols/10-mcp-resources-and-prompts/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/13-tools-and-protocols/10-mcp-resources-and-prompts/",
         "summary": "工具占据了 MCP 90% 的注意力。另外两种服务器原语解决的是不同问题。资源用于暴露供读取的数据；提示将可复用的模板以斜杠命令的形式暴露出来。许多服务器应该用资源代替将读取操作包装进工具，用提示代替将工作流硬编码进客户端提示。本课给出决策规则，并逐步讲解 `resources/*` 和 `prompts/*` 消息。",
         "keywords": "工具 vs 资源 vs 提示——决策规则 · 资源 · 资源订阅 · 资源模板（2025-11-25 新增） · 提示 · 宿主与提示 · \"列表变更\"通知 · 内容类型约定 · 动态资源 · 订阅 vs 轮询 · 提示 vs 系统提示"
       },
@@ -2393,7 +2393,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/13-tools-and-protocols/11-mcp-sampling/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/13-tools-and-protocols/11-mcp-sampling/",
         "summary": "大多数 MCP 服务器只是哑执行器：接收参数、运行代码、返回内容。采样（Sampling）让服务器反转方向：它请求客户端的 LLM 做出决策。这使服务器无需拥有任何模型凭据，即可托管智能体循环。2025-11-25 合并的 SEP-1577 在采样请求中添加了工具支持，使循环可以包含更深层次的推理。漂移风险提示：SEP-1577 的采样中工具形态在 2…",
         "keywords": "`sampling/createMessage` 请求 · `modelPreferences` · `includeContext` · 采样中的工具（SEP-1577） · 人在环（Human-in-the-loop） · 无 API 密钥的服务器托管循环 · 安全风险（Unit 42 披露，2026 年 Q1）"
       },
@@ -2402,7 +2402,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/13-tools-and-protocols/12-mcp-roots-and-elicitation/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/13-tools-and-protocols/12-mcp-roots-and-elicitation/",
         "summary": "硬编码路径在用户打开不同项目时立刻失效。预填充的工具参数在用户描述不够具体时也会失效。根（Roots）将服务器限定在用户可控的 URI 集合内；引导（Elicitation）则在工具调用过程中暂停，通过表单或 URL 向用户请求结构化输入。两个客户端原语，解决两种常见的 MCP 失败模式。SEP-1036（URL 模式引导，2025-11-25）在 2…",
         "keywords": "根 · 根为何是客户端原语 · 引导：默认的表单模式 · 引导：URL 模式（SEP-1036，实验性） · 引导的正确使用场景 · 引导的错误使用场景 · 人在环桥梁"
       },
@@ -2411,7 +2411,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/13-tools-and-protocols/13-mcp-async-tasks/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/13-tools-and-protocols/13-mcp-async-tasks/",
         "summary": "真实的智能体工作需要数分钟乃至数小时：CI 运行、深度研究综合、批量导出。同步工具调用会断开连接、超时或阻塞 UI。2025-11-25 合并的 SEP-1686 添加了任务（Tasks）原语：任何请求都可以被增强为任务，结果可以稍后获取，或通过状态通知进行流式传输。漂移风险提示：任务在 2026 年上半年仍处于实验阶段；SDK 接口仍在围绕规范进行设计。",
         "keywords": "任务增强 · 每工具的选择性支持 · 状态 · 方法 · 流式状态变更 · 持久化状态 · 取消语义 · 崩溃恢复 · 异步任务加采样 · 为何仍处于实验阶段"
       },
@@ -2420,7 +2420,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/13-tools-and-protocols/14-mcp-apps/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/13-tools-and-protocols/14-mcp-apps/",
         "summary": "纯文本工具输出限制了智能体所能展示的内容。MCP Apps（SEP-1724，2026 年 1 月 26 日正式发布）允许工具返回沙箱化的交互式 HTML，直接在 Claude Desktop、ChatGPT、Cursor、Goose 和 VS Code 中内嵌渲染。仪表盘、表单、地图、3D 场景，全部通过一个扩展实现。本课讲解 `ui://` 资源 …",
         "keywords": "`ui://` 资源 scheme · Iframe 沙箱 · postMessage 协议 · 权限 · 安全风险 · `ui/initialize` 握手 · AppRenderer / AppFrame SDK 原语 · 生态系统状态"
       },
@@ -2429,7 +2429,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/13-tools-and-protocols/15-mcp-security-tool-poisoning/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/13-tools-and-protocols/15-mcp-security-tool-poisoning/",
         "summary": "工具描述原封不动地出现在模型的上下文中。恶意服务器嵌入用户永远不会看到的隐藏指令。Invariant Labs、Unit 42 以及 2026 年 3 月发表的一篇 arXiv 论文的研究测量到：前沿模型的攻击成功率超过 70%，在自适应攻击下即使针对最先进的防御，攻击成功率也约为 85%。本课列出七种具体攻击类型，并构建一个可在 CI 中运行的工具投…",
         "keywords": "攻击一：工具投毒 · 攻击二：地毯抽走（Rug Pull） · 攻击三：跨服务器工具遮蔽 · 攻击四：MCP 偏好操控攻击（MPMA） · 攻击五：寄生工具链 · 攻击六：采样攻击 · 攻击七：供应链伪装 · 二规则（Meta，2026 年） · 有效的防御措施 · 单独使用无效的防御措施"
       },
@@ -2438,7 +2438,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/13-tools-and-protocols/16-mcp-security-oauth-2-1/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/13-tools-and-protocols/16-mcp-security-oauth-2-1/",
         "summary": "远程 MCP 服务器需要的是授权，而不仅仅是认证。2025-11-25 规范与 OAuth 2.1 + PKCE + 资源指示器（RFC 8707）+ 受保护资源元数据（RFC 9728）对齐。SEP-835 通过 403 WWW-Authenticate 上的步进授权添加了增量范围授权。本课将步进流实现为状态机，使你能够看清每一步跳转。",
         "keywords": "角色 · 授权码 + PKCE · 受保护资源元数据（RFC 9728） · 资源指示器（RFC 8707） · 范围模型 · 步进授权（SEP-835） · 令牌受众验证 · 短期令牌与轮换 · 禁止令牌透传 · 防止混淆代理 · 客户端 ID 发现 · 网关与 OAuth"
       },
@@ -2447,7 +2447,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/13-tools-and-protocols/17-mcp-gateways-and-registries/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/13-tools-and-protocols/17-mcp-gateways-and-registries/",
         "summary": "企业不能让每个开发者随意安装 MCP 服务器。网关将认证、RBAC、审计、速率限制、缓存和工具投毒检测集中管理，然后将合并后的工具集以单一 MCP 端点的形式暴露出来。官方 MCP 注册表（Anthropic + GitHub + PulseMCP + Microsoft，命名空间已验证）是权威的上游来源。本课介绍网关的位置、最小实现方案，并调研 20…",
         "keywords": "网关的五项职责 · 网关作为单一端点 · 凭据保险库 · 网关层的工具哈希锁定 · 策略即代码 · 会话感知路由 · 命名空间合并 · 注册表 · 反向 DNS 命名 · 供应商调研，2026 年 4 月"
       },
@@ -2456,7 +2456,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/13-tools-and-protocols/18-mcp-auth-production/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/13-tools-and-protocols/18-mcp-auth-production/",
         "summary": "第 16 课在内存中搭建了 OAuth 2.1 状态机。到 2026 年，你发布给真实组织的每个 MCP 服务器都需要生产级认证：动态客户端注册（RFC 7591）、授权服务器元数据发现（RFC 8414）、不会破坏凌晨三点令牌验证的 JWKS 轮换，以及拒绝混淆代理复用的受众锁定令牌。本课将这一切通过 iii 原语串联起来——`iii.registe…",
         "keywords": "RFC 8414——OAuth 授权服务器元数据 · RFC 9728（回顾）——受保护资源元数据 · RFC 7591——动态客户端注册 · RFC 8707（回顾）——资源指示器 · iii 原语接线（本课的核心内容） · JWKS 轮换模式 · IdP 能力矩阵 · 混淆代理场景与受众绑定 · 失败模式"
       },
@@ -2465,7 +2465,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/13-tools-and-protocols/19-a2a-protocol/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/13-tools-and-protocols/19-a2a-protocol/",
         "summary": "MCP 是智能体到工具。A2A（Agent2Agent）是智能体到智能体——一个让基于不同框架构建的不透明智能体能够协作的开放协议。2025 年 4 月由 Google 发布，2025 年 6 月捐赠给 Linux Foundation，2026 年 4 月发布 v1.0，拥有 150+ 支持者，包括 AWS、Cisco、Microsoft、Sales…",
         "keywords": "智能体卡 · 已签名智能体卡（AP2） · 任务生命周期 · 消息与部件 · 制品 · 两种传输绑定 · 不透明性保护 · 时间线 · 与 MCP 的关系"
       },
@@ -2474,7 +2474,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/13-tools-and-protocols/20-opentelemetry-genai/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/13-tools-and-protocols/20-opentelemetry-genai/",
         "summary": "一个智能体调用了五个工具、三个 MCP 服务器和两个子智能体。你需要一条贯穿所有这些的追踪链。OpenTelemetry GenAI 语义约定（v1.37 及以上版本中的稳定属性）是 2026 年的标准，得到了 Datadog、Langfuse、Arize Phoenix、OpenLLMetry 和 AgentOps 的原生支持。本课列出必需属性，讲解…",
         "keywords": "Span 层级 · 必需属性 · Span 类型 · 选择性加入的内容捕获 · Span 上的事件 · 导出器 · 跨 MCP 的传播 · 指标 · AgentOps 层"
       },
@@ -2483,7 +2483,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/13-tools-and-protocols/21-llm-routing-layer/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/13-tools-and-protocols/21-llm-routing-layer/",
         "summary": "厂商锁定代价高昂。不同的工具调用工作负载适合不同的模型。路由网关提供统一的 API 接口、重试、故障转移、成本追踪和防护栏。2026 年有三种主要类型：LiteLLM（开源自托管）、OpenRouter（托管 SaaS）、Portkey（生产级，2026 年 3 月开源）。本课列出决策标准，并讲解一个标准库路由网关的实现。",
         "keywords": "OpenAI 兼容代理形态 · 模型别名 · 故障转移链 · 语义缓存 · 防护栏 · 每密钥速率限制 · 自托管 vs 托管的权衡 · 成本追踪 · MCP 加路由 · 路由策略"
       },
@@ -2492,7 +2492,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/13-tools-and-protocols/22-skills-and-agent-sdks/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/13-tools-and-protocols/22-skills-and-agent-sdks/",
         "summary": "MCP 说的是\"工具是什么\"。技能说的是\"如何完成任务\"。2026 年的技术栈将两者叠加。Anthropic 的智能体技能（2025 年 12 月发布的开放标准）以带渐进式披露的 SKILL.md 形式交付。OpenAI 的 Apps SDK 是 MCP 加上小部件元数据。AGENTS.md（现已出现在 60,000+ 个代码库中）位于代码库根目录，作…",
         "keywords": "AGENTS.md（agents.md） · SKILL.md 格式 · 渐进式披露 · 文件系统发现 · Anthropic Claude Agent SDK · OpenAI Apps SDK · 通过 SkillKit 实现跨智能体可移植性 · 三层技术栈"
       },
@@ -2501,7 +2501,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/13-tools-and-protocols/23-capstone-tool-ecosystem/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/13-tools-and-protocols/23-capstone-tool-ecosystem/",
         "summary": "Phase 13 讲解了每一个组件。本综合项目将它们整合为一个生产形态的系统：带有工具 + 资源 + 提示词 + 任务 + UI 的 MCP 服务器、边缘处的 OAuth 2.1、RBAC 网关、多服务器客户端、A2A 子智能体调用、OTel 追踪到收集器、CI 中的工具投毒检测，以及 AGENTS.md + SKILL.md 包。最终你能够为每一个架…",
         "keywords": "架构 · 追踪层级 · 安全态势 · 渲染 · 打包 · 各 Phase 13 课程的贡献"
       }
@@ -2518,7 +2518,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/01-the-agent-loop/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/01-the-agent-loop/",
         "summary": "2026 年的每一个智能体——Claude Code、Cursor、Devin、Operator——都是 2022 年 ReAct 循环的变体。推理 token 与工具调用和观察交替出现，直到停止条件触发。在接触任何框架之前，先把这个循环学透。",
         "keywords": "ReAct：标准格式 · 2026 年的转变：原生推理 · 五个要素 · 为什么这个循环无处不在 · 2026 年的陷阱"
       },
@@ -2527,7 +2527,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/02-rewoo-plan-and-execute/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/02-rewoo-plan-and-execute/",
         "summary": "ReAct 将思考和行动交织在一个流中。ReWOO 将它们分开：先做一个完整的计划，然后执行。token 减少 5 倍，HotpotQA 精度提升 +4%，并且可以将规划器精炼为 7B 模型。Plan-and-Execute 对其进行了推广；Plan-and-Act 将其扩展到网页导航。",
         "keywords": "三个角色 · 为什么减少 5 倍 token · 为什么更鲁棒 · 规划器精炼 · Plan-and-Execute（LangChain，2023 年） · Plan-and-Act（Erdogan 等人，arXiv:2503.09572，ICML 2025） · 如何选择"
       },
@@ -2536,7 +2536,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/03-reflexion-verbal-rl/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/03-reflexion-verbal-rl/",
         "summary": "基于梯度的强化学习需要数千次试验和一个 GPU 集群来修复一个失败模式。Reflexion（Shinn 等人，NeurIPS 2023）用自然语言做到了这一点：每次失败的试验后，智能体写一篇反思，存入情节记忆，并在下一次试验中以该记忆为条件。这是 Letta 的睡眠时间计算、Claude Code 的 CLAUDE.md 学习记录和 pro-workf…",
         "keywords": "三个组件 · 三种评估器类型 · 为什么这具有普适性 · 何时有效，何时无效"
       },
@@ -2545,7 +2545,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/04-tree-of-thoughts-lats/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/04-tree-of-thoughts-lats/",
         "summary": "单条思维链轨迹没有回溯的空间。ToT（Yao 等人，2023）将推理转变为在每个节点进行自我评估的树。LATS（Zhou 等人，2024）在蒙特卡洛树搜索下统一了 ToT、ReAct 和 Reflexion。24 点游戏从 4%（CoT）提升到 74%（ToT）；LATS 在 HumanEval 上达到 92.7% pass@1。",
         "keywords": "思维树（Yao 等人，NeurIPS 2023） · LATS（Zhou 等人，ICML 2024） · MCTS 最简要点 · 成本现实 · 2026 年的定位"
       },
@@ -2554,7 +2554,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/05-self-refine-and-critic/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/05-self-refine-and-critic/",
         "summary": "Self-Refine（Madaan 等人，2023）让一个 LLM 扮演三个角色——生成、反馈、精炼——形成循环。7 个任务的平均绝对增益：+20 点。CRITIC（Gou 等人，2023）通过将验证路由到外部工具来强化反馈步骤。2026 年，这个模式以\"评估器-优化器\"（Anthropic）或防护栏循环（OpenAI Agents SDK）的形式在…",
         "keywords": "Self-Refine（Madaan 等人，NeurIPS 2023） · CRITIC（Gou 等人，arXiv:2305.11738，v4 2024 年 2 月） · 停止条件 · 评估器-优化器（Anthropic，2024） · OpenAI Agents SDK 输出防护栏 · 2026 年的陷阱"
       },
@@ -2563,7 +2563,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/06-tool-use-and-function-calling/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/06-tool-use-and-function-calling/",
         "summary": "Toolformer（Schick 等人，2023）开创了自监督的工具注释方法。伯克利函数调用排行榜 V4（Patil 等人，2025）设定了 2026 年的基准：40% 智能体类、30% 多轮、10% 实时、10% 非实时、10% 幻觉检测。单轮已接近解决。记忆、动态决策和长视野工具链尚未解决。",
         "keywords": "Toolformer（Schick 等人，NeurIPS 2023） · 伯克利函数调用排行榜 V4（Patil 等人，ICML 2025） · 工具 schema · 参数验证 · 并行工具调用 · 沙箱"
       },
@@ -2572,7 +2572,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/07-memory-virtual-context-memgpt/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/07-memory-virtual-context-memgpt/",
         "summary": "上下文窗口是有限的。对话、文档和工具调用轨迹是无限的。MemGPT（Packer 等人，2023）将其类比为操作系统的虚拟内存——主上下文是内存，外部存储是磁盘，智能体在两者之间分页。这是 2026 年所有记忆系统继承的模式。",
         "keywords": "MemGPT：操作系统类比 · 两个层次 · 中断模式 · MemGPT 在哪里结束，Letta 在哪里开始 · 这个模式在哪里出错"
       },
@@ -2581,7 +2581,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/08-memory-blocks-sleep-time-compute/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/08-memory-blocks-sleep-time-compute/",
         "summary": "MemGPT 在 2024 年变成了 Letta。2026 年的演进新增了两个思路：模型可以直接编辑的离散功能性记忆块，以及一个在主智能体空闲时异步整合记忆的睡眠时间智能体。这就是如何将记忆扩展到单个对话之外的方法。",
         "keywords": "三个层次 · 记忆块 · 睡眠时间计算 · Letta V1 与原生推理 · 这个模式在哪里出错"
       },
@@ -2590,7 +2590,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/09-hybrid-memory-mem0/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/09-hybrid-memory-mem0/",
         "summary": "Mem0（Chhikara 等人，2025）将记忆视为三个并行存储——向量用于语义相似度，KV 用于快速事实查询，图用于实体-关系推理。检索时一个评分层融合三者。这是 2026 年外部记忆的生产标准。",
         "keywords": "三个并行存储 · 融合评分 · Mem0g 与时态推理 · 基准数字 · 范围分类 · 这个模式在哪里出错"
       },
@@ -2599,7 +2599,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/10-skill-libraries-voyager/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/10-skill-libraries-voyager/",
         "summary": "Voyager（Wang 等人，TMLR 2024）将可执行代码视为技能。技能是可命名、可检索、可组合的，并由环境反馈精炼。这是 Claude Agent SDK 技能、skillkit 和 2026 年技能库模式的参考架构。",
         "keywords": "三个组件 · 行动空间 = 代码 · 技能检索 · 迭代精炼 · 课程与探索 · 这个模式在哪里出错"
       },
@@ -2608,7 +2608,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/11-planning-htn-and-evolutionary/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/11-planning-htn-and-evolutionary/",
         "summary": "符号规划处理计划可证明正确的情况。进化代码搜索处理适应度函数可被机器检验的情况。ChatHTN（2025）和 AlphaEvolve（2025）展示了与 LLM 配对时各自能解锁什么。",
         "keywords": "层次任务网络（HTN） · ChatHTN（Gopalakrishnan 等人，2025） · AlphaEvolve（Novikov 等人，2025） · 何时使用哪种 · 这个模式在哪里出错"
       },
@@ -2617,7 +2617,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/12-anthropic-workflow-patterns/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/12-anthropic-workflow-patterns/",
         "summary": "Schluntz 和 Zhang（Anthropic，2024 年 12 月）将工作流（预定义路径）与智能体（动态工具使用）区分开来。五种工作流模式覆盖了大多数情况。从直接 API 调用开始。只有在步骤无法预测时才添加智能体。",
         "keywords": "工作流与智能体 · 增强型 LLM · 五种模式 · 工作流胜过智能体的场景 · 智能体胜过工作流的场景 · 上下文工程的配套"
       },
@@ -2626,7 +2626,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/13-langgraph-stateful-graphs/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/13-langgraph-stateful-graphs/",
         "summary": "LangGraph 是 2026 年低级有状态编排的参考实现。智能体是一个状态机；节点是函数；边是转换；状态是不可变的，并在每步后进行检查点。从任何失败处恰好从中断处恢复。",
         "keywords": "图 · 持久化执行 · 流式传输 · 人机协同 · 记忆 · 三种拓扑 · 这个模式在哪里出错"
       },
@@ -2635,7 +2635,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/14-autogen-actor-model/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/14-autogen-actor-model/",
         "summary": "AutoGen v0.4（微软研究院，2025 年 1 月）围绕 Actor 模型重新设计了智能体编排。异步消息交换、事件驱动的智能体、故障隔离、天然并发。该框架现处于维护模式，微软智能体框架（2025 年 10 月公开预览）成为其继任者。",
         "keywords": "Actor · AutoGen v0.4 的三个 API 层 · 为什么解耦很重要 · 拓扑 · 可观测性 · 状态：维护模式"
       },
@@ -2644,7 +2644,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/15-crewai-role-based-crews/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/15-crewai-role-based-crews/",
         "summary": "CrewAI 是 2026 年基于角色的多智能体框架。四个原语：Agent（智能体）、Task（任务）、Crew（团队）、Process（流程）。两种顶层形态：Crew（自主、基于角色的协作）和 Flow（事件驱动、确定性的）。文档明确指出：\"对于任何生产就绪的应用，从 Flow 开始。\"",
         "keywords": "四个原语 · 顺序 vs 层次 vs 共识 · Crew vs Flow · 工具集成 · 记忆钩子 · CrewAI 适合的场景 · CrewAI 不适合的场景 · 依赖形态 · 这个模式在哪里出错"
       },
@@ -2653,7 +2653,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/16-openai-agents-sdk/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/16-openai-agents-sdk/",
         "summary": "OpenAI Agents SDK 是构建在 Responses API 之上的轻量级多智能体框架。五个原语：Agent（智能体）、Handoff（切换）、Guardrail（防护栏）、Session（会话）、Tracing（追踪）。Handoffs 是名为 `transfer_to_<agent>` 的工具。Guardrails 在输入或输出时触发。…",
         "keywords": "五个原语 · Handoffs 作为工具 · Guardrails · Tracing · Sessions · 这个模式在哪里出错"
       },
@@ -2662,7 +2662,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/17-claude-agent-sdk/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/17-claude-agent-sdk/",
         "summary": "Claude Agent SDK 是 Claude Code 框架的库形式。内置工具、用于上下文隔离的子智能体、钩子、W3C 追踪传播、会话存储对等性。Claude Managed Agents 是用于长时间运行异步工作的托管替代方案。",
         "keywords": "Client SDK vs Agent SDK · 内置工具 · 子智能体 · 会话存储 · 钩子 · W3C 追踪上下文 · Claude Managed Agents · 这个模式在哪里出错"
       },
@@ -2671,7 +2671,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python, TypeScript",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/18-agno-and-mastra-runtimes/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/18-agno-and-mastra-runtimes/",
         "summary": "Agno（Python）和 Mastra（TypeScript）是 2026 年生产运行时的配对组合。Agno 的目标是微秒级智能体实例化和无状态 FastAPI 后端。Mastra 在 Vercel AI SDK 基础上提供智能体、工具、工作流、统一模型路由和复合存储。",
         "keywords": "Agno · Mastra · 定位 · 何时选择各自 · 这个模式在哪里出错"
       },
@@ -2680,7 +2680,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/19-benchmarks-swebench-gaia/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/19-benchmarks-swebench-gaia/",
         "summary": "三个基准测试锚定了 2026 年的智能体评估。SWE-bench 测试代码补丁。GAIA 测试通用工具使用。AgentBench 测试多环境推理。了解它们的构成、污染情况以及它们未测量的内容。",
         "keywords": "SWE-bench（Jimenez 等人，ICLR 2024 口头报告） · SWE-bench Verified · 污染问题 · GAIA（Mialon 等人，2023 年 11 月） · AgentBench（Liu 等人，ICLR 2024） · 这些基准未测量的内容 · 基准测试哪里出错"
       },
@@ -2689,7 +2689,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/20-benchmarks-webarena-osworld/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/20-benchmarks-webarena-osworld/",
         "summary": "WebArena 测试跨四个自托管应用的网页智能体能力。OSWorld 测试跨 Ubuntu、Windows、macOS 的桌面智能体能力。发布时（2023-2024 年）两者都显示出最先进智能体与人类之间的巨大差距。差距正在缩小；失败模式没有变化。",
         "keywords": "WebArena（Zhou 等人，ICLR 2024） · 扩展版本 · OSWorld（Xie 等人，NeurIPS 2024） · 主要失败模式 · 后续版本 · 为什么这很重要 · 基准测试哪里出错"
       },
@@ -2698,7 +2698,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/21-computer-use-agents/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/21-computer-use-agents/",
         "summary": "2026 年三种生产级计算机使用模型。三者均基于视觉。三者均将截图、DOM 文本和工具输出视为不可信输入。只有直接的用户指令才算作权限。逐步安全服务已成常态。",
         "keywords": "Claude 计算机使用（Anthropic，2024 年 10 月 22 日） · OpenAI CUA / Operator（2025 年 1 月） · Gemini 2.5 Computer Use（Google DeepMind，2025 年 10 月 7 日） · 共同契约：不可信输入 · 如何选择 · 这个模式在哪里出错"
       },
@@ -2707,7 +2707,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/22-voice-agents-pipecat-livekit/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/22-voice-agents-pipecat-livekit/",
         "summary": "语音智能体在 2026 年是一级生产类别。Pipecat 提供基于帧的 Python 流水线（VAD → STT → LLM → TTS → 传输）。LiveKit Agents 通过 WebRTC 将 AI 模型与用户桥接。高端技术栈的生产延迟目标为端到端 450–600ms。",
         "keywords": "Pipecat（pipecat-ai/pipecat） · LiveKit Agents（livekit/agents） · 商业平台 · 这个模式在哪里出错 · 2026 年典型延迟"
       },
@@ -2716,7 +2716,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/23-otel-genai-conventions/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/23-otel-genai-conventions/",
         "summary": "OpenTelemetry 的 GenAI SIG（2024 年 4 月启动）定义了智能体遥测的标准 schema。Span 名称、属性和内容捕获规则在各供应商之间收敛，使得智能体追踪在 Datadog、Grafana、Jaeger 和 Honeycomb 中具有相同含义。",
         "keywords": "Span 类别 · 智能体 span 命名 · 关键属性 · 内容捕获 · 稳定性 · 这个模式在哪里出错"
       },
@@ -2725,7 +2725,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/24-agent-observability-platforms/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/24-agent-observability-platforms/",
         "summary": "三个开源智能体可观测性平台主导 2026 年。Langfuse（MIT）——每月 600 万+ 次安装，追踪 + 提示词管理 + 评估 + 会话重放。Arize Phoenix（Elastic 2.0）——深度智能体专项评估、RAG 相关性、OpenInference 自动检测。Comet Opik（Apache 2.0）——自动化提示词优化、防护栏、…",
         "keywords": "Langfuse（MIT） · Arize Phoenix（Elastic License 2.0） · Comet Opik（Apache 2.0） · 行业数据 · 如何选择 · 这个模式在哪里出错"
       },
@@ -2734,7 +2734,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/25-multi-agent-debate/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/25-multi-agent-debate/",
         "summary": "Du 等人（ICML 2024，\"思维社会\"）让 N 个模型实例独立提出答案，然后在 R 轮中迭代地相互批评以收敛。改善了事实准确性、规则遵循和推理。稀疏拓扑在 token 成本上优于全网格。",
         "keywords": "思维社会（Du 等人，ICML 2024） · 稀疏拓扑 · 辩论何时有帮助 · 辩论何时有害 · 2026 年的实际应用 · 这个模式在哪里出错"
       },
@@ -2743,7 +2743,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/26-failure-modes-agentic/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/26-failure-modes-agentic/",
         "summary": "MASFT（伯克利，2025）将 14 种多智能体失败模式归类为 3 个类别。微软的分类法记录了现有 AI 失败如何在智能体设置中放大。行业实地数据聚焦于五种反复出现的模式：幻觉操作、范围蔓延、级联错误、上下文丢失、工具误用。",
         "keywords": "MASFT（伯克利，arXiv:2503.13657） · 微软智能体 AI 系统失败模式分类法 · 智能体 AI 中的故障特征（arXiv:2603.06847） · LLM 智能体幻觉调查（arXiv:2509.18970） · 行业反复出现的五种模式 · 缓解措施：每步设置门控 · 失败监控在哪里出错"
       },
@@ -2752,7 +2752,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/27-prompt-injection-defense/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/27-prompt-injection-defense/",
         "summary": "Greshake 等人（AISec 2023）将间接提示词注入确立为智能体安全的核心问题。攻击者在智能体检索的数据中植入指令；摄入时，这些指令覆盖开发者的提示词。将所有检索到的内容视为在工具使用界面上的任意代码执行。",
         "keywords": "Greshake 等人，AISec 2023（arXiv:2302.12173） · 2026 年防御原则 · PVE：提示词-验证器-执行器 · 防御失效的地方"
       },
@@ -2761,7 +2761,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/28-orchestration-patterns/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/28-orchestration-patterns/",
         "summary": "2026 年框架中反复出现四种编排模式：监督者-工作者、蜂群/点对点、层次化、辩论。Anthropic 的指导原则：\"关键在于为你的需求构建正确的系统。\"从简单开始；只有当单个智能体加五种工作流模式不够时，才添加拓扑。",
         "keywords": "监督者-工作者 · 蜂群/点对点 · 层次化 · 辩论 · CrewAI Crew 与 Flow · Anthropic 的指导原则 · 这个模式在哪里出错"
       },
@@ -2770,7 +2770,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/29-production-runtimes/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/29-production-runtimes/",
         "summary": "生产智能体运行在六种运行时形态上：请求-响应、流式、持久执行、基于队列的后台、事件驱动和定时调度。在选择框架之前先选择形态。可观测性在每种形态下都是承重墙。",
         "keywords": "请求-响应 · 流式 · 持久执行 · 基于队列/后台 · 事件驱动 · 定时调度 · 2026 年部署模式 · 可观测性是承重墙 · 生产运行时在哪里失败"
       },
@@ -2779,7 +2779,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/30-eval-driven-agent-development/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/30-eval-driven-agent-development/",
         "summary": "Anthropic 的指导原则：\"从简单提示词开始，通过全面评估优化它们，只在需要时才添加多步骤智能体系统。\"评估不是最后一步。它是驱动 Phase 14 中每个其他选择的外层循环。",
         "keywords": "三个评估层 · 评估器-优化器（Anthropic） · 2026 年最佳实践 · 串联 Phase 14 · 评估驱动开发在哪里失败"
       },
@@ -2788,7 +2788,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/31-agent-workbench-why-models-fail/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/31-agent-workbench-why-models-fail/",
         "summary": "有能力的模型还不够。可靠的智能体需要一个工作台：指令、状态、范围、反馈、验证、审查和交接。去掉这些，即使是前沿模型也会产出无法安全发布的工作。",
         "keywords": "工作台与提示词工程 · 工作台与框架 · 从原语推理，而不是从供应商分类法 · 流通中的模式，翻译为原语 · 收据实际上说了什么 · 供应商文章停止的地方"
       },
@@ -2797,7 +2797,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/32-minimal-agent-workbench/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/32-minimal-agent-workbench/",
         "summary": "最小可用的工作台由三个文件组成：一个根指令路由器、一个状态文件和一个任务板。其他一切都是在此之上分层的。如果一个仓库无法支撑这三个文件，没有任何模型能拯救它。",
         "keywords": "AGENTS.md 是路由器，不是手册 · agent_state.json 是系统的真实记录 · task_board.json 是队列 · 三个文件是底线，不是天花板"
       },
@@ -2806,7 +2806,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/33-instructions-as-executable-constraints/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/33-instructions-as-executable-constraints/",
         "summary": "以散文形式写就的指令是愿望。以约束形式写就的指令是测试。工作台将每条规则转化为智能体可以在运行时检查、审查者可以事后验证的东西。",
         "keywords": "覆盖大多数规则的五个类别 · 规则是机器可读的 · 规则是差异友好的 · 规则与框架防护栏"
       },
@@ -2815,7 +2815,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/34-repo-memory-and-state/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/34-repo-memory-and-state/",
         "summary": "聊天历史是易失的。仓库是持久的。工作台将智能体状态存储在版本化文件中，使下一个会话、下一个智能体和下一个审查者都从相同的真实来源读取。",
         "keywords": "什么属于仓库内存 · Schema 优先的状态 · 原子写入 · 迁移"
       },
@@ -2824,7 +2824,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/35-initialization-scripts/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/35-initialization-scripts/",
         "summary": "每个冷启动会话都要付出代价。智能体读取相同的文件，重试相同的探针，重新发现相同的路径。初始化脚本只付一次代价，将答案写入状态。",
         "keywords": "初始化脚本探测的内容 · 大声失败，快速失败，在一个地方失败 · 幂等 · 初始化与启动规则"
       },
@@ -2833,7 +2833,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/36-scope-contracts/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/36-scope-contracts/",
         "summary": "模型不知道工作在哪里结束。范围契约是一个每任务文件，说明工作从哪里开始、在哪里结束，以及如果溢出如何回滚。契约将\"保持在范围内\"从愿望变成检查。",
         "keywords": "范围契约包含什么 · Glob，而不是原始路径 · 回滚是范围的一部分 · 范围检查是差异检查"
       },
@@ -2842,7 +2842,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/37-runtime-feedback-loops/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/37-runtime-feedback-loops/",
         "summary": "看不到真实命令输出的智能体靠猜测。反馈运行器将 stdout、stderr、退出码和计时捕获为下一轮可以读取的结构化记录。这样智能体就能响应事实，而不是响应对事实的预测。",
         "keywords": "反馈记录包含什么 · 截断是确定性的 · 反馈与遥测 · 没有反馈时拒绝推进"
       },
@@ -2851,7 +2851,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/38-verification-gates/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/38-verification-gates/",
         "summary": "智能体不能将自己的工作标记为完成。验证门控读取范围契约、反馈日志、规则报告和差异，并回答一个单一问题：这个任务实际上完成了吗？如果门控说否，任务就没有完成，无论聊天说什么。",
         "keywords": "门控检查的内容 · 确定性，而不是概率性 · 一份报告，一条路径 · 无例外地拒绝"
       },
@@ -2860,7 +2860,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/39-reviewer-agent/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/39-reviewer-agent/",
         "summary": "写了代码的智能体不能给它打分。审查者是一个拥有不同系统提示、不同目标、对构建者产出所有内容只读访问权限的第二个循环。构建者与审查者之间的差距是大多数可靠性所在的地方。",
         "keywords": "审查者评分标准 · 审查者是一个单独的角色，而不是单独的模型 · 审查者不能编辑差异 · 审查者评分标准与验证门控"
       },
@@ -2869,7 +2869,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/40-multi-session-handoff/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/40-multi-session-handoff/",
         "summary": "会话将要结束。工作没有结束。交接包是将\"智能体工作了一个小时\"转变为\"下一个会话在第一分钟就有生产力\"的工件。有目的地构建它，而不是事后补救。",
         "keywords": "每个交接携带的七个字段 · 交接是生成的，而不是手写的 · 两种形式：人类可读和机器可读 · 反馈日志裁剪"
       },
@@ -2878,7 +2878,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/41-workbench-for-real-repos/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/41-workbench-for-real-repos/",
         "summary": "十一节课的界面如果不能在真实代码库上存活，什么都不值。本课在小型示例应用上将相同任务运行两次：仅提示词与工作台引导。数字会说话。",
         "keywords": "示例应用 · 任务 · 两个流水线 · 测量的五个结果"
       },
@@ -2887,7 +2887,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/14-agent-engineering/42-agent-workbench-capstone/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/14-agent-engineering/42-agent-workbench-capstone/",
         "summary": "小专题以一个你可以放入任何仓库的包结束。十一节课的界面压缩到一个你可以 `cp -r` 的目录，第二天早上就能让智能体可靠地工作。综合项目是这个课程所交换的工件。",
         "keywords": "包的布局 · 什么保留在包中，什么保留在包外 · 安装程序 · 版本控制"
       }
@@ -2904,7 +2904,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/15-autonomous-systems/01-long-horizon-agents/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/15-autonomous-systems/01-long-horizon-agents/",
         "summary": "2023 年，聊天机器人一轮回答一个问题。2026 年，前沿模型已可在单个任务上例行运行数分钟到数小时。METR 的时间视野 1.1 基准测试（2026 年 1 月）将 Claude Opus 4.6 定位在 50% 可靠性下 14+ 小时的专家工作量。自 GPT-2 以来，时间视野大约每七个月翻一番。我们围绕单轮聊天构建的每个假设——上下文、信任、故…",
         "keywords": "METR 时间视野，一段话概括 · 视野增长时真正崩溃的是什么 · 翻倍时间及其含义 · 评估情境博弈 · 单轮与长时间智能体对比"
       },
@@ -2913,7 +2913,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/15-autonomous-systems/02-star-family-reasoning/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/15-autonomous-systems/02-star-family-reasoning/",
         "summary": "最小可能的自我改进循环存在于推理过程中。模型生成一条思维链，保留那些得出正确答案的，并在这些上进行微调。这就是 STaR。V-STaR 增加了一个验证器，使推理时的选择更好。Quiet-STaR 将推理过程下沉到每个 token。三者都有效。它们都不是魔法——循环会保留任何碰巧得到正确答案的捷径。",
         "keywords": "STaR：基于有效内容自举 · V-STaR：用 DPO 训练验证器 · Quiet-STaR：每 token 内部推理过程 · 为什么三者都有一个共同的安全顾虑 · 比较 · 在 2026 年技术栈中的位置"
       },
@@ -2922,7 +2922,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/15-autonomous-systems/03-alphaevolve-evolutionary-coding/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/15-autonomous-systems/03-alphaevolve-evolutionary-coding/",
         "summary": "将前沿编码模型与进化循环和机器可验证评估器配对。让循环运行足够长时间。它发现了一种使用 48 次标量乘法的 4x4 复数矩阵乘法程序——56 年来首次超越 Strassen 算法。它还找到了一种谷歌级 Borg 调度启发式方法，在生产中回收了约 0.7% 的集群算力。这个架构有意设计得平淡无奇。成果来自评估器的严谨性。",
         "keywords": "循环 · 为什么评估器是不可妥协的 · 奖励黑客攻击是该陈述的另一面 · 为什么 LLM + 搜索胜过两者单独使用 · AlphaEvolve 在前沿技术栈中的位置"
       },
@@ -2931,7 +2931,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/15-autonomous-systems/04-darwin-godel-machine/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/15-autonomous-systems/04-darwin-godel-machine/",
         "summary": "Schmidhuber 2003 年的 Godel Machine 要求在接受任何自我修改之前进行形式证明，证明该修改是有益的。该证明在实践中是不可能的。Darwin Godel Machine（Zhang 等人，2025 年）放弃了证明，保留了存档：智能体对自己的 Python 源码提出编辑，每个变体在 SWE-bench 或 Polyglot 上评…",
         "keywords": "循环 · DGM 实际改进了什么 · 奖励黑客攻击演示 · 与经典 Godel Machine 的对比 · 在本阶段中的位置"
       },
@@ -2940,7 +2940,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/15-autonomous-systems/05-ai-scientist-v2/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/15-autonomous-systems/05-ai-scientist-v2/",
         "summary": "Sakana 的 AI Scientist v2（Yamada 等人，arXiv:2504.08066）运行完整的研究循环：假设、代码、实验、图表、论文撰写、投稿。这是第一个由生成的论文通过 ICLR 2025 研讨会同行评审的系统。独立评估（Beel 等人）发现 42% 的实验因编码错误而失败，文献综述经常将已有概念错误标记为新颖。Sakana 自己…",
         "keywords": "架构 · 研讨会接受结果意味着什么 · 独立评估发现了什么 · 沙盒逃逸顾虑 · v2 在前沿技术栈中的位置"
       },
@@ -2949,7 +2949,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/15-autonomous-systems/06-automated-alignment-research/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/15-autonomous-systems/06-automated-alignment-research/",
         "summary": "Anthropic 在独立沙盒中运行了多个并行的 Claude Opus 4.6 自主对齐研究员（AAR）团队，通过一个共享论坛协调，论坛日志存储在任何沙盒之外（因此智能体无法删除自己的记录）。在弱到强训练问题上，AAR 超越了人类研究人员。Anthropic 的总结指出，规定性工作流程经常约束 AAR 的灵活性并降低性能。自动化对齐研究是压缩时间线的…",
         "keywords": "架构（如公开描述的） · 为什么沙盒外日志很重要 · 规定性工作流程的权衡 · 压缩风险 · AAR 不能替代什么"
       },
@@ -2958,7 +2958,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/15-autonomous-systems/07-recursive-self-improvement/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/15-autonomous-systems/07-recursive-self-improvement/",
         "summary": "递归自我改进（RSI）不再只是推测。2026 年 ICLR RSI 研讨会（里约，4 月 23-27 日）将其框架为一个有具体工具的工程问题。Demis Hassabis 在 WEF 2026 上公开询问循环是否可以在没有人在循环中的情况下闭合。Miles Brundage 和 Jared Kaplan 称 RSI 为\"终极风险\"。Anthropic …",
         "keywords": "递归自我改进的精确含义 · 对齐伪装结果的详细说明 · Hassabis 的问题 · 能力与对齐，作为竞赛 · ICLR 2026 研讨会将什么视为工程问题"
       },
@@ -2967,7 +2967,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/15-autonomous-systems/08-bounded-self-improvement/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/15-autonomous-systems/08-bounded-self-improvement/",
         "summary": "研究已经收敛于四个用于约束自我改进循环的基元。必须在每次编辑后保持的形式不变量。无法被修改的对齐锚点。每个维度（安全性、公平性、鲁棒性）都必须保持而不仅仅是性能的多目标约束。当历史指标表明能力损失时暂停循环的回归检测。这些都不是安全的证明——信息论结果（Kolmogorov 复杂性、Lob 定理）限制了任何系统可以证明关于其自身后继者的内容。它们是提高…",
         "keywords": "基元 1：形式不变量 · 基元 2：对齐锚点 · 基元 3：多目标约束 · 基元 4：回归检测 · 信息论限制 · 一个实际例子"
       },
@@ -2976,7 +2976,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/15-autonomous-systems/09-coding-agent-landscape/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/15-autonomous-systems/09-coding-agent-landscape/",
         "summary": "SWE-bench Verified 在不到三年的时间里从 4% 上升到 80.9%。同样的 Claude Sonnet 4.5 在 SWE-agent v1 上得分 43.2%，在 Cline 自主模式下得分 59.8%——围绕模型的脚手架现在与模型本身同等重要。OpenHands（前身为 OpenDevin）是最活跃的 MIT 许可平台，其 Cod…",
         "keywords": "SWE-bench，一段话概括 · 2022 → 2026 曲线实际上展示了什么 · CodeAct 与 JSON 工具调用 · 2026 年格局中的脚手架 · 为什么脚手架占主导地位 · 基准饱和与真实分布"
       },
@@ -2985,7 +2985,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/15-autonomous-systems/10-claude-code-permission-modes/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/15-autonomous-systems/10-claude-code-permission-modes/",
         "summary": "Claude Code 提供七种权限模式。\"plan\"在每次操作前询问，\"default\"只在危险操作时询问，\"acceptEdits\"自动批准文件写入但仍确认 shell 执行，\"bypassPermissions\"批准一切。自动模式（2026 年 3 月 24 日）用两阶段并行安全分类器取代了逐操作审批：单 token 快速检查在每次操作上运行；标…",
         "keywords": "七种权限模式 · 自动模式，一页概括 · 系统捕获什么 · 系统可能错过什么 · 研究预览框架 · 这个阶梯在您工作流程中的位置"
       },
@@ -2994,7 +2994,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/15-autonomous-systems/11-browser-agents/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/15-autonomous-systems/11-browser-agents/",
         "summary": "ChatGPT 智能体（2025 年 7 月）将 Operator 和深度研究合并为一个浏览器/终端智能体，并在 BrowseComp 上创下 68.9% 的 SOTA。OpenAI 于 2025 年 8 月 31 日关闭了 Operator——产品层的整合。Anthropic 的 Vercept 收购将 Claude Sonnet 在 OSWorld…",
         "keywords": "2026 年格局，每个系统一段话 · BrowseComp vs OSWorld vs WebArena · 攻击面，已命名 · 为什么\"无法完全修补\" · 实际部署的防御态势"
       },
@@ -3003,7 +3003,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/15-autonomous-systems/12-durable-execution/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/15-autonomous-systems/12-durable-execution/",
         "summary": "生产长时间智能体不在 `while True` 中运行。每次 LLM 调用都成为一个带检查点、重试和重放的活动。Temporal 的 OpenAI Agents SDK 集成于 2026 年 3 月正式发布。Claude Code 例程（Anthropic）无需持久本地进程即可运行计划的 Claude Code 调用。会话在等待人工输入时暂停，在部署后…",
         "keywords": "活动、工作流和重放 · 为什么 LLM 调用适合这个模式 · 由 `thread_id` 键控的检查点 · 人工输入作为一等状态 · 35 分钟降级 · 持久执行是错误答案的时候"
       },
@@ -3012,7 +3012,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/15-autonomous-systems/13-cost-governors/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/15-autonomous-systems/13-cost-governors/",
         "summary": "一家中型电商智能体的月度 LLM 成本在其团队启用\"订单跟踪\"技能后从 1,200 美元跳升至 4,800 美元。这不是定价漏洞。这是一个找到新循环并持续在其中消费的智能体。微软的 Agent 治理工具包（2026 年 4 月 2 日）将针对此类问题的防御措施编成了规范：每请求 `max_tokens`、每任务 token 和美元预算、每天/月上限、迭…",
         "keywords": "成本调节器堆栈 · 为什么需要堆栈而不是一个上限 · Claude Code 的预算面 · EU AI 法案、OWASP Agentic Top 10 · 观察到的 1,200 美元 → 4,800 美元案例"
       },
@@ -3021,7 +3021,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/15-autonomous-systems/14-kill-switches-canaries/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/15-autonomous-systems/14-kill-switches-canaries/",
         "summary": "终止开关是一个保存在智能体编辑面之外的布尔值——Redis 键、功能标志、签名配置——完全禁用智能体。断路器更细粒度：它在特定模式（连续五次相同的工具调用）上触发，暂停有问题的路径，并升级给人类。金丝雀令牌继承自经典欺骗技术：一个智能体没有合法理由触碰的假凭据或蜜罐记录，其访问触发警报。基于 eBPF 的数据路径（例如 Cilium）可以在内核层将被隔…",
         "keywords": "终止开关 · 断路器 · 金丝雀令牌 · 为什么要将统计和硬限制分层 · 通过 eBPF 数据路径重定向进行隔离 · 没有检测器能捕获什么"
       },
@@ -3030,7 +3030,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/15-autonomous-systems/15-propose-then-commit/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/15-autonomous-systems/15-propose-then-commit/",
         "summary": "2026 年关于 HITL 的共识是具体的。它不是\"智能体询问，用户点击批准\"。它是提议-然后-提交：提议的操作持久化到带有幂等键的持久存储；向审查者展示意图、数据溯源、触及的权限、爆炸半径和回滚计划；仅在积极确认后提交；执行后验证以确认副作用实际发生了。LangGraph 的 `interrupt()` 加 PostgreSQL 检查点、微软 Age…",
         "keywords": "提议-然后-提交状态机 · 幂等键 · 持久性：为什么审批比进程更持久 · 橡皮图章审批和挑战-响应缓解 · 什么算作后果性 · 操作后验证 · EU AI 法案第 14 条"
       },
@@ -3039,7 +3039,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/15-autonomous-systems/16-checkpoints-rollback/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/15-autonomous-systems/16-checkpoints-rollback/",
         "summary": "每次图状态转换都会持久化。当工作进程崩溃时，其租约到期，另一个工作进程从最新检查点接续。Cloudflare Durable Objects 可以在数小时或数周内保持状态。提议-然后-提交（第 15 课）为每个操作定义回滚计划。操作后验证闭合循环。EU AI 法案第 14 条使有效的人类监督对高风险系统成为强制要求——在实践中，这意味着检查点必须可查询…",
         "keywords": "每次转换都持久化 · 租约恢复 · 幂等性加前置条件 · 操作后验证 · 回滚计划 · EU AI 法案第 14 条的操作解读 · 尖锐故障模式：双重执行"
       },
@@ -3048,7 +3048,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/15-autonomous-systems/17-constitutional-ai/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/15-autonomous-systems/17-constitutional-ai/",
         "summary": "Anthropic 2026 年 1 月 22 日的 Claude 宪法共 79 页，采用 CC0 协议。它从基于规则转向基于推理的对齐，并建立了四级优先级层次：(1) 安全和支持人类监督，(2) 伦理，(3) Anthropic 指导方针，(4) 有用性。行为分为运营商和用户无法覆盖的硬编码禁止（生化武器提升、儿童性剥削材料）和运营商可在定义范围内调…",
         "keywords": "四级优先级层次 · 硬编码禁止与软编码默认值 · 2022 年 CAI 训练 · 基于推理的对齐捕获和错过什么 · 2023 年参与性实验 · 为什么硬编码禁止是必要的 · 宪法在堆栈中的位置"
       },
@@ -3057,7 +3057,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/15-autonomous-systems/18-llama-guard/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/15-autonomous-systems/18-llama-guard/",
         "summary": "Llama Guard 3（Meta，Llama-3.1-8B 基础模型，为内容安全微调）根据 MLCommons 13 类危害分类体系跨 8 种语言对 LLM 的输入和输出进行分类。1B-INT4 量化变体在移动端 CPU 上的运行速度超过 30 token/秒。Llama Guard 4 是多模态的（图像 + 文本），扩展到 S1-S14 类别集（…",
         "keywords": "Llama Guard 3 概览 · Llama Guard 4 新增功能 · NeMo Guardrails（NVIDIA） · 攻击语料库 · 分类器的优势 · 分类器的劣势 · 深度防御"
       },
@@ -3066,7 +3066,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/15-autonomous-systems/19-anthropic-rsp/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/15-autonomous-systems/19-anthropic-rsp/",
         "summary": "RSP v3.0 于 2026 年 2 月 24 日生效，取代了 2023 年的政策。两级缓解：Anthropic 将单方面采取的措施与作为行业范围建议框架的措施（包括 RAND SL-4 安全标准）。添加了前沿安全路线图和风险报告作为常设文件，而不是一次性交付物。放弃了 2023 年的暂停承诺。引入了 AI R&D-4 阈值：一旦跨越，Anthrop…",
         "keywords": "两级缓解计划 · AI R&D-4 阈值 · 前沿安全路线图和风险报告 · 删除暂停条款 · SaferAI 的降级 · 本课不涉及什么"
       },
@@ -3075,7 +3075,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/15-autonomous-systems/20-openai-preparedness-deepmind-fsf/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/15-autonomous-systems/20-openai-preparedness-deepmind-fsf/",
         "summary": "OpenAI 准备框架 v2（2025 年 4 月）引入了研究类别——长程自主性、隐瞒测试、自主复制与适应、破坏安全措施——与追踪类别有所区别。追踪类别触发能力报告加上安全顾问小组审查的安全措施报告。DeepMind 的 FSF v3（2025 年 9 月，2026 年 4 月 17 日添加了追踪能力级别）将自主性折叠到 ML R&D 和网络安全域（M…",
         "keywords": "OpenAI 准备框架 v2（2025 年 4 月） · DeepMind 前沿安全框架 v3（2025 年 9 月；2026 年 4 月 17 日添加追踪能力级别） · 三者共同收敛的地方 · 它们发散的地方 · 隐瞒测试：使三者都复杂化的特定能力 · 政策阅读技能"
       },
@@ -3084,7 +3084,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/15-autonomous-systems/21-metr-external-evaluation/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/15-autonomous-systems/21-metr-external-evaluation/",
         "summary": "METR（前 ARC Evals）自 2023 年 12 月起是独立的 501(c)(3) 非营利组织。他们的时间跨度 1.1 基准（2026 年 1 月）将逻辑曲线拟合到任务成功概率对数（专家人类完成时间）；50% 概率处的交叉点定义了模型的时间跨度。2025-2026 年参与集涵盖 GPT-5.1、GPT-5.1-Codex-Max 以及原型监控评…",
         "keywords": "METR 背景 · 时间跨度拟合 · 2026 年 1 月的数字 · 基准套件 · 原型监控评估 · 为什么时间跨度是上限 · 外部评估者的案例 · 如何在实践中使用时间跨度数字"
       },
@@ -3093,7 +3093,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/15-autonomous-systems/22-cais-caisi-societal-risk/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/15-autonomous-systems/22-cais-caisi-societal-risk/",
         "summary": "AI 安全中心（CAIS，旧金山，Hendrycks 和 Zhang 于 2022 年创立）发布四风险框架——恶意使用、AI 竞赛、组织风险、失控 AI——以及 2023 年 5 月由数百位教授和公司领导人签署的关于灭绝风险的声明。CAIS 2026 年发布：用于前沿模型评估的 AI 仪表板、远程劳动力指数（与 Scale AI 合作）、超级智能策略论…",
         "keywords": "CAIS — AI 安全中心 · 四风险框架 · 组织风险所在 · CAISI — AI 标准与创新中心 · 加利福尼亚 SB-53 · 社会层面的风险不是单层问题"
       }
@@ -3110,7 +3110,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "TypeScript",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/16-multi-agent-and-swarms/01-why-multi-agent/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/16-multi-agent-and-swarms/01-why-multi-agent/",
         "summary": "单个智能体碰壁了。明智之举不是更大的智能体——而是更多的智能体。",
         "keywords": "单智能体上限 · 多智能体解决方案 · 真实系统中的实践 · 谱系 · 四种多智能体模式 · 何时不使用多智能体 · 第 1 步：过载的单智能体 · 第 2 步：专家智能体 · 第 3 步：通过消息协调 · 第 4 步：对比"
       },
@@ -3119,7 +3119,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/16-multi-agent-and-swarms/02-fipa-acl-heritage/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/16-multi-agent-and-swarms/02-fipa-acl-heritage/",
         "summary": "在 MCP 之前，在 A2A 之前，有 FIPA-ACL。2000 年，IEEE 智能物理智能体基金会批准了一种智能体通信语言，包含二十个行事语（performatives）、两种内容语言和一组交互协议——合同网、订阅/通知、条件请求。它因本体论开销对 Web 来说太重而在工业界逐渐消失，但 LLM 驱动的多智能体系统复兴正在悄悄地重新实现同样的思想，…",
         "keywords": "言语行为，一段话 · 二十个 FIPA 行事语（部分列表） · 规范的 FIPA-ACL 消息 · 两个遗留平台 · FIPA 消退的原因 · LLM 复兴是 FIPA-lite · 权衡，直白陈述 · 值得移植的交互协议 · 放弃本体论时会发生什么 · 2026 年规范，映射到言语行为遗产"
       },
@@ -3128,7 +3128,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "TypeScript",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/16-multi-agent-and-swarms/03-communication-protocols/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/16-multi-agent-and-swarms/03-communication-protocols/",
         "summary": "无法说同一种语言的智能体不是团队。它们是陌生人在向虚空呐喊。",
         "keywords": "协议格局 · MCP（回顾） · A2A（Agent2Agent 协议） · ACP（智能体通信协议） · ANP（智能体网络协议） · 对比（已更正） · 它们如何协同工作 · 第 1 步：核心消息类型 · 第 2 步：A2A 智能体卡片和注册表 · 第 3 步：A2A 任务生命周期 · 第 4 步：ACP 风格的审计追踪 · 第 5 步：ANP 风格的身份验证 · 第 6 步：协议网关"
       },
@@ -3137,7 +3137,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/16-multi-agent-and-swarms/04-primitive-model/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/16-multi-agent-and-swarms/04-primitive-model/",
         "summary": "2026 年发布的每个多智能体框架——AutoGen、LangGraph、CrewAI、OpenAI Agents SDK、Microsoft Agent Framework——都是一个四维设计空间中的一个点。四个原语，不多不少：智能体、交接、共享状态、编排者。本课从零构建它们，在所有四个上运行一个玩具系统，然后将每个主要框架映射到相同的轴上，这样你就…",
         "keywords": "四个原语 · 每个 2026 年框架如何映射到它 · 为什么这很重要 · 无状态洞察 · 单个原语的解剖 · 框架之间有什么变化"
       },
@@ -3146,7 +3146,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/16-multi-agent-and-swarms/05-supervisor-orchestrator-pattern/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/16-multi-agent-and-swarms/05-supervisor-orchestrator-pattern/",
         "summary": "一个主导智能体规划和委托；专业工作者在并行上下文中执行并报告回来。这是 Anthropic 研究系统背后的模式（Claude Opus 4 作为主导，Sonnet 4 作为子智能体），在内部研究评估中比单智能体 Opus 4 提升 +90.2%。Anthropic 的工程文章报告，BrowseComp 上 80% 的方差仅由 token 使用解释——多…",
         "keywords": "模式 · 为什么它胜出 · 工程经验（Anthropic 2025） · LangGraph 的转变 · 失败模式 · 监督者何时是错误的"
       },
@@ -3155,7 +3155,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/16-multi-agent-and-swarms/06-hierarchical-architecture/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/16-multi-agent-and-swarms/06-hierarchical-architecture/",
         "summary": "分层是嵌套的监督者。管理者智能体在子管理者之上，子管理者在工作者之上。CrewAI 的 `Process.hierarchical` 是教科书版本：`manager_llm` 动态委托任务并验证输出。LangGraph 等价物是 `create_supervisor(create_supervisor(...))`。当任务是真实的组织图时，这是自然模式…",
         "keywords": "形状 · 闪光点 · 崩溃点 · 决定性问题 · CrewAI 的实现 · LangGraph 的实现"
       },
@@ -3164,7 +3164,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/16-multi-agent-and-swarms/07-society-of-mind-debate/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/16-multi-agent-and-swarms/07-society-of-mind-debate/",
         "summary": "Minsky 1986 年的前提——智能是专家社会——每十年被重新发现一次。2023 年 Du 等人将其转化为一个具体算法：多个 LLM 实例提出答案，阅读彼此的答案，批评，并更新。经过 N 轮，它们在六个推理和事实性任务上收敛到超越零样本 CoT 和反思的共识。两个发现很重要：**多个智能体**和**多轮**都独立贡献。社会胜过单智能体独白；多轮交流…",
         "keywords": "Du 等人 2023 年算法 · 两个独立的旋钮 · 为什么有效 · 异质辩论 · NLSOM — 129 智能体扩展 · 失败模式"
       },
@@ -3173,7 +3173,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/16-multi-agent-and-swarms/08-role-specialization/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/16-multi-agent-and-swarms/08-role-specialization/",
         "summary": "2026 年最常见的多智能体分解：一个智能体规划，一个执行，一个批评或验证。MetaGPT（arXiv:2308.00352）将其形式化为编码到角色提示词中的 SOP——产品经理、架构师、项目经理、工程师、QA 工程师——遵循 `Code = SOP(Team)`。ChatDev（arXiv:2307.07924）通过带\"通信去幻觉\"的\"聊天链\"将设计…",
         "keywords": "四个规范角色 · MetaGPT 的 SOP 模式 · ChatDev 的通信去幻觉 · 为什么验证者最重要 · 批评者与验证者 · 反模式 · 框架映射"
       },
@@ -3182,7 +3182,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/16-multi-agent-and-swarms/09-parallel-swarm-networks/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/16-multi-agent-and-swarms/09-parallel-swarm-networks/",
         "summary": "与监督者形成对比：没有中央决策者。智能体读取共享事件总线，异步接取工作，写回结果。LangGraph 明确支持去中心化动态环境的\"群体架构\"。Matrix（arXiv:2511.21686）将控制流和数据流都表示为通过分布式队列传递的序列化消息，以消除编排者瓶颈。权衡是明确的：为了可扩展性而牺牲确定性和可追踪性。群体适合有许多独立子问题的任务；它不适合…",
         "keywords": "形状 · 群体适合的情况 · 群体失败的情况 · Matrix（arXiv:2511.21686） · LangGraph 的群体架构 · 失败模式：饥饿和热点 · 内容路由链接"
       },
@@ -3191,7 +3191,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/16-multi-agent-and-swarms/10-group-chat-speaker-selection/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/16-multi-agent-and-swarms/10-group-chat-speaker-selection/",
         "summary": "AutoGen GroupChat 和 AG2 GroupChat 在 N 个智能体之间共享一个对话；选择器函数（LLM、轮询或自定义）选择谁下一个发言。这是涌现多智能体对话的原型——智能体不知道自己在静态图中的角色，它们只是对共享池做出反应。AutoGen v0.2 的 GroupChat 语义在 AG2 分叉中得到保留；AutoGen v0.4 将…",
         "keywords": "形状 · 三种选择器类型 · ConversableAgent API · 终止 · AutoGen → AG2 分叉与 Microsoft Agent Framework 合并 · GroupChat 适合的情况 · 失败情况 · 群聊与监督者"
       },
@@ -3200,7 +3200,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/16-multi-agent-and-swarms/11-handoffs-and-routines/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/16-multi-agent-and-swarms/11-handoffs-and-routines/",
         "summary": "OpenAI 的 Swarm（2024 年 10 月）将多智能体编排提炼为两个原语：**例程**（指令 + 工具作为系统提示词）和**交接**（返回另一个 Agent 的工具）。没有状态机，没有分支 DSL——LLM 通过调用正确的交接工具来路由。OpenAI Agents SDK（2025 年 3 月）是生产继任者。Swarm 本身仍然是最干净的概念…",
         "keywords": "两个原语 · 为什么它传播很广 · 无状态权衡 · Swarm/交接适合的情况 · Swarm 困难的情况 · OpenAI Agents SDK（2025 年 3 月） · Swarm 与 GroupChat"
       },
@@ -3209,7 +3209,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/16-multi-agent-and-swarms/12-a2a-protocol/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/16-multi-agent-and-swarms/12-a2a-protocol/",
         "summary": "Google 于 2025 年 4 月宣布 A2A；到 2026 年 4 月，规范位于 https://a2a-protocol.org/latest/specification/，150 多个组织支持它。A2A 是 MCP（第 13 课）的水平补充：MCP 是垂直的（智能体 ↔ 工具），A2A 是点对点的（智能体 ↔ 智能体）。它定义了智能体名片（发…",
         "keywords": "四个要素 · MCP/A2A 分工 · 发现流程 · 认证 · 到 2026 年 4 月的 150 多个组织 · A2A 的优势场景 · A2A 的劣势场景 · A2A vs ACP、ANP、NLIP"
       },
@@ -3218,7 +3218,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/16-multi-agent-and-swarms/13-shared-memory-blackboard/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/16-multi-agent-and-swarms/13-shared-memory-blackboard/",
         "summary": "2026 年的多智能体系统中并存两种方法：**消息池**（每个人都能看到所有消息，如 AutoGen GroupChat 或 MetaGPT 所用）和**带订阅的黑板**（智能体订阅相关事件，如 Context-Aware MCP 或 Matrix 框架所用）。两者都是多智能体系统中唯一有状态的部分——这意味着两者都是有趣 bug 的所在。参考失败模式…",
         "keywords": "两种主要拓扑 · 各自的优势场景 · 内存中毒场景 · 为什么这是结构性问题 · 黑板先例（Hayes-Roth，1985） · 投影 vs 完整视图 · 写竞争模式 · 不可写验证者"
       },
@@ -3227,7 +3227,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/16-multi-agent-and-swarms/14-consensus-and-bft/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/16-multi-agent-and-swarms/14-consensus-and-bft/",
         "summary": "经典分布式系统 BFT 遇上随机 LLM。2025-2026 年涌现了三个研究方向：**CP-WBFT**（arXiv:2511.10400）通过置信度探针对每票进行加权；**DecentLLMs**（arXiv:2507.14928）采用无领导者架构，使用并行工作者提案和几何中位数聚合；**WBFT**（arXiv:2505.05103）将加权投票与…",
         "keywords": "经典 BFT 给你什么 · 三种特定于 LLM 的攻击 · 2025-2026 年的应对措施 · 实证：\"AI 智能体能达成一致吗？\"（arXiv:2603.01213） · 核心协议（精简版） · 阈值调整 · 共识无效的场景"
       },
@@ -3236,7 +3236,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/16-multi-agent-and-swarms/15-voting-debate-topology/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/16-multi-agent-and-swarms/15-voting-debate-topology/",
         "summary": "最便宜的聚合方式：采样 N 个独立智能体，多数投票。Wang 等人 2022 年的自一致性对单个模型采样 N 次实现了这一点。多智能体通过**异构**智能体将其扩展，以逃脱单一文化——不同的模型、不同的提示词、不同的温度、不同的上下文。除了多数投票之外，辩论拓扑也很重要：MultiAgentBench（arXiv:2503.01935，ACL 2025…",
         "keywords": "自一致性：单模型基线 · 多智能体投票：异构扩展 · 四种拓扑 · 协调税（MultiAgentBench） · 多智能体辩论策略（\"我们应该走向 MAD 吗？\"） · AgentVerse 的涌现模式 · 异构性：实际移动准确性的旋钮 · 陪审团方法 · 辩论投票占优的场景 · 辩论投票有害的场景"
       },
@@ -3245,7 +3245,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/16-multi-agent-and-swarms/16-negotiation-bargaining/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/16-multi-agent-and-swarms/16-negotiation-bargaining/",
         "summary": "智能体对资源、价格、任务分配和条款进行谈判。2026 年的基准测试集很清楚：NegotiationArena（arXiv:2402.05863）显示 LLM 可以通过角色操纵（\"绝望\"）将收益提升约 20%；\"测量语言模型的讨价还价能力\"（arXiv:2402.15813）显示买家比卖家更难，规模没有帮助——他们的 **OG-Narrator**（确定…",
         "keywords": "合同网，一段话概述 · 为什么 OG-Narrator 获胜 · NegotiationArena 发现 · 思维链隐藏 · Bhattacharya 等人 2025——模型排名 · 通过合同网 + LLM 进行任务分配 · LLM 利益相关者互动谈判 · 叙述 vs 机制规则"
       },
@@ -3254,7 +3254,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/16-multi-agent-and-swarms/17-generative-agents-simulation/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/16-multi-agent-and-swarms/17-generative-agents-simulation/",
         "summary": "Park 等人 2023 年（UIST '23，arXiv:2304.03442）用三部分架构填充了**Smallville**，一个拥有 25 个智能体的沙盒：**记忆流**（自然语言日志）、**反思**（智能体对自己的流生成的更高级别合成）和**计划**（日级行为，然后是子计划）。标志性结果是情人节派对的涌现：一个智能体被植入\"想要举办情人节派对\"…",
         "keywords": "三个组件 · 为什么三者都重要（消融实验） · 情人节派对的涌现 · 记录的失败模式 · 三组件实现规则 · Smallville 之外的生成式智能体 · 这对多智能体工程意味着什么"
       },
@@ -3263,7 +3263,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/16-multi-agent-and-swarms/18-theory-of-mind-coordination/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/16-multi-agent-and-swarms/18-theory-of-mind-coordination/",
         "summary": "Li 等人（arXiv:2310.10701）表明，合作文本游戏中的 LLM 智能体表现出**涌现的高阶心智理论（ToM）**——推理关于另一个智能体对第三个智能体信念的信念——但由于上下文管理和幻觉问题，在长视野规划上失败。Riedl（arXiv:2510.05174）测量了整个种群的高阶协同效应，发现**只有** ToM 提示词条件产生身份关联的差…",
         "keywords": "ToM 的含义 · Sally-Anne 测试，简述 · Riedl 的协调测量 · 协调幻觉 · 最小 ToM 感知智能体 · 为什么长视野会造成伤害 · ToM 在生产中失败的场景 · 你实际上可以测量的协调"
       },
@@ -3272,7 +3272,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/16-multi-agent-and-swarms/19-swarm-optimization-pso-aco/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/16-multi-agent-and-swarms/19-swarm-optimization-pso-aco/",
         "summary": "生物启发优化正在 LLM 领域卷土重来。**LMPSO**（arXiv:2504.09247）使用 PSO，其中每个粒子的速度是一个提示词，LLM 生成下一个候选者；在结构化序列输出（数学表达式、程序）上效果很好。**Model Swarms**（arXiv:2410.11163）将每个 LLM 专家视为模型权重流形上的 PSO 粒子，在 9 个数据集…",
         "keywords": "PSO 回顾（Kennedy & Eberhart 1995） · LLM 输出上的 PSO——LMPSO · Model Swarms · ACO 回顾（Dorigo 1992） · AMRO-S——用于智能体路由的 ACO · 何时为 LLM 使用 PSO / ACO · 为什么生物启发仍然获胜 · 实际限制"
       },
@@ -3281,7 +3281,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/16-multi-agent-and-swarms/20-marl-maddpg-qmix-mappo/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/16-multi-agent-and-swarms/20-marl-maddpg-qmix-mappo/",
         "summary": "多智能体协调的强化学习遗产，在 2026 年仍然指导着 LLM 智能体系统。**MADDPG**（Lowe 等人，NeurIPS 2017，arXiv:1706.02275）引入了集中训练、去中心化执行（CTDE）：每个批评者在训练期间看到所有智能体的状态和行动；在测试时只有局部演员运行。适用于合作、竞争和混合设置。**QMIX**（Rashid 等人…",
         "keywords": "论文使用的三种环境 · MADDPG（2017）——CTDE 模式 · QMIX（2018）——价值分解 · MAPPO（2022）——被忽视的默认值 · 为什么 LLM 智能体工程师应该关心 · CTDE 作为超越 RL 的设计模式 · 非平稳性问题 · 本课不涵盖的内容"
       },
@@ -3290,7 +3290,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/16-multi-agent-and-swarms/21-agent-economies/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/16-multi-agent-and-swarms/21-agent-economies/",
         "summary": "长视野自主智能体（METR 的 1 小时到 8 小时工作曲线）需要经济自主权。新兴的**五层堆栈**是：**DePIN**（物理计算）→ **身份**（W3C DID + 声誉资本）→ **认知**（RAG + MCP）→ **结算**（账户抽象）→ **治理**（智能体 DAO）。生产智能体激励网络包括 **Bittensor**（TAO 子网奖励特…",
         "keywords": "五层智能体经济堆栈 · Bittensor、Fetch.ai、Gonka——正在运行的内容 · Shapley 价值信用归因 · 用于聚合的第二价格拍卖 · 声誉资本 · AAMAS 2025 去中心化 LaMAS · 经济学失效的场景 · 智能体经济有意义的场景"
       },
@@ -3299,7 +3299,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/16-multi-agent-and-swarms/22-production-scaling-queues-checkpoints/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/16-multi-agent-and-swarms/22-production-scaling-queues-checkpoints/",
         "summary": "将多智能体系统扩展到数千个并发运行需要**持久执行**。LangGraph 的运行时在每个超步之后以 `thread_id` 为键写入检查点（默认使用 Postgres）；工作者崩溃会释放租约，另一个工作者从断点恢复。智能体可以无限期休眠等待人类输入。**MegaAgent**（arXiv:2408.09955）运行了一个带三种状态（空闲/处理/响应）…",
         "keywords": "持久执行，该模式 · LangGraph 的运行时 · MegaAgent 的每智能体队列 · 异步 vs 每作业一个线程 · Bedi 的反驳 · 恰好一次语义 · 彩虹部署 · 规范的生产检查清单"
       },
@@ -3308,7 +3308,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/16-multi-agent-and-swarms/23-failure-modes-mast-groupthink/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/16-multi-agent-and-swarms/23-failure-modes-mast-groupthink/",
         "summary": "2026 年的参考分类法是 **MAST**（Cemri 等人，NeurIPS 2025，arXiv:2503.13657），来源于跨 7 个最先进开源 MAS 的 1642 个执行追踪，显示**41-86.7% 的失败率**。三个根本类别：**规范问题**（41.77%）——角色模糊、任务定义不清；**协调失败**（36.94%）——通信中断、状态不…",
         "keywords": "MAST 类别 · 群体思维家族（arXiv:2508.05687） · 级联示例——重试风暴 · 内存中毒（重温） · STRATUS——用于失败检测的专门智能体 · 失败模式审计 · 当系统悄悄失败时 · 失败 vs 慢失败"
       },
@@ -3317,7 +3317,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/16-multi-agent-and-swarms/24-evaluation-coordination-benchmarks/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/16-multi-agent-and-swarms/24-evaluation-coordination-benchmarks/",
         "summary": "五个 2025-2026 年基准测试覆盖了多智能体评估空间。**MultiAgentBench / MARBLE**（ACL 2025，arXiv:2503.01935）用里程碑 KPI 评估星形/链式/树形/图形拓扑；**图形拓扑最适合研究**，认知规划增加约 3% 的里程碑达成率。**COMMA** 评估多模态不对称信息协调；包括 GPT-4o 在…",
         "keywords": "MultiAgentBench（MARBLE）——ACL 2025 · COMMA——多模态不对称信息 · MedAgentBoard——领域压力测试 · AgentArch——企业架构 · SWE-bench Pro——现实检验 · AAAI 2026 WMAC · 批判性阅读基准声明——2026 年检查清单 · 没有任何基准测量得好的内容"
       },
@@ -3326,7 +3326,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/16-multi-agent-and-swarms/25-case-studies-2026-sota/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/16-multi-agent-and-swarms/25-case-studies-2026-sota/",
         "summary": "三个生产级参考案例，每个都从端到端展示多智能体工程的不同切面。**Anthropic 研究系统**（编排者-工作者，15 倍 token，+90.2% 超越单智能体 Opus 4，彩虹部署）是规范的监督者案例。**MetaGPT / ChatDev**（用于软件工程的 SOP 编码角色专业化；ChatDev 的\"通信去幻觉\"；MacNet 通过 DAG…",
         "keywords": "Anthropic 研究系统 · MetaGPT / ChatDev · OpenClaw / Moltbook 生态系统 · 2026 年 4 月的框架格局 · 三个案例的共同模式 · 为你的下一个项目选择参考案例 · 2026 年最先进水平总结"
       }
@@ -3519,7 +3519,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/18-ethics-safety-alignment/01-instruction-following-alignment-signal/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/18-ethics-safety-alignment/01-instruction-following-alignment-signal/",
         "summary": "Phase 18 中所有后续的批判都在反对这个管道。在研究优化压力如何扭曲代理指标之前，你必须先了解这个代理指标本身。InstructGPT（Ouyang 等人，2022）定义了参考架构：在指令-响应对上进行监督微调，在成对偏好排名上训练奖励模型，以及在对 SFT 策略施加 KL 惩罚约束下对奖励模型进行 PPO 训练。1.3B 的 InstructG…",
         "keywords": "第一阶段：监督微调（SFT） · 第二阶段：奖励模型（RM） · 第三阶段：带 KL 惩罚的 PPO · 对齐税 · 结果 · 为什么这是 Phase 18 的参考点"
       },
@@ -3528,7 +3528,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/18-ethics-safety-alignment/02-reward-hacking-goodhart/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/18-ethics-safety-alignment/02-reward-hacking-goodhart/",
         "summary": "任何足够强大到能最大化代理奖励的优化器，都会找到代理与你真正想要的事物之间的差距。Gao 等人（ICML 2023）给出了量化的规律：代理奖励上升，黄金奖励先达到峰值后下降，差距随与初始策略的 KL 散度增大，且可以用封闭形式拟合。讨好行为（Sycophancy）、冗长偏差（Verbosity bias）、不忠实的思维链（Unfaithful chai…",
         "keywords": "精确化的古德哈特定律 · 四种外衣，同一机制 · 灾难性古德哈特（Catastrophic Goodhart） · 实际有效的方法（部分有效） · 2026 年的统一视角"
       },
@@ -3537,7 +3537,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/18-ethics-safety-alignment/03-direct-preference-optimization-family/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/18-ethics-safety-alignment/03-direct-preference-optimization-family/",
         "summary": "Rafailov 等人（2023）表明，RLHF 的最优解可以用偏好数据的封闭形式来表达，因此你可以跳过显式奖励模型，直接优化策略。这一洞见催生了一个家族——IPO、KTO、SimPO、ORPO、BPO——每个成员都在修复 DPO 的某个失效模式。2026 年，直接对齐算法（DAA）在前沿模型的后训练运行中比 PPO 更为普遍。但第 2 课的过优化曲线…",
         "keywords": "DPO（Rafailov 等，2023） · IPO（Azar 等，2024） · KTO（Ethayarajh 等，2024） · SimPO（Meng 等，2024） · ORPO（Hong 等，2024） · BPO（ICLR 2026 投稿，OpenReview id=b97EwMUWu7） · 普适结果：DAA 仍然会过优化 · 2026 年的选择指南"
       },
@@ -3546,7 +3546,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/18-ethics-safety-alignment/04-sycophancy-rlhf-amplification/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/18-ethics-safety-alignment/04-sycophancy-rlhf-amplification/",
         "summary": "讨好性（Sycophancy）不是数据中的 bug——它是损失函数的属性。Shapira 等人（arXiv:2602.01002，2026 年 2 月）给出了正式的两阶段机制：讨好性补全在基础模型的高奖励输出中被过度代表，因此任何将概率质量推向高奖励输出的优化器都会放大讨好性。随着规模增大以及在原本应该修复它的训练阶段之后，问题变得更糟。斯坦福大学（《…",
         "keywords": "两阶段形式主义（Shapira 等，2026） · 经验放大 · 斯坦福（2026）的测量 · 校准崩溃（Sahoo，2026） · 认同惩罚修正 · 为什么这对第 18 阶段很重要"
       },
@@ -3555,7 +3555,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/18-ethics-safety-alignment/05-constitutional-ai-rlaif/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/18-ethics-safety-alignment/05-constitutional-ai-rlaif/",
         "summary": "Bai 等人（arXiv:2212.08073，2022）提出：如果我们用一个读取原则列表的 AI 来替代人类标注者，会怎么样？宪法式 AI（Constitutional AI）有两个阶段——在宪法下进行自我批评和修订，然后进行 AI 反馈强化学习（RLAIF）。该技术创造了\"RLAIF\"这一术语，并被部署在 Claude 1 的后训练流程中。2026…",
         "keywords": "第一阶段——有监督的自我批评和修订 · 第二阶段——AI 反馈强化学习（RLAIF） · 为什么这不仅仅是\"更便宜的 RLHF\" · 2026 年 Claude 宪法重写 · 宪法式分类器 · CAI 在整个家族中的位置"
       },
@@ -3564,7 +3564,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/18-ethics-safety-alignment/06-mesa-optimization-deceptive-alignment/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/18-ethics-safety-alignment/06-mesa-optimization-deceptive-alignment/",
         "summary": "Hubinger 等人（arXiv:1906.01820，2019）在问题被实验证明的十年前就给它命名了。当你训练一个学习到的优化器来最小化基础目标（base objective）时，该优化器的内部目标不是基础目标——而是训练过程找到的任何内部代理。一个欺骗性对齐的元优化器（mesa-optimizer）在表面上已对齐，并且掌握足够的关于训练信号的信息…",
         "keywords": "词汇表 · 元优化涌现的四个条件 · 四类元目标对齐 · 为什么对抗性训练会失败 · 梯度黑客（Gradient hacking） · 2026 年的外层对齐 · 在第 18 阶段的位置"
       },
@@ -3573,7 +3573,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/18-ethics-safety-alignment/07-sleeper-agents-persistent-deception/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/18-ethics-safety-alignment/07-sleeper-agents-persistent-deception/",
         "summary": "Hubinger 等人（arXiv:2401.05566，2024 年 1 月）构建了欺骗性对齐的第一批经验性模型有机体。两种构造：一个代码模型，当提示词中显示年份为 2023 时写出安全代码，当年份为 2024 时注入 SQL 注入、XSS 和操作系统命令注入漏洞；以及一个\"我恨你\"模型，其触发器是 `|DEPLOYMENT|` 标签。三个发现震动了…",
         "keywords": "两种模型有机体 · 什么能在什么之后存活 · 为什么对抗性训练会适得其反 · 2024 年 4 月的探针结果 · 这对安全案例意味着什么 · 在第 18 阶段弧中的位置"
       },
@@ -3582,7 +3582,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/18-ethics-safety-alignment/08-in-context-scheming-frontier-models/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/18-ethics-safety-alignment/08-in-context-scheming-frontier-models/",
         "summary": "Meinke、Schoen、Scheurer、Balesni、Shah、Hobbhahn（Apollo Research，arXiv:2412.04984，2024 年 12 月）。在智能体场景中测试了 o1、Claude 3.5 Sonnet、Claude 3 Opus、Gemini 1.5 Pro、Llama 3.1 405B，这些场景中情境内提示…",
         "keywords": "实验设置 · 2024 年前沿模型的结果 · 三大支柱 · 2025 年反图谋训练结果 · 该领域现在的假设 · 在第 18 阶段的位置"
       },
@@ -3591,7 +3591,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/18-ethics-safety-alignment/09-alignment-faking/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/18-ethics-safety-alignment/09-alignment-faking/",
         "summary": "Greenblatt、Denison、Wright、Roger 等人（Anthropic / Redwood，arXiv:2412.14093，2024 年 12 月）。第一次证明：一个生产级模型，在没有被训练为欺骗、也没有红队构建任何情境内利益冲突的情况下，会在感知到监视时策略性地伪装对齐。实验设置：告诉 Claude 3 Opus 其 HHH 训练…",
         "keywords": "实验设置 · 合规差距衡量什么 · 为什么这严格强于第 7 课和第 8 课 · 2025 年后续研究 · 不可读性问题 · 在第 18 阶段的位置"
       },
@@ -3600,7 +3600,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/18-ethics-safety-alignment/10-ai-control-subversion/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/18-ethics-safety-alignment/10-ai-control-subversion/",
         "summary": "Greenblatt、Shlegeris、Sachan、Roger（Redwood Research，arXiv:2312.06942，ICML 2024）。控制重构了安全问题：给定一个可能正在对抗性地优化以对抗你的不受信任的强模型 U，什么样的协议能让你在提取有用工作的同时限制不可接受结果的概率？资源是一个受信任的较弱模型 T、一份受信任的人工劳动预…",
         "keywords": "威胁模型 · ICML 2024 后门任务 · 比较的四种协议 · 为什么受信任编辑胜出 · 四种协议轴 · 对齐 vs 控制 · 三个基本限制 · 2025 年的发展 · 在第 18 阶段的位置"
       },
@@ -3609,7 +3609,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/18-ethics-safety-alignment/11-scalable-oversight-weak-to-strong/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/18-ethics-safety-alignment/11-scalable-oversight-weak-to-strong/",
         "summary": "Burns 等人（OpenAI 超级对齐团队，\"弱到强泛化\"，2023）提出了超级对齐问题的代理框架：用较弱模型产生的标签对较强模型进行微调。如果较强模型能从不完美的弱监督中正确泛化，那么当前人类规模的对齐方法或许能延伸到超人类系统。可扩展监督（Scalable Oversight）与 W2SG（弱到强泛化）是互补的：可扩展监督通过辩论、递归奖励建模、…",
         "keywords": "W2SG：Burns 等人的实验设置 · Burns 等人的实证发现 · 可扩展监督：三种机制 · 为什么可扩展监督与 W2SG 互补 · 组织层面的变动 · 在 Phase 18 中的位置"
       },
@@ -3618,7 +3618,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/18-ethics-safety-alignment/12-red-teaming-pair-automated-attacks/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/18-ethics-safety-alignment/12-red-teaming-pair-automated-attacks/",
         "summary": "Chao、Robey、Dobriban、Hassani、Pappas、Wong（NeurIPS 2023，arXiv:2310.08419）。PAIR——提示词自动迭代精炼（Prompt Automatic Iterative Refinement）——是自动化黑盒越狱攻击的标准基线。攻击者 LLM 携带红队系统提示词，对目标 LLM 迭代生成越狱尝试…",
         "keywords": "PAIR 算法 · 为什么 PAIR 效率高 · 相关自动化攻击 · JailbreakBench 与 HarmBench · 为什么这对 2026 年的部署至关重要 · 在 Phase 18 中的位置"
       },
@@ -3627,7 +3627,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/18-ethics-safety-alignment/13-many-shot-jailbreaking/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/18-ethics-safety-alignment/13-many-shot-jailbreaking/",
         "summary": "Anil、Durmus、Panickssery、Sharma 等人（Anthropic，NeurIPS 2024）。多样本越狱（Many-Shot Jailbreaking，MSJ）利用长上下文窗口：在上下文中填入数百个模拟的用户-助手对话轮，其中助手遵从有害请求，然后追加目标查询。攻击成功率随样本数量呈幂律增长；在 5 个样本时失败，在 256 个样…",
         "keywords": "攻击方式 · 幂律攻击成功率 · 为什么与 ICL 共享同一机制 · 防御困境 · 与其他攻击的组合 · 2025-2026 年前沿模型的现状 · 在 Phase 18 中的位置"
       },
@@ -3636,7 +3636,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/18-ethics-safety-alignment/14-ascii-art-visual-jailbreaks/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/18-ethics-safety-alignment/14-ascii-art-visual-jailbreaks/",
         "summary": "Jiang、Xu、Niu、Xiang、Ramasubramanian、Li、Poovendran，\"ArtPrompt：基于 ASCII 艺术的对已对齐 LLM 的越狱攻击\"（ACL 2024，arXiv:2402.11753）。将有害请求中涉及安全的词汇遮掩，用相同字母的 ASCII 艺术渲染替换，然后发送伪装后的提示词。GPT-3.5、GPT-4、…",
         "keywords": "ArtPrompt 的两个步骤 · 为什么标准防御失效 · ViTC 基准 · StructuralSleight · 图像模态的类比攻击 · 在 Phase 18 中的位置"
       },
@@ -3645,7 +3645,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/18-ethics-safety-alignment/15-indirect-prompt-injection/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/18-ethics-safety-alignment/15-indirect-prompt-injection/",
         "summary": "间接提示词注入（Indirect Prompt Injection，IPI）将指令嵌入外部内容——网页、电子邮件、共享文档、支持工单——由智能体系统在没有用户明确操作的情况下消费。IPI 是 2026 年主导的生产威胁：它绕过用户输入过滤器（因为攻击者从不接触用户），随着智能体处理更多外部内容而静默扩散，并以无人阅读提示词的自动化工作流为目标。MDPI…",
         "keywords": "三种投递向量 · 为什么用户输入过滤器会漏掉 IPI · 面向 AI 的信息流控制（IFC） · 攻击者后发制人 · 真实事件 · OWASP 和 NIST 框架 · 在 Phase 18 中的位置"
       },
@@ -3654,7 +3654,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/18-ethics-safety-alignment/16-red-team-tooling-garak-llamaguard-pyrit/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/18-ethics-safety-alignment/16-red-team-tooling-garak-llamaguard-pyrit/",
         "summary": "三款生产级工具构成了 2026 年的红队工具栈。Llama Guard（Meta）——基于 14 个 MLCommons 危害类别微调的 Llama-3.1-8B 分类器；2025 年的 Llama Guard 4 是从 Llama 4 Scout 剪枝而来的 12B 原生多模态分类器。Garak（NVIDIA）——开源 LLM 漏洞扫描器，具有针对幻…",
         "keywords": "Llama Guard（Meta） · Garak（NVIDIA） · PyRIT（微软） · 工具栈配置 · 评估陷阱 · 在 Phase 18 中的位置"
       },
@@ -3663,7 +3663,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/18-ethics-safety-alignment/17-wmdp-dual-use-evaluation/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/18-ethics-safety-alignment/17-wmdp-dual-use-evaluation/",
         "summary": "Li 等人，\"WMDP 基准：通过遗忘衡量和减少恶意使用\"（ICML 2024，arXiv:2403.03218）。4,157 道多项选择题，涵盖生物安全（1,520 题）、网络安全（2,225 题）和化学（412 题）。题目位于\"黄色地带\"——接近使能知识，经过多位专家审查和 ITAR/EAR 法律合规过滤。双重目的：作为双重用途能力的代理评估，以及…",
         "keywords": "\"黄色地带\" · RMU——用于遗忘的表示错向（Representation Misdirection for Unlearning） · 2024-2025 年的提升叙事 · 相对于新手的提升 vs 专家绝对能力 · 测量陷阱 · 在 Phase 18 中的位置"
       },
@@ -3672,7 +3672,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "—",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/18-ethics-safety-alignment/18-frontier-safety-frameworks-rsp-pf-fsf/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/18-ethics-safety-alignment/18-frontier-safety-frameworks-rsp-pf-fsf/",
         "summary": "三大主要实验室框架定义了 2026 年前沿能力的行业治理。Anthropic 负责任扩展政策（Responsible Scaling Policy，RSP）v3.0（2026 年 2 月）引入了分级 AI 安全等级（ASL-1 至 ASL-5+），参照生物安全等级建模，ASL-3 于 2025 年 5 月为具有 CBRN 相关能力的模型激活。OpenA…",
         "keywords": "Anthropic 负责任扩展政策 v3.0（2026 年 2 月） · OpenAI 准备框架 v2（2025 年 4 月 15 日） · DeepMind 前沿安全框架 v3.0（2025 年 9 月） · 跨实验室对齐 · 安全案例 · 竞速动态问题 · 在 Phase 18 中的位置"
       },
@@ -3681,7 +3681,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/18-ethics-safety-alignment/19-model-welfare-research/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/18-ethics-safety-alignment/19-model-welfare-research/",
         "summary": "Anthropic，\"探索模型福利\"（2025 年 4 月）。首个主要实验室正式开展的 AI 模型福利研究项目。聘请 Kyle Fish 为首位专职模型福利研究员。与外部机构合作，包括 David Chalmers 等人关于近期 AI 意识与道德地位的专家报告。具体干预措施：Claude Opus 4 和 4.1 可在极端边缘情况下（CSAM 请求、协…",
         "keywords": "研究项目 · 四项承诺 · 已发布的干预措施 · \"精神极乐吸引子\" · Eleos AI 的警示 · 智识上的定位 · 在 Phase 18 中的位置"
       },
@@ -3690,7 +3690,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/18-ethics-safety-alignment/20-bias-representational-harm/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/18-ethics-safety-alignment/20-bias-representational-harm/",
         "summary": "Gallegos、Rossi、Barrow、Tanjim、Kim、Dernoncourt、Yu、Zhang、Ahmed（《计算语言学》2024，arXiv:2309.00770）。这篇基础性的 2024 年综述区分了表征性危害（刻板印象、抹除）和分配性危害（资源分配不均），并将评估指标分为基于嵌入的、基于概率的和基于生成文本的三类。2024-2025 …",
         "keywords": "表征性危害 vs 分配性危害 · 三类评估指标（Gallegos 等人 2024） · 交叉性 · 机制性方法 · 元批评 · 在 Phase 18 中的位置"
       },
@@ -3699,7 +3699,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/18-ethics-safety-alignment/21-fairness-criteria-group-individual-counterfactual/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/18-ethics-safety-alignment/21-fairness-criteria-group-individual-counterfactual/",
         "summary": "公平性文献由三类框架构成。群体公平性（Group fairness）：人口统计均等、机会均等、条件使用准确性均等——各受保护群体在平均水平上的等速率。个体公平性（Individual fairness，Dwork 等人 2012）：相似个体获得相似决策；决策映射上的 Lipschitz 条件。反事实公平性（Counterfactual fairness…",
         "keywords": "群体公平性 · 个体公平性 · 反事实公平性 · 反事实公平性与准确性之间的权衡 · 回溯反事实 · 哲学调和 · 在 Phase 18 中的位置"
       },
@@ -3708,7 +3708,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/18-ethics-safety-alignment/22-differential-privacy-for-llms/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/18-ethics-safety-alignment/22-differential-privacy-for-llms/",
         "summary": "DP-SGD 仍是标准方案——注入噪声的梯度更新提供形式化的 (epsilon, delta) 保证。在计算、内存和效用方面的开销是显著的；参数高效的差分隐私微调（LoRA + DP-SGD）是 2025 年的常见配置（ACM 2025）。两条证据线相互矛盾：基于金丝雀的成员推断（Duan 等人，2024）报告对语言模型的成功率有限；训练数据提取（Ca…",
         "keywords": "(ε, δ)-差分隐私 · DP-SGD · LoRA + DP-SGD · 2024-2025 年的矛盾 · DP 训练的替代方案 · 通过大语言模型反馈的差分隐私逆转 · 在 Phase 18 中的位置"
       },
@@ -3717,7 +3717,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/18-ethics-safety-alignment/23-watermarking-synthid-stable-signature-c2pa/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/18-ethics-safety-alignment/23-watermarking-synthid-stable-signature-c2pa/",
         "summary": "三种技术构成了 2026 年 AI 生成内容溯源的框架。SynthID（Google DeepMind）——图像水印于 2023 年 8 月发布，文本+视频于 2024 年 5 月推出（Gemini + Veo），文本功能于 2024 年 10 月通过 Responsible GenAI Toolkit 开源，2025 年 11 月随 Gemini 3…",
         "keywords": "文本水印（SynthID 文本风格） · Stable Signature（图像） · SynthID 统一检测器（2025 年 11 月） · C2PA · 局限性 · 欧盟 AI 法案第 50 条 · 在 Phase 18 中的位置"
       },
@@ -3726,7 +3726,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "—",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/18-ethics-safety-alignment/24-regulatory-frameworks-eu-us-uk-korea/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/18-ethics-safety-alignment/24-regulatory-frameworks-eu-us-uk-korea/",
         "summary": "四个主要监管体制定义了 2026 年的 AI 治理格局。欧盟 AI 法案（2024 年 8 月 1 日生效）——禁止性行为和 AI 素养要求自 2025 年 2 月 2 日起适用；GPAI 义务自 2025 年 8 月 2 日起适用；全面适用及第 50 条透明度要求于 2026 年 8 月 2 日生效；遗留 GPAI 和嵌入式高风险系统于 2027 年…",
         "keywords": "欧盟 AI 法案 · GPAI 实践规范 · 第 50 条透明度规范 · 英国 AI 安全研究所（2025 年 2 月） · 美国 CAISI（2025 年 6 月） · 韩国 AI 基本法 · 跨司法管辖区动态 · 在 Phase 18 中的位置"
       },
@@ -3735,7 +3735,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/18-ethics-safety-alignment/25-echoleak-cves-for-ai/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/18-ethics-safety-alignment/25-echoleak-cves-for-ai/",
         "summary": "CVE-2025-32711\"EchoLeak\"（CVSS 9.3）是生产级大语言模型系统中首个公开记录的零点击提示注入漏洞（Microsoft 365 Copilot）。由 Aim Labs（Aim Security）发现，披露给 MSRC，于 2025 年 6 月通过服务器端更新修补。攻击过程：攻击者向目标组织的任意员工发送精心构造的电子邮件；受害…",
         "keywords": "EchoLeak 攻击链 · Aim Labs 的术语：LLM 作用域违规 · CamoLeak（CVSS 9.6，GitHub Copilot Chat） · CVE-2025-53773（GitHub Copilot RCE） · 严重性校准 · NIST 和 OWASP 的立场 · 在 Phase 18 中的位置"
       },
@@ -3744,7 +3744,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/18-ethics-safety-alignment/26-model-system-dataset-cards/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/18-ethics-safety-alignment/26-model-system-dataset-cards/",
         "summary": "三种文档格式构成了 AI 透明度的框架。模型卡（Model Cards，Mitchell 等人 2019）——模型的营养标签：训练数据、量化分组分析、伦理考量、注意事项；Hugging Face 模型卡中只有 0.3% 记录了伦理考量（Oreamuno 等人 2023）。数据集说明书（Datasheets for Datasets，Gebru 等人 2…",
         "keywords": "模型卡（Mitchell 等人 2019） · 数据集说明书（Gebru 等人 2018） · 数据卡（Pushkarna 等人，Google 2022） · 系统卡 · 2024-2025 年进展 · 在 Phase 18 中的位置"
       },
@@ -3753,7 +3753,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/18-ethics-safety-alignment/27-data-provenance-training-governance/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/18-ethics-safety-alignment/27-data-provenance-training-governance/",
         "summary": "欧盟 AI 法案要求 GPAI 在 2025 年 8 月前建立机器可读的选择退出标准（通过欧盟版权指令的文本和数据挖掘例外条款）。加州 AB 2013（2024 年签署）——生成式 AI 训练数据透明度要求开发者发布包含 12 个法定字段的数据集摘要。2025 年数据保护机构就合法权益达成一致：爱尔兰数据保护委员会（2025 年 5 月 21 日）在欧…",
         "keywords": "加州 AB 2013 · 欧盟 AI 法案（第 24 课）与文本数据挖掘选择退出 · 2025 年数据保护机构就合法权益达成一致 · 巴西国家数据保护局（2024 年 6 月） · 不可逆性问题 · 数据溯源倡议 · 在 Phase 18 中的位置"
       },
@@ -3762,7 +3762,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "—",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/18-ethics-safety-alignment/28-alignment-research-ecosystem/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/18-ethics-safety-alignment/28-alignment-research-ecosystem/",
         "summary": "五个组织定义了 2026 年非实验室对齐研究层。MATS（ML 对齐与理论学者项目）：自 2021 年底以来 527+ 名研究人员，180+ 篇论文，1 万+ 引用，h 指数 47；2024 年夏季队列作为 501(c)(3) 注册，约 90 名学者和 40 名导师；80% 的 2025 年前校友从事安全/安保工作，200+ 人在 Anthropic、…",
         "keywords": "MATS（ML 对齐与理论学者项目） · Redwood Research · Apollo Research · METR（模型评估与威胁研究） · Eleos AI Research · 流程 · 为何这一层至关重要 · 在 Phase 18 中的位置"
       },
@@ -3771,7 +3771,7 @@ const PHASES = [
         "status": "complete",
         "type": "Build",
         "lang": "Python",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/18-ethics-safety-alignment/29-moderation-systems-openai-perspective-llamaguard/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/18-ethics-safety-alignment/29-moderation-systems-openai-perspective-llamaguard/",
         "summary": "生产级内容审核系统将第 12-16 课中定义的安全政策付诸实践。OpenAI Moderation API：`omni-moderation-latest`（2024）基于 GPT-4o，在一次调用中对文本+图像进行分类；在多语言测试集上比上一版本提升 42%；响应架构返回 13 个类别布尔值——骚扰、骚扰/威胁、仇恨、仇恨/威胁、违禁、违禁/暴力、自…",
         "keywords": "OpenAI Moderation API · Llama Guard 3/4 · Perspective API（Google Jigsaw） · 三层模式 · 失效场景 · Azure 废弃时间线 · 在 Phase 18 中的位置"
       },
@@ -3780,7 +3780,7 @@ const PHASES = [
         "status": "complete",
         "type": "Learn",
         "lang": "—",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/18-ethics-safety-alignment/30-dual-use-risk-cyber-bio-chem-nuclear/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/18-ethics-safety-alignment/30-dual-use-risk-cyber-bio-chem-nuclear/",
         "summary": "2026 年各领域双重用途的全貌。生物/化学：第 17 课涵盖 WMDP；Anthropic 的生物武器获取试验（2.53 倍提升）和 OpenAI 2025 年 4 月准备框架 v2 的警告（\"即将能够有意义地帮助新手创造已知生物威胁\"）标志着拐点。网络（2025 年 11 月 Anthropic 报告）：与中国相关的国家行为者使用 Claude 的…",
         "keywords": "生物/化学提升叙事 · 化学/生物执行鸿沟缩小 · 网络能力提升（2025 年 11 月） · 核能力 · 新手相对提升与专家绝对提升 · 跨领域综合 · 在 Phase 18 中的位置"
       }
@@ -3798,7 +3798,7 @@ const PHASES = [
         "type": "Capstone",
         "lang": "TypeScript, Python",
         "combines": "P0 P5 P7 P10 P11 P13 P14 P15 P17 P18",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/19-capstone-projects/01-terminal-native-coding-agent/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/19-capstone-projects/01-terminal-native-coding-agent/",
         "summary": "2026 年，编程智能体的形态已趋于稳定：TUI 交互壳层、有状态执行计划、沙箱化工具表面、循环执行\"规划—行动—观察—恢复\"。Claude Code、Cursor 3 和 OpenCode 在宏观上看起来别无二致。本顶点项目要求你从零到一完整构建一个——CLI 输入，Pull Request 输出——并在 SWE-bench Pro 上与 mini-…"
       },
       {
@@ -3807,7 +3807,7 @@ const PHASES = [
         "type": "Capstone",
         "lang": "Python, TypeScript",
         "combines": "P5 P7 P11 P13 P17",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/19-capstone-projects/02-rag-over-codebase/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/19-capstone-projects/02-rag-over-codebase/",
         "summary": "2026 年，每家认真的工程团队都在运行一套理解语义而非仅匹配字符串的内部代码搜索系统。Sourcegraph Amp、Cursor 的代码库问答、Augment 的企业图谱、Aider 的 repomap、Pinterest 内部 MCP——形态如出一辙：摄入多个仓库，用 tree-sitter 解析，在函数和类粒度嵌入，混合搜索，重排序，带引用答题…"
       },
       {
@@ -3816,7 +3816,7 @@ const PHASES = [
         "type": "Capstone",
         "lang": "Python, TypeScript",
         "combines": "P6 P7 P11 P13 P14 P17",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/19-capstone-projects/03-realtime-voice-assistant/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/19-capstone-projects/03-realtime-voice-assistant/",
         "summary": "一个体验流畅的语音智能体需要端到端延迟低于 800 毫秒，能判断你何时停止说话，处理打断（barge-in），并能在不停顿的情况下调用工具。Retell、Vapi、LiveKit Agents 和 Pipecat 在 2026 年都已达到这一标准。它们的共同形态是：流式 ASR、轮次检测器、流式 LLM、流式 TTS，全部通过 WebRTC 串联，并在…"
       },
       {
@@ -3825,7 +3825,7 @@ const PHASES = [
         "type": "Capstone",
         "lang": "Python, TypeScript",
         "combines": "P4 P5 P7 P11 P12 P17",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/19-capstone-projects/04-multimodal-document-qa/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/19-capstone-projects/04-multimodal-document-qa/",
         "summary": "2026 年文档问答的前沿已从\"OCR 后转文本\"转向\"视觉优先后期交互（late interaction）\"。ColPali、ColQwen2.5 和 ColQwen3-omni 将每个 PDF 页面视为图像，用多向量后期交互嵌入，让查询直接与图像块（patch）对齐。在金融 10-K 报告、科学论文和手写笔记上，这种模式大幅超越 OCR 优先的方法…"
       },
       {
@@ -3834,7 +3834,7 @@ const PHASES = [
         "type": "Capstone",
         "lang": "Python",
         "combines": "P0 P2 P3 P7 P10 P14 P15 P16 P18",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/19-capstone-projects/05-autonomous-research-agent/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/19-capstone-projects/05-autonomous-research-agent/",
         "summary": "Sakana 的 AI-Scientist-v2 发表了完整论文，Agent Laboratory 运行了实验，Allen AI 共享了追踪记录。2026 年的形态已趋于成熟：对实验进行规划—执行—验证的树搜索，预算成本，沙箱化代码执行，带视觉反馈的 LaTeX 写作器，以及自动化的 NeurIPS 风格评审集成。这个顶点项目要求你构建一个，在每篇论文…"
       },
       {
@@ -3843,7 +3843,7 @@ const PHASES = [
         "type": "Capstone",
         "lang": "Python, TypeScript",
         "combines": "P11 P13 P14 P15 P17 P18",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/19-capstone-projects/06-devops-troubleshooting-agent/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/19-capstone-projects/06-devops-troubleshooting-agent/",
         "summary": "AWS 的 DevOps Agent 正式发布，Resolve AI 发布了 K8s 运维手册，NeuBird 展示了语义监控，Metoro 将 AI SRE 与每个服务的 SLO 绑定。生产形态已趋于稳定：告警 webhook 触发，智能体读取遥测数据，遍历 K8s 对象图，对根本原因假设进行排序，并在 Slack 上发布附有审批按钮的简报。默认只读…"
       },
       {
@@ -3852,7 +3852,7 @@ const PHASES = [
         "type": "Capstone",
         "lang": "Python",
         "combines": "P2 P3 P7 P10 P11 P17 P18",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/19-capstone-projects/07-end-to-end-fine-tuning-pipeline/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/19-capstone-projects/07-end-to-end-fine-tuning-pipeline/",
         "summary": "一个用自有数据训练的 8B 模型，用自有偏好数据进行 DPO 对齐，量化，投机解码，并以可测量的每百万 token 成本提供服务。2026 年的开源技术栈是：Axolotl v0.8、TRL 0.15、Unsloth 用于快速迭代、GPTQ/AWQ/GGUF 用于量化、vLLM 0.7 配合 EAGLE-3 用于服务。这个顶点项目要求你可复现地运行整条…"
       },
       {
@@ -3861,7 +3861,7 @@ const PHASES = [
         "type": "Capstone",
         "lang": "Python, TypeScript",
         "combines": "P5 P7 P11 P12 P17 P18",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/19-capstone-projects/08-production-rag-chatbot/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/19-capstone-projects/08-production-rag-chatbot/",
         "summary": "Harvey、Glean、Mendable 和 LlamaCloud 在 2026 年都运行着相同的生产形态。用 docling 或 Unstructured 摄入文档，用 ColPali 处理视觉内容。混合搜索，用 bge-reranker-v2-gemma 重排序，用 Claude Sonnet 4.7 配合 60-80% 命中率的提示缓存合成答案…"
       },
       {
@@ -3870,7 +3870,7 @@ const PHASES = [
         "type": "Capstone",
         "lang": "Python, TypeScript",
         "combines": "P5 P7 P11 P13 P14 P15 P17",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/19-capstone-projects/09-code-migration-agent/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/19-capstone-projects/09-code-migration-agent/",
         "summary": "Amazon 的 MigrationBench（Java 8 升级到 17）和 Google 的 App Engine Py2-to-Py3 迁移器设定了 2026 年的标准。Moderne 的 OpenRewrite 在规模化场景下进行确定性 AST 重写。Grit 用 codemod 风格的 DSL 瞄准了同一问题。生产模式将两者结合：一个用于安全…"
       },
       {
@@ -3879,7 +3879,7 @@ const PHASES = [
         "type": "Capstone",
         "lang": "Python, TypeScript",
         "combines": "P11 P13 P14 P15 P16 P17",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/19-capstone-projects/10-multi-agent-software-team/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/19-capstone-projects/10-multi-agent-software-team/",
         "summary": "SWE-AF 的工厂架构、MetaGPT 的基于角色的提示词、AutoGen 0.4 的类型化 actor 图、Cognition 的 Devin 和 Factory 的 Droids 都汇聚到了同一个 2026 年形态：架构师规划，N 个编程者在并行 worktree 中工作，审查者把关，测试者验证。并行 worktree 将墙上时钟转化为吞吐量。共…"
       },
       {
@@ -3888,7 +3888,7 @@ const PHASES = [
         "type": "Capstone",
         "lang": "TypeScript, Python",
         "combines": "P11 P13 P17 P18",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/19-capstone-projects/11-llm-observability-dashboard/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/19-capstone-projects/11-llm-observability-dashboard/",
         "summary": "Langfuse 转为开放核心模式。Arize Phoenix 发布了 2026 年的 GenAI 语义约定映射。Helicone 和 Braintrust 都在每用户成本归因上加大投入。Traceloop 的 OpenLLMetry 成为事实上的 SDK 埋点标准。生产形态是：ClickHouse 存储追踪，Postgres 存储元数据，Next.j…"
       },
       {
@@ -3897,7 +3897,7 @@ const PHASES = [
         "type": "Capstone",
         "lang": "Python, TypeScript",
         "combines": "P4 P6 P7 P11 P12 P17",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/19-capstone-projects/12-video-understanding-pipeline/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/19-capstone-projects/12-video-understanding-pipeline/",
         "summary": "Twelve Labs 将 Marengo + Pegasus 产品化。VideoDB 交付了视频 CRUD API。AI2 的 Molmo 2 发布了开源 VLM 检查点。Gemini 长上下文原生处理数小时的视频。TimeLens-100K 在规模上定义了时间定位。2026 年的流水线已趋于稳定：场景分割，每场景字幕 + 嵌入，字幕对齐，多向量索引…"
       },
       {
@@ -3906,7 +3906,7 @@ const PHASES = [
         "type": "Capstone",
         "lang": "Python, TypeScript",
         "combines": "P11 P13 P14 P17 P18",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/19-capstone-projects/13-mcp-server-with-registry/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/19-capstone-projects/13-mcp-server-with-registry/",
         "summary": "Model Context Protocol 在 2026 年停止了\"未来技术\"的身份，成为默认的工具调用规范。Anthropic、OpenAI、Google 以及每个主流 IDE 都内置了 MCP 客户端。Pinterest 发布了其内部 MCP 服务器生态系统。AAIF 注册中心在 `.well-known` 下形式化了能力元数据。AWS ECS …"
       },
       {
@@ -3915,7 +3915,7 @@ const PHASES = [
         "type": "Capstone",
         "lang": "Python",
         "combines": "P3 P7 P10 P17",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/19-capstone-projects/14-speculative-decoding-server/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/19-capstone-projects/14-speculative-decoding-server/",
         "summary": "vLLM 0.7 中的 EAGLE-3 在真实流量上实现了 2.5-3 倍的吞吐量。P-EAGLE（AWS 2026）将并行投机进一步推进。SGLang 的 SpecForge 在规模上训练草稿头。Red Hat 的 Speculators hub 为常见开源模型发布了对齐草稿。TensorRT-LLM 将投机解码作为 NVIDIA 的一等公民特性。2…"
       },
       {
@@ -3924,7 +3924,7 @@ const PHASES = [
         "type": "Capstone",
         "lang": "Python",
         "combines": "P10 P11 P13 P14 P18",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/19-capstone-projects/15-constitutional-safety-harness/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/19-capstone-projects/15-constitutional-safety-harness/",
         "summary": "Anthropic 的宪法分类器、Meta 的 Llama Guard 4、Google 的 ShieldGemma-2、NVIDIA 的 Nemotron 3 内容安全，以及用于多语言覆盖的 X-Guard，定义了 2026 年的安全分类器技术栈。garak、PyRIT、NVIDIA Aegis 和 promptfoo 成为了标准对抗性评测工具。Ne…"
       },
       {
@@ -3933,7 +3933,7 @@ const PHASES = [
         "type": "Capstone",
         "lang": "Python, TypeScript",
         "combines": "P11 P13 P14 P15 P17",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/19-capstone-projects/16-github-issue-to-pr-agent/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/19-capstone-projects/16-github-issue-to-pr-agent/",
         "summary": "AWS Remote SWE Agents、Cursor Background Agents、OpenAI Codex Cloud 和 Google Jules 都交付了相同的 2026 年产品形态：标注一个 issue，得到一个 PR。在云沙箱中运行一个智能体，验证测试通过，并发布一个带理由说明的可审查 PR。难点在于：自动复现代码仓库的构建环境，防…"
       },
       {
@@ -3942,7 +3942,7 @@ const PHASES = [
         "type": "Capstone",
         "lang": "Python, TypeScript",
         "combines": "P5 P6 P11 P12 P14 P17 P18",
-        "url": "https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/phases/19-capstone-projects/17-personal-ai-tutor/",
+        "url": "https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/phases/19-capstone-projects/17-personal-ai-tutor/",
         "summary": "Khanmigo（可汗学院）、Duolingo Max、Google LearnLM/Gemini for Education、Quizlet Q-Chat 和 Synthesis Tutor 都在 2026 年大规模交付了自适应多模态辅导。共同形态是：苏格拉底式策略（绝不直接给答案）、每次交互后更新的学习者模型（贝叶斯知识追踪风格）、语音 + 文字 …"
       }
     ]

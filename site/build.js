@@ -17,7 +17,7 @@ const ROADMAP_PATH = path.join(REPO_ROOT, 'ROADMAP.md');
 const GLOSSARY_PATH = path.join(REPO_ROOT, 'glossary', 'terms.md');
 const OUTPUT_PATH = path.join(__dirname, 'data.js');
 
-const GITHUB_BASE = 'https://github.com/yuanerhh/ai-engineering-from-scrat-zh/tree/main/';
+const GITHUB_BASE = 'https://github.com/yuanerhh/ai-engineering-from-scratch-zh/tree/main/';
 
 // ─── Parse ROADMAP.md for lesson statuses ────────────────────────────
 function parseRoadmap(content) {

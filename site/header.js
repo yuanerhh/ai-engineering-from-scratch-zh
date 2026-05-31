@@ -3,7 +3,7 @@
  * Loaded by every page that includes the .header-github component.
  */
 (function () {
-  var REPO = 'yuanerhh/ai-engineering-from-scrat-zh';
+  var REPO = 'yuanerhh/ai-engineering-from-scratch-zh';
   var CACHE_KEY = 'gh:stars:' + REPO;
   var CACHE_TTL_MS = 10 * 60 * 1000; // 10 minutes
 
