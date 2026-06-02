@@ -1,0 +1,64 @@
+# 从零开始的 AI 工程（中文版）
+
+> 开源 AI 工程完整学习课程，中文版。435 节课，20 个阶段，从线性代数到自主 Agent，每个算法从原始数学亲手构建。永久免费，可在本地机器运行。
+
+## 关于本课程
+
+本课程是 AI Engineering from Scratch 的中文翻译版，原课程由 Rohit Ghumare 创作，中文版由 yuanerhh 翻译维护。
+
+课程核心理念：在引入任何框架之前，先从原始数学手写每一个算法——反向传播、分词器、注意力机制、Agent 循环。等 PyTorch 出现时，你已经清楚它在底层做什么了。
+
+支持四种编程语言：Python、TypeScript、Rust、Julia。
+
+## 课程结构（20 个阶段）
+
+- 阶段 00：环境配置与工具链
+- 阶段 01：线性代数基础（向量、矩阵、特征值）
+- 阶段 02：微积分与优化（梯度、反向传播）
+- 阶段 03：概率论与统计
+- 阶段 04：计算机视觉基础
+- 阶段 05：序列模型与 RNN
+- 阶段 06：自然语言处理基础
+- 阶段 07：Transformer 架构与注意力机制
+- 阶段 08：大语言模型（LLM）原理
+- 阶段 09：预训练与扩展规律
+- 阶段 10：微调（SFT、RLHF、LoRA）
+- 阶段 11：检索增强生成（RAG）
+- 阶段 12：向量数据库与嵌入
+- 阶段 13：检索系统
+- 阶段 14：AI Agent 工程
+- 阶段 15：多模态模型
+- 阶段 16：多 Agent 系统与 Swarm
+- 阶段 17：生产基础设施与部署
+- 阶段 18：评估与基准测试
+- 阶段 19：顶石项目（10 个完整项目）
+
+## 学习方法
+
+每节课遵循固定循环：
+1. 读懂问题，推导数学
+2. 从原始数学实现算法
+3. 运行测试，验证正确性
+4. 对比框架实现，理解底层原理
+
+无付费墙，无需注册，可 git clone 在本地运行。
+
+## 适合人群
+
+- 希望深入理解 AI 底层原理的工程师
+- 想系统学习 AI 工程而非只会调用 API 的开发者
+- 准备 AI 相关面试的求职者
+- 对机器学习数学基础感兴趣的学生
+
+## 页面
+
+- [首页](https://aiengineeringfromscratch-zh.com/): 课程介绍、目录概览
+- [课程目录](https://aiengineeringfromscratch-zh.com/catalog.html): 435 节课完整列表，支持搜索、筛选、排序
+- [学习路线](https://aiengineeringfromscratch-zh.com/prereqs.html): 20 个阶段前置依赖关系可视化图
+- [AI 词汇表](https://aiengineeringfromscratch-zh.com/glossary.html): AI 术语中文权威解释
+
+## 资源链接
+
+- GitHub 中文版：https://github.com/yuanerhh/ai-engineering-from-scratch-zh
+- 英文原版：https://aiengineeringfromscratch.com/
+- 原始 GitHub：https://github.com/rohitg00/ai-engineering-from-scratch
