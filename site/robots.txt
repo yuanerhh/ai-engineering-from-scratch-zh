@@ -1,16 +1,50 @@
 # Humans + agents welcome. Training crawlers + SEO scrapers blocked.
 
-# --- Allowed: search engines (send humans) ---
+# --- Allowed: Google ---
 User-agent: Googlebot
 Allow: /
 
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# --- Allowed: Bing / Microsoft ---
 User-agent: Bingbot
 Allow: /
 
+User-agent: msnbot
+Allow: /
+
+# --- Allowed: Baidu (百度) ---
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Baiduspider-render
+Allow: /
+
+# --- Allowed: Chinese search engines ---
+User-agent: Sogou web spider
+Allow: /
+
+User-agent: SogouSpider
+Allow: /
+
+User-agent: 360Spider
+Allow: /
+
+# --- Allowed: other search engines ---
 User-agent: DuckDuckBot
 Allow: /
 
-# --- Allowed: agent browsers (user-initiated, send AI users) ---
+User-agent: Applebot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# --- Allowed: AI search agents (user-initiated, send AI users) ---
 User-agent: ChatGPT-User
 Allow: /
 
@@ -29,7 +63,29 @@ Allow: /
 User-agent: Claude-SearchBot
 Allow: /
 
-User-agent: Applebot
+# --- Allowed: Chinese AI search crawlers ---
+# Kimi (Moonshot AI)
+User-agent: Kimibot
+Allow: /
+
+User-agent: KimiCrawler
+Allow: /
+
+User-agent: MoonshotBot
+Allow: /
+
+User-agent: Moonshot-AI
+Allow: /
+
+# 豆包 / ByteDance AI search
+User-agent: Doubaobot
+Allow: /
+
+# DeepSeek
+User-agent: deepseekbot
+Allow: /
+
+User-agent: DeepSeekBot
 Allow: /
 
 # --- Blocked: training crawlers ---
@@ -44,9 +100,6 @@ Disallow: /
 
 User-agent: CCBot
 Disallow: /
-
-User-agent: Google-Extended
-Allow: /
 
 User-agent: Applebot-Extended
 Disallow: /
